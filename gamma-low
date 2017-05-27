@@ -1,0 +1,3 @@
+#!/bin/bash
+#lower display gamma
+xgamma -gamma 0.7
