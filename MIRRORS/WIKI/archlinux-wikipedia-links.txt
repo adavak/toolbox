@@ -1,0 +1,2119 @@
+
+ -->
+파이썬
+0 A.D.
+0 A.D. (video game)
+2channel Shift JIS art
+3d mouse
+3G
+6in4
+7zip
+AAC
+Abaco (web browser)
+ABCDE
+AC%2797
+AC'97
+access control
+Access control
+Access control list
+AcetoneISO
+Acme (text editor)
+Acronis True Image
+ Active Directory
+Active Directory
+Active State Power Management
+Adaptive Multi-Rate audio codec
+Adaptive replacement cache
+Ad blocking
+Address Resolution Protocol
+Address space layout randomization
+Adesklets
+Adminer
+Adobe Illustrator
+Adobe Integrated Runtime
+Adobe Photoshop
+ADOM
+Advanced Audio Coding
+Advanced Configuration and Power Interface
+Advanced Encryption Standard
+Advanced Format
+ Advanced Linux Sound Architecture
+Advanced Linux Sound Architecture
+Advanced Packaging Tool
+Advanced Power Management
+Aegisub
+AfterStep
+Ahci
+AHCI
+AirPort
+AirPrint
+ALAC
+Alexandria (software)
+alias
+Alias (command)
+Aliasing
+ Amazon S3
+AMD powernow
+Andalé Mono
+Angband (video game)
+Anjuta
+ANSI escape code
+Antialiased font
+Anti-aliasing
+Apache HTTP Server
+Apertium
+AppArmor
+Apple Icon Image
+April Fools' Day
+APRS
+Aptana
+Aquaria (video game)
+Arch Linux
+Ardour (software)
+ARGB
+Arial
+Arial Black
+Ark (software)
+ARM11
+ARM Cortex-A53
+ARM Cortex-A7
+ARMv7-A
+Arora (browser)
+Arora (web browser)
+Arpwatch
+Art of Illusion
+ASCII
+AsciiDoc
+ Aspect ratio
+AssaultCube
+Asunder
+Asymptote (vector graphics language)
+aterm
+ATI Mach
+Atom (standard)
+Atom (system on chip)
+Atom (text editor)
+aTunes
+AUCTEX
+Auction sniping
+Audacity (audio editor)
+Audio bit depth
+Audiograbber
+Authbind
+Authenticated encryption
+Authentication protocol
+Automated Certificate Management Environment
+Automatic Acoustic Management
+Avahi (software)
+Avidemux
+Avivo
+Avogadro (software)
+awesome (window manager)
+AWK
+AX.25
+Axiom (computer algebra system)
+Backup rotation scheme
+BALL
+Banshee (media player)
+Barracuda Networks
+Bash
+Bash (Unix shell)
+BasKet Note Pads
+Bazaar (software)
+bc programming language
+Be File System
+Bennett acceptance ratio
+BeOS
+Berkeley sockets
+Berkeley Software Distribution
+Beyond the Red Line
+Bibble (software)
+Binary prefix
+binfmt misc
+Binfmt misc
+Bing Translator
+binutils
+Bioclipse
+Bioinformatics
+BioJava
+Biopython
+BIOS
+BIOS Boot partition
+BitchX
+Bitcoin
+Bitrate
+Bitstream Vera
+Bittorrent
+BitTorrent (protocol)
+BitTorrent protocol encryption
+BitTorrent Protocol Encryption
+Bitwise negation
+BKchem
+Blackbox
+Blacklist (computing)
+BleachBit
+Blender (software)
+Blink (layout engine)
+Blink (SIP client)
+Blink (software)
+Blink (web engine)
+Blob Wars
+Block cipher
+Block cipher mode of operation
+Block cipher modes of operation
+Block (data storage)
+BlogBridge
+Blog software
+Blowfish (cipher)
+Bluefish (text editor)
+BlueGriffon
+Bluej
+Bluetooth
+BOINC
+Bonnie++
+Boost (C++ libraries)
+Bootsplash
+Boshiamy method
+Bourne shell
+Brackets (text editor)
+Brain Fuck Scheduler
+Brasero (software)
+Brave (web browser)
+Bridging (networking)
+BRL-CAD
+Broadcast address
+Brogue (video game)
+Brute-force attack
+BSD disklabel
+BSD License
+BSD лиценца
+B+ tree
+Btrfs
+BVE Trainsim
+Byobu (software)
+BZFlag
+calendar
+Calibre (software)
+Calibri
+Calligra Sheets
+Calligra Suite
+Calligra Words
+Cambria (typeface)
+Candara
+Cangjie input method
+Canonical
+Canto (news aggregator)
+Capability-based security
+Caps lock
+CAPTCHA
+Captive portal
+Caret notation
+Cartes du Ciel
+Cataclysm: Dark Days Ahead
+Category
+Category:Linux games
+Cathode ray tube
+cat (Unix)
+Cave Story
+CCID (protocol)
+CDDL
+CDMA
+cdparanoia
+Celestia
+CELT
+Centericq
+Central processing unit
+ Ceph (software)
+Certificate authority
+Certificate Authority
+Certificate signing request
+cfdisk
+CFQ
+Challenge%E2%80%93response authentication
+Challenge-Handshake Authentication Protocol
+Challenge-response authentication
+Character encoding
+Charis SIL
+chattr
+Chattr
+ChatZilla
+Checksum
+Chemical file format
+Chemtool
+chmod
+chown
+ Chromium (web browser)
+Chromium (web browser)
+Chronology of roguelike video games
+Chroot
+CIDR
+CIDR notation
+Cinelerra
+Cjdns
+Classless Inter-Domain Routing
+Claws Mail
+Clementine (software)
+Clipboard (computing)
+Clipping (audio)
+Cliqz
+Clonezilla
+Cloud9
+Cloud9 IDE
+CMake
+cmus
+CMU Sphinx
+CMYK
+Code Aster
+Codec
+CoDel
+CodeLite
+Code page
+CodeRED: Alien Arena
+Coercion
+Coercizione
+Cold boot attack
+Color
+Color management
+Comic Sans
+Comix (software)
+Commander Keen
+Command-line completion
+Command-line interface
+Common Access Card
+Common Desktop Environment
+Common Development and Distribution License
+Common Gateway Interface
+Common Unix Printing System
+Common Vulnerabilities and Exposures
+ Comparação dos Navegadores de Internet.
+Comparison of 3D computer graphics software
+Comparison of accounting software
+Comparison of AMD graphics processing units
+Comparison of ATI Graphics Processing Units
+Comparison of audio player software
+Comparison of backup software
+Comparison of BitTorrent clients
+Comparison of BSD operating systems
+Comparison of command shells
+Comparison of computer-aided design editors
+Comparison of computer algebra systems
+Comparison of desktop application launchers
+Comparison of disc authoring software
+Comparison of document markup languages
+Comparison of download managers
+Comparison of EDA software
+Comparison of eDonkey software
+Comparison of e-mail clients
+Comparison of email clients
+Comparison of e-mail servers
+Comparison of feed aggregators
+Comparison of file archivers
+Comparison of file comparison tools
+Comparison of file managers
+Comparison of file synchronization software
+Comparison of file systems
+Comparison of firewalls
+Comparison of FTP client software
+Comparison of hex editors
+Comparison of image viewers
+Comparison of instant messaging clients
+Comparison of instant messaging protocols
+Comparison of integrated development environments
+Comparison of Intel graphics processing units
+Comparison of Internet Relay Chat clients
+Comparison of IRC clients
+Comparison of LAN messengers
+Comparison of massively multiplayer online role-playing games
+Comparison of notetaking software
+Comparison of numerical analysis software
+Comparison of Nvidia Graphics Processing Units
+Comparison of office suites
+Comparison of online backup services
+Comparison of optical character recognition software
+ Comparison of platform virtual machines 
+Comparison of platform virtual machines
+Comparison of raster graphics editors
+Comparison of reference management software
+Comparison of revision control software
+Comparison of screencasting software
+Comparison of software calculators
+Comparison of spreadsheet software
+Comparison of SSH clients
+Comparison of SSH servers
+Comparison of statistical packages
+Comparison of Subversion clients
+Comparison of TeX editors
+Comparison of text editors
+Comparison of Usenet newsreaders
+Comparison of vector graphics editors
+Comparison of video editing software
+Comparison of video player software
+Comparison of VoIP software
+Comparison of web browsers
+Comparison of word processors
+Comparison of XMPP server software
+Comparison of X window managers
+Comparison of X Window System desktop environments
+Compatibility Support Module
+Compiz
+Compose key
+ [[Compositing window manager
+Compositing window manager
+Computational biology
+Computer font
+Computer Modern
+Conkeror
+Con Kolivas
+Connected Standby
+Consolas
+Constantia (typeface)
+Consumer Electronics Control
+Content management system
+Content Scramble System
+ConTeXt
+Cool'n'Quiet
+Co-operation (evolution)
+Cooperative storage cloud
+Coordinated Universal Time
+copy and paste
+copy-on-write
+Copy-on-write
+Corbel (typeface)
+Core dump
+Core fonts for the Web
+CorelDRAW
+Country code
+Courier New
+CP437
+cpio
+C (programming language)
+ cramfs
+CrashPlan
+Cream (software)
+Critical section
+cron
+Cron
+Croscore fonts
+Cross-site scripting
+Crypt (C)
+Cryptographically secure pseudorandom number generator
+Cryptographic filesystems
+Cryptographic hash function
+Cryptographic nonce
+cryptosystem
+C shell
+Cube 2: Sauerbraten
+Cube (video game)
+CUDA
+Cue file
+CuneiForm (software)
+CUPS
+cURL
+curses (programming library)
+Curve25519
+Daala
+Daemon (computer software)
+Daemon (computing)
+Danger from the Deep
+Danmaku
+darcs
+Darcs
+Dar (disk archiver)
+DAR (Disk Archiver)
+darktable
+database
+Data recovery
+Data remanence
+Data scrubbing
+Daylight savings time
+Daylight saving time
+Daylight saving time (Español)
+DBm
+D-Bus
+Dconf
+dd (Unix)
+Dd (Unix)
+DD-WRT
+Deadline scheduler
+Debian Almquist shell
+Default gateway
+DejaVu fonts
+Dell XPS
+Deniable encryption
+Denial-of-service attack
+.desktop
+Desktop environment
+Desktop Management Interface
+Desura
+Device file
+Devil's Pie (software)
+/dev/random
+/dev/zero
+DHCP
+DHCPv6
+Dia (software)
+DICT
+Dictionary attack
+Digest access authentication
+digiKam
+Digikam
+Digital: A Love Story
+Digital Living Network Alliance
+Digital Signature Algorithm
+Dillo
+Dink Smallwood
+Dirac (video compression format)
+Direct memory access
+ Direct Rendering Manager
+Dired
+Discord (software)
+Discrete logarithm
+Discretionary Access Control
+Disk encryption
+Disk encryption hardware
+Disk encryption theory
+Diskless node
+Disk partitioning
+Disk quota
+Disk sector
+Disk Usage Analyzer
+Display Data Channel
+Display resolution
+Distributed hash table
+DjVu
+Docky
+Dolby Digital
+Dolphin (file manager)
+Domain Master Browser
+Domain Name System
+Domain Name System Security Extensions
+Do Not Track
+Don't take it personally, babe, it just ain't your story
+Dooble
+Doom (1993 video game)
+Doom 3
+DoomRL
+Doom (video game)
+DOS/4G
+Dots and Boxes
+Dots per inch
+Dots Per Inch
+Double-precision floating-point format
+Doulos SIL
+Download Manager
+dpkg
+D (programming language)
+DraftSight
+DRI3
+Droid (font)
+Dropbear (software)
+Dropbox (service)
+Drupal
+DSDT
+DTS (sound system)
+Duke Nukem 3D
+Dungeon Crawl Stone Soup
+Duplicity (software)
+DV
+DVB-T
+DVD region code
+DVD-VR
+Dvorak Simplified Keyboard
+Dwarf Fortress
+Dynamic DNS
+Dynamic Host Configuration Protocol
+Dynamic Kernel Module Support
+Dynamic range compression
+EasyTag
+ed
+EDID
+Editra
+ed (text editor)
+Ed (text editor)
+eduroam
+EFI system partition
+EFI System partition
+Ekiga
+Elasticsearch
+Elementary OS
+ELinks
+ Elliptic curve cryptography
+Elliptic curve cryptography
+Elliptic Curve Digital Signature Algorithm
+El Torito (CD-ROM standard)
+Emacs
+Emacs Lisp
+EMBOSS
+emelFM2
+Emesene
+Emoji
+Emoticon
+Empathy (software)
+Encrypted Media Extensions
+Endgame: Singularity
+Enemy Territory: Quake Wars
+English alphabet
+Enigmail
+Entropia
+Entropic security
+Entropy (computing)
+EPANET
+Epiphany (browser)
+Equivalent isotropically radiated power
+Eric Python IDE
+Eschalon: Book I
+Eschalon: Book II
+esEcho (informática)
+eSpeak
+eSpeakNG
+Eternal Lands
+EtherApe
+Ethernet crossover cable
+EULA
+Euler (software)
+evdev
+ evdev
+Event-driven programming
+EVE Online
+Evilvte
+Evince
+Exabyte
+Ex Falso (software)
+exFAT
+Expresi%C3%B3n regular
+ext2
+ext3
+Ext3
+ext4
+Ext4
+Extended display identification data
+Extended file attributes
+Extended Window Manager Hints
+Extensible Authentication Protocol
+Extensible Host Controller Interface
+Extension mechanisms for DNS
+Eye of GNOME
+F2FS
+FAAC
+FAAD2
+Facebook
+Fair queueing
+Family Radio Service
+FastCGI
+Fast Fourier transform
+FAT
+FatRat
+FBReader
+Fermat (computer algebra system)
+Fetchmail
+FFmpeg
+FFTW
+FIJI (software)
+File Allocation Table
+File alteration monitor
+File format
+File:KB Spanish.svg
+File:KB United States-NoAltGr.svg
+Filelight
+File Roller
+File system
+File system fragmentation
+Filesystem Hierarchy Standard
+Filesystem in Userspace
+File systems
+FileZilla
+Find
+FIPS 140-2
+Fira Sans
+Firefox
+Firefox Sync
+Fityk
+FLAC
+Flashcard
+Flash memory
+Flatpak
+Flight Gear
+Floppy disk
+Fltk
+FLWM
+FlyBack
+fontconfig
+Fontconfig
+Font hinting
+Font rasterization
+Font rasterization (Српски)
+FooBillard
+Force field (chemistry)
+Forge (software)
+Fork bomb
+Fortuna (PRNG)
+fortune (Unix)
+Fortune (Unix)
+FOSDEM
+Foxit Reader
+Fox toolkit
+Fox Toolkit
+FQDN
+Framebuffer
+free and open source software
+Free and open source software
+Free as in free beer
+FreeCAD
+Freeciv
+Freecode
+FreeCol
+FreeMat
+Freenode
+FreeOTFE
+FreeSpace 2
+Freshmeat
+Friend-to-friend
+Frogatto
+Frozen Bubble
+Frugalware
+Fsck
+Fstab
+FTDI
+FTL: Faster Than Light
+FTP
+Fully qualified domain name
+FUSE
+fuser (Unix)
+FUSE (модуль ядра)
+Gabedit
+Gajim
+Game engine recreation
+GAMESS (US)
+Gamin
+Gantt chart
+GAP (computer algebra system)
+Gaussian (software)
+GCalctool
+GConf
+GCstar
+gDesklets
+gdisk
+Geany
+Gecko (layout engine)
+Gecko (programa)
+Gecko (software)
+Gedit
+Geeqie
+General MIDI
+Generic Buffer Management
+Gentium
+Georgia (typeface)
+getmail
+gettext
+gFTP
+Ghemical
+Gibibyte
+GIMP
+Gish (video game)
+Git (software)
+GKrellM
+Glest
+glibc
+Glipper
+Globally unique identifier
+GMA 3150
+GMRS
+Gnash
+Gnash (software)
+Gnokii
+GnomeBaker
+GNOME Boxes
+GNOME Builder
+GNOME Calculator
+GNOME Chess
+GNOME Commander
+GNOME Core Applications
+GNOME Do
+GNOME Panel
+GNOME Shell
+GNOME Software
+Gnome Subtitles
+GNOME terminal
+GNOME Terminal
+GNOME Videos
+Gnote
+GNU Binutils
+GNU build system
+GNU Build System
+GnuCash
+GNU Chess
+GNU Circuit Analysis Package
+GNU FreeFont
+GNU General Public License
+Gnu IceCat
+GNU IceCat
+Gnumeric
+GNUnet
+GNU Paint
+gnuplot
+GNU Privacy Guard
+GNU Project
+Gnus
+GNU Scientific Library
+GNU TeXmacs
+GNU toolchain
+GNU Units
+Goanna (software)
+Go Daddy
+Go (lenguaje de programación)
+Gomoku
+Google Chrome
+Google Chrome Extension
+Google Docs, Sheets and Slides
+Google Drive
+Google Translate
+Go (programming language)
+GParted
+GPGPU
+GPL
+GPrename
+GPRename
+GQview
+Grace (plotting tool)
+Graphical user interface
+Graphics Interchange Format
+GraphicsMagick
+Graphics processing unit
+Graphviz
+GRASS GIS
+grep
+Grep
+Grip (software)
+Grisbi
+GROMACS
+Group identifier
+GStreamer
+GThumb
+GTK+
+Gtranslator
+GUID Partition Table
+Gummi (software)
+Gwenview
+Gwibber
+gzip
+H.264/MPEG-4 AVC
+Hackedbox
+Hackintosh
+Hamachi (software)
+Hammerfight
+Hangman (game)
+Hans Reiser
+Hard disk drive
+Hard link
+Hardsub
+Hardware acceleration
+Hardware-assisted virtualization
+Hardware-based full disk encryption
+Hardware keylogger
+Hardware random number generator
+Hardware virtualization
+Haskell (programming language)
+Haswell (microarchitecture)
+HDMI
+Headless computer
+Head-related transfer function
+Hedgewars
+Heroes of Might and Magic II
+Heroes of Might and Magic III
+Heroes of Newerth
+HomeBank
+Honeyd
+Hostname
+Hosts (file)
+Hotot (program)
+HP Compaq TC1100
+HP Mini 2140
+Htop
+HTTP
+HTTP compression
+HTTP persistent connection
+HTTP Pipelining
+https
+HTTPS
+ [https://es.wikipedia.org/wiki/initrd initrd
+ [https://it.wikipedia.org/wiki/initrd initrd
+Huawei E220
+Humble Bundle
+Humble Indie Bundle
+hypervisor
+Hypervisor
+I2p
+I²S
+IBM ViaVoice
+ICC profile
+Iceweasel
+Icewm
+ICO (icon image file format)
+Ident protocol
+IDrive Inc.
+IEEE 802.11
+IEEE 802.11i
+IEEE 802.11i-2004
+IEEE 802.11 RTS/CTS
+ifconfig
+Ii (IRC client)
+ ''Il Berkeley Open Infrastructure for Network Computing (BOINC) è un'applicazione software di calcolo distribuito creata per gestire progetti di ricerca che richiedono una potenza di calcolo così elevata da essere da essere difficilmente raggiungibile persino con un supercomputer, ma accessibile attraverso la collaborazione di migliaia di personal computer sparsi in tutto il mondo, coordinati attraverso Internet. Viene sviluppata da un gruppo di lavoro dell'Università di Berkeley diretto da David Anderson.''
+ImageJ
+ImageMagick
+IMAP
+Impact (typeface)
+Inconsolata
+Infinity Engine
+Inform
+Info (Unix)
+Init
+ Init
+initramfs
+initrd
+ initrd
+Initrd
+Inkscape
+Inno Setup
+Inode
+inotify
+Inotify
+Input method
+Input-output memory management unit
+Instantbird
+Instant messaging
+Integer factorization
+Integrated Services Digital Network
+Intel Atom
+Intel GMA
+Intel HD and Iris Graphics
+Intel High Definition Audio
+Intelligent Input Bus
+IntelliJ IDEA
+Intel Rapid Storage Technology
+Intel speedstep
+Intel Turbo Boost
+Interactive fiction
+International Atomic Time
+Internet anonymity
+Internet Control Message Protocol
+Internet/Intranet Input Method Framework
+Internet Key Exchange
+Internet Printing Protocol
+Internet Protocol
+Internet protocol suite
+Internet Relay Chat
+Inter-process communication
+Intrusion detection system
+IODBC
+IOMMU
+IPFS
+Iproute2
+Ipsec
+iptables
+Iptables
+Ipv4
+IPv4
+Ipv6
+IPv6
+IPython
+IRC
+ircII
+Iriver
+Irssi
+ISATAP
+iSCSI
+ISO 3166-1
+ISO 3166-1 alpha-2
+ISO 639-1
+ISO 8601
+ISO 9660
+ISO/IEC 8859
+ISO/IEC JTC 1/SC 22
+ISO Master
+Issue tracking system
+itch.io
+iTunes
+JabRef
+JasPer
+Java applet
+Java (programming language)
+Java Servlet
+Java Web Start
+JED (text editor)
+JFS (file system)
+Jitsi
+Jokosher
+Joliet (file system)
+Journaling file system
+JRockit
+JSON
+JSON-RPC
+JuffEd
+JuK
+Jumbo frame
+Jungle Disk
+Juniper's Knot
+Just another Gibbs sampler
+JVM
+K3b
+Kaby Lake
+Kaffeine
+Kalzium
+Karbon (software)
+Katawa Shoujo
+Kate
+Kate (text editor)
+Kazehakase
+KCalc
+Kdemultimedia
+Kdenlive
+KDE Plasma 4
+KDE Plasma 5
+KDE Plasma Workspaces
+KDE System Guard
+KDevelop
+Keepalive
+KeePass
+KeePassX
+KeePassXC
+ Kerberos
+Kerberos (protocol)
+Kernel (computing)
+Kernel (operating system)
+ Kernel SamePage Merging  (KSM)
+Kernel SamePage Merging (KSM)
+Kexec
+Keyboard layout
+Key (cryptography)
+Key derivation function
+Key management
+Key server (cryptographic)
+Key stretching
+Keystroke logging
+KGet
+KGPG
+KGraft
+KiB
+KiCAD
+Kickstart (Linux)
+Kile
+Kingsoft Office
+Kino (software)
+KJots
+Klipper
+Kmail
+KMyMoney
+Koha (software)
+KolourPaint
+Komodo Edit
+Kompare
+KompoZer
+Konqueror
+Konsole
+Kontact
+Konversation
+Kopete
+Korn shell
+Kpatch
+KPhone
+KRDC
+KRename
+Krita
+Krusader
+Ksplice
+KStars
+KTechLab
+KTorrent
+KVIrc
+KWin
+KWrite
+L2TP
+LabPlot
+LADSPA
+LAME
+LAMP
+LAMP (software bundle)
+Latency (engineering)
+LaTeX
+LaTeXila
+Launchy
+Lazarus (IDE)
+Ldap
+Leafpad
+Lenovo IdeaPad Yoga 13
+less (Unix)
+Less (Unix)
+Let's Encrypt
+Letter frequency
+Lftp
+Libavcodec
+libdca
+Liberation fonts
+libmad
+libmpeg2
+libpurple
+Library (computing)
+LibreCAD
+LibreOffice
+libvpx
+Liferea
+Lightning (software)
+Lightweight window manager
+Lightworks
+LimeSurvey
+Links (web browser)
+Linley's Dungeon Crawl
+Linphone
+Linux Bier Wanderung
+Linux-ck (Русский)
+Linux color management
+Linux conference
+Linux console
+Linux kernel
+Linux Kongress
+Linux Libertine
+Linux Mint
+Linux namespaces
+Linux Security Modules
+Linux startup process
+LinuxTag
+Linux-VServer
+Liquid War
+Lisp (programming language)
+List of AMD graphics processing units
+List of authentication protocols
+List of backup software
+List of build automation software
+List of computer-aided design editors
+List of content management systems
+List of defragmentation software
+List of disk cloning software
+List of DNS record types
+List of Firefox extensions
+List of flashcard software
+List of flash file systems
+List of free and open source software packages
+List of FTP server software
+List of games developed by Valve
+List of GNU packages
+List of information graphics software
+List of Intel Atom microprocessors
+List of Intel chipsets
+List of IOMMU-supporting hardware
+List of massively multiplayer online games
+List of molecular graphics systems
+List of open source bioinformatics software
+List of open source software packages
+List of PDF software
+List of search engines
+List of SIP software
+List of software-defined radios
+List of TCP and UDP port numbers
+List of terminal emulators
+List of third-person shooters
+List of Twitter services and applications
+List of Usenet newsreaders
+List of video game console emulators
+List of WLAN channels
+Live CD
+LiVES
+Loadable kernel module
+locate (Unix)
+Logical complement
+Logical conjunction
+Logical Disk Manager
+logical volume management
+Logical Volume Manager (Linux)
+Lokalize
+ls
+lsattr
+Lspci
+Lucida Console
+Lucida Sans
+Lucida Typewriter
+LuckyBackup
+Lynis
+Lynx (web browser)
+LyX
+LZMA
+LZO
+.m4b
+MacBook Pro
+Machine check architecture
+Machine Check Exception
+Magic SysRq key
+ Magnet URI scheme
+Mahjong
+Mailcap
+Mail delivery agent
+Maildir
+mailx
+MakeHuman
+Management
+Mandatory access control
+Mandatory Access Control
+Mangled packet
+man page
+Man page
+Manual de estilo '' manual de estilo''
+Maple (software)
+Mapreduce
+Marble (software)
+Mari0
+Markdown
+Massively multiplayer online role-playing game
+Master boot record
+Material nonimplication
+Mathomatic
+matplotlib
+Matroska
+Matt Mullenweg
+Maxima (software)
+Maximum transmission unit
+MBR
+MCabber
+MComix
+MD5
+Md5sum
+Mebibyte
+Media Player Classic
+Media Source Extensions
+Media Transfer Protocol
+MegaGlest
+MEGA, Molecular Evolutionary Genetics Analysis
+Mega (service)
+Mega (website)
+Meld (software)
+Memtest86
+MEncoder
+Message Passing Interface
+Message transfer agent
+Metacity
+Metalink
+MetaTracker (software)
+metric-compatible
+mg (editor)
+MiB
+Microcode
+MicroEMACS
+Microkernel
+Microsoft basic data partition
+Microsoft Compiled HTML Help
+Microsoft Money
+Microsoft Reserved Partition
+Microsoft Sans Serif
+Microsoft Xbox
+Midnight commander
+Midnight Commander
+Midori (browser)
+Midori (web browser)
+MilkDrop
+Minesweeper (video game)
+MIPS
+MIT License
+MIT лиценца
+mkdir
+mkdir (Unix)
+MLDonkey
+MMOG
+MMORPG
+Mode setting
+Mode-setting
+Modifier key
+MOLCAS
+Molecular dynamics
+MOLPRO
+Monaco (typeface)
+Mondo Rescue
+Monkey's Audio
+MonoDevelop
+Monospace (Unicode)
+Moodle
+ MooseFS
+MOPAC
+more (command)
+More (command)
+Morrowind
+Moses (machine translation)
+Most (Unix)
+motd (Unix)
+Motif Window Manager
+Motion estimation
+Mount (Unix)
+Mouse keys
+Mozilla
+Mozilla Corporation software rebranded by the Debian project
+Mozilla Firefox
+Mozilla Sunbird
+Mp3
+MPEG-2
+MPEG-4 Part 14
+Mpg123
+MPLAB
+MPlayer
+MPQC
+mrxvt
+MTP
+Multihoming
+Multiplexer
+Multiseat configuration
+Multi-Use Radio Service
+Mumble (software)
+MUMmer
+MuPDF
+Musepack
+MusicBrainz Picard
+Music Player Daemon
+Music visualization
+Mutter (software)
+Mutter (window manager)
+Mutualism
+Mutualism (biology)
+Mutualism biology)
+mv
+mv (Unix)
+MyPaint
+MySQL
+Nagios
+naim (software)
+Namesys
+Nano (text editor)
+Narcissu
+ Native Command Queuing
+Native Command Queuing
+NCQ
+ncurses
+Ncurses
+NEdit
+Nemiver
+Nessus (software)
+Nested RAID levels
+Netbeans
+NetBSD
+Netfilter
+NetHack
+Netpanzer
+NetSurf
+netwerk interface controller
+Network Access Protection
+Network address translation
+Network Audio System
+Network Block Device
+ Network File System
+Network interface controller
+Network switch
+Network Time Protocol
+Neverball
+Nextcloud
+Next Unit of Computing
+Nexuiz
+nginx
+Ngspice
+Nightingale (software)
+NILFS
+Ninja-IDE
+Nmap
+NOAA Weather Radio
+Non-maskable interrupt
+Non-Maskable interrupt
+Non-standard RAID levels
+NOOP scheduler
+NSA
+NSIS
+Ntfs
+NTFS
+NTP
+Núcleo Linux
+NumPy
+Nvidia Ion
+Nvidia PureVideo
+NVM Express
+NX Bit
+OCaml
+od (Unix)
+Office Online
+Off-the-Record Messaging
+Ogg
+Okular
+OmegaT
+One Laptop per Child
+One-time password
+Onion routing
+Oolite (video game)
+Opal Storage Specification
+OpenAL
+OpenArena
+OpenCL
+OpenGL Shading Language
+OpenJDK
+OpenRA
+OpenRC
+Open relay
+OpenSCAD
+OpenShot Video Editor
+OpenSolaris
+Open Sound System
+Open Source Tripwire
+OpenSSL
+ OpenStack
+OpenWrt
+Opera Software
+Optical disc drive
+Opus (audio codec)
+ OrangeFS
+Oregano (software)
+Organizationally unique identifier
+org-mode
+ Origin (software)
+Origin (software)
+out-of-band management
+Out of memory
+Overscan
+ownCloud
+Oxygen Project
+P6 (microarchitecture)
+Package management system
+Package manager
+Packet sniffing
+Pager (GUI)
+Paging
+Paint.net
+Pale Moon (web browser)
+Pandas (software)
+Pandoc
+Pan (newsreader)
+PARI/GP
+parted
+Parted Magic
+Partimage
+partition type
+Partition type
+Passphrase
+Password
+Password cracking
+Password strength
+Pastebin
+PC GAMESS
+PCI configuration space
+PC Paintbrush
+PCSX-Reloaded
+PeaZip
+Pencil2D
+Perl
+pg (Unix)
+Phonon (KDE)
+Phonon (software)
+PhpStorm
+Picasa
+Picture Transfer Protocol
+Pidgin (software)
+Pine (email client)
+Pinta (software)
+Pinyin
+Pioneer (video game)
+Pitivi
+PKCS
+PKCS 11
+PKCS 12
+PlaneShift (video game)
+Plausible deniability
+Plone (software)
+Pluggable authentication module
+Poedit
+point-to-point protocol
+Point-to-Point Protocol
+POP3
+Portable Document Format
+Portable Network Graphics
+Portal:Free and open-source software
+Port forwarding
+Port knocking
+Port mirroring
+Port number
+Position-independent code
+POSIX
+PostgreSQL
+Posting style
+PostScript fonts
+POV-Ray
+Power management
+Power-on self test
+Power-on self-test
+Powershell
+Powertop
+PPPoE
+PPTP
+Preboot Execution Environment
+Preemption (computing)
+Preload (software)
+Pre-shared key
+Prey (video game)
+Principle of least privilege
+Priority inheritance
+ Proceso de inicio de Linux
+Process (computing)
+process identifier
+Process identifier
+Process Supervision
+ProFont
+Proggy Programming Fonts
+Programmed input/output
+Project Looking Glass
+project management
+Promiscuous mode
+Proprietary software
+Protected Extensible Authentication Protocol
+Protein Data Bank
+Protein Data Bank (file format)
+Proxy auto-config
+Proxy server
+Pseudorandom number generator
+Psi (instant messaging client)
+PSPP
+PT Sans
+Public key
+Public-key cryptography
+Public key fingerprint
+Public key infrastructure
+Puddletag
+PulseAudio
+Pulse-code modulation
+Pure-FTPd
+PureVideo
+PureVideo HD
+Puzzle
+PyCharm
+PyMOL
+PyRoom
+Python Imaging Library
+Python License
+Python (programming language)
+Python лиценца
+qBittorrent
+QCad
+Q-Chem
+Qcow
+QDevelop
+Qemu
+Qmake
+QOwnNotes
+Qt Creator
+Qt (framework)
+QtiPlot
+Qtractor
+Qt (toolkit)
+Quake 4
+Quake II
+Quake III Arena
+Quake (video game)
+Quantum ESPRESSO
+Quassel IRC
+Quicksilver (software)
+quiescing
+Quilt (software)
+Quite Universal Circuit Simulator
+Quod Libet (software)
+QupZilla
+QuteCom
+Radeon
+Radial distribution function
+RADIUS
+RAID
+RAID-Z
+Rainbow table
+Random number generation
+RandR
+RasMol
+Raspberry Pi
+Raster graphics
+RawTherapee
+rc
+RdRand
+RE: Alistair
+Real-time computing
+Real Time Messaging Protocol
+Recoll
+RecordMyDesktop
+Recupero dati
+Red Book %28audio CD standard%29
+Red Book (audio CD standard)
+Red Book (CD standard)
+Red Eclipse
+Redirection (computing)
+Redis
+Redo Backup and Recovery
+Redshift (software)
+reference implementation
+regexp
+Reiser4
+ReiserFS
+Rekonq
+Rekonq)
+Relational model
+Remote Desktop Protocol
+Remote desktop software
+Replay attack
+ReplayGain
+Resource Description Framework
+RESTful API
+ReStructuredText
+Retina Display
+RetroShare
+Reverse DNS lookup
+Revision control
+Rhythmbox
+Ring (software)
+Ripping
+RKWard
+rm (Unix)
+Roboto
+Robust Security Network
+Rock Ridge
+Rogue (video game)
+rolling release
+Rolling release
+ROOT
+Rosegarden
+R (programming language)
+RSA (cryptosystem)
+RSS
+RSSOwl
+RStudio
+Rsync
+RTFM
+RubyGems
+RuneScape
+Rune (video game)
+runlevel
+Runlevel
+Rust (programming language)
+Rxvt
+Ryzom
+rzip
+S3 Texture Compression
+Sacred (video game)
+Salsa20
+Salt (cryptography)
+ Samba
+Samba (software)
+Sampler (musical instrument)
+Sampling frequency
+Sampling rate
+Sam (text editor)
+Sandbox (computer security)
+Savage 2: A Tortured Soul
+Savage: The Battle for Newerth
+Scalable Vector Graphics
+Scala (programming language)
+Scancode
+Scanner Access Now Easy
+SciDAVis
+Scilab
+SciPy
+Scite
+SciTE
+Scratch
+Scratch (programming language)
+Screenlets
+Screenshot
+Screen tearing
+Scribus
+Script (Unix)
+Scrot
+ScummVM
+SDL
+Seahorse (software)
+SeaMonkey
+Seccomp
+Secure copy
+Secure Digital SD cards
+Secure Shell
+Security-Enhanced Linux
+Security Identifier
+Security through obscurity
+Security token
+sed
+Seedbox
+Segoe UI
+Semantic desktop
+Semaphore (programming)
+Sender Policy Framework
+sendmail
+seq
+Seq (Unix)
+Serious Sam
+Serious Sam 3: BFE
+Serious Sam II
+Serpent (cipher)
+Server Fault
+Server Message Block
+Server Name Indication
+Setuid
+SFLphone
+SHA-1
+SHA-2
+Shared memory
+Sharelin
+SheevaPlug
+Shisen-Sho
+Shotcut
+Shotwell (software)
+Shoulder surfing (computer security)
+Shred (Unix)
+Siag Office
+Sieve (mail filtering language)
+Sigil (application)
+SigmaPlot
+SILC (protocol)
+Silvermont
+simd
+Simple Desktop Display Manager
+ Simple DirectMedia Layer
+Simple DirectMedia Layer
+Simple Mail Transfer Protocol
+Simple Network Management Protocol
+Simulation game
+Simultaneous multithreading
+Simutrans
+Sistema di gestione dei pacchetti
+SK1 (program)
+Skanlite
+Skat
+S-Lang (programming library)
+SlimBrowser
+slrn
+Slurm Workload Manager
+Smart card
+Smart Common Input Method
+Smart contracts
+S/MIME
+SMPlayer
+SMTP
+Smuxi
+Snapshot (computer storage)
+SOAP
+Social engineering (security)
+SOCKS
+SOCKS (protocol)
+SoftMaker Office
+Software release life cycle
+software repository
+software synthesizer
+soname
+Songbird (software)
+SoundFont
+Sound Juicer
+sound server
+Sound server
+Source Code Pro
+Source (command)
+sourceforge.net
+Source port
+Source Sans Pro
+Source-to-source compiler
+Spaced repetition
+Spacemacs
+ Sparse file
+Sparse file
+S/PDIF
+SpeedStep
+Speex
+Sphinx (documentation generator)
+SpiderOak
+Spinlock
+Spin-up
+Splunk
+Spring Engine
+Spyder (software)
+SQLAlchemy
+SQL injection
+Squashfs
+SquashFS
+ SquashFS
+SSH file transfer protocol
+SSL
+SSL/TLS
+Standard output
+Standard RAID levels
+Standard streams
+Stateful firewall
+Static library
+Stat (system call)
+stdin
+Steam
+Steam (software)
+Stellarium (computer program)
+Stepmania
+Step (software)
+STIX Fonts project
+Storage Made Easy
+Strigi
+Sublime Text
+Subnetwork
+Subtitle Edit
+Sudo
+Sugar (GUI)
+Sugar (software)
+Sun Microsystems
+Super Audio CD
+Super Meat Boy
+Superuser
+Supplicant (computer)
+Sweet Home 3D
+SWMM
+swsusp
+Sylpheed
+Symbolic link
+Symbol (typeface)
+Symfony
+Symmetric cryptography
+Symmetric multiprocessing
+SymPy
+Sync (Unix)
+Syntax highlighting
+Syobon action
+sysctl
+Sysfs
+SYSLINUX
+Syslog
+systemd
+Systemd
+System Management Mode
+System partition and boot partition
+SystemRescueCD
+tac (Unix)
+TADS
+Tahoe-LAFS
+Tahoma (typeface)
+Tales of Maj'Eyal
+Tar (computing)
+Tarsnap
+Taskbar
+Taskwarrior
+Tasque
+Tasque (software)
+Tc (Linux)
+tcpdump
+TeamSpeak
+Technical computing
+Ted (word processor)
+Teeworlds
+Tektronix 4010
+Telegram
+Telegram (software)
+Telepathy (software)
+Tellico
+Telnet
+Temporary file
+Temporary folder
+Terminal emulator
+Terminal pager
+Terminal (Xfce)
+Terminfo
+Terminus (typeface)
+Tesseract (software)
+TeX
+Texmaker
+TeXstudio
+ Textile (markup language)
+Textile (markup language)
+The Battle for Wesnoth
+The GNOME Project
+Theora
+ThinkPad
+ThinkPad T Series
+TiB
+Tiger (security software)
+Tilda (software)
+Tiling window manager
+Time
+time limit
+Time-sharing
+Times New Roman
+Time Stamp Counter
+Tin (newsreader)
+Tiny C Compiler
+Tkabber
+Tkhtml
+TLS
+tmpfs
+Tmpfs
+Tmux
+tnftp
+Tomato (firmware)
+Tomboy (software)
+Tor
+Tor (anonymity network)
+Totem (software)
+Touhou Project
+Tracker (search software)
+Traffic analysis
+Traffic shaping
+Transcode
+Translate Toolkit
+Transmission (BitTorrent client)
+Transmission Control Protocol
+Transport Layer Security
+Transport Tycoon Deluxe
+Trebuchet MS
+Tremulous
+Tribler
+TRIM
+Tristimulus colorimeter
+Trivial File Transfer Protocol
+Trusted computing
+Trusted Computing
+Trusted Platform Module
+TTLS
+Tty (unix)
+Tunneling protocol
+TUN/TAP
+Twinkle (software)
+Twm
+Two-factor authentication
+Twofish
+Txt2tags
+Ubuntu Font Family
+Ubuntu (operating system)
+Ubuntu-Title
+UDE
+udev
+Udev
+UEFI
+UGENE
+Uim
+Ultrabook
+umask
+Umbrella sampling
+Unbound (DNS Server)
+Unicode
+Unicode font
+Unified Extensible Firmware Interface
+Uniform Resource Identifier
+Unique local address
+Unison (file synchronizer)
+Universal 2nd Factor
+Universal Disk Format
+Universally unique identifier
+Universally Unique Identifier
+universal plug and play
+Universal Plug and Play
+Unix domain socket
+UNIX philosophy
+Unix shell
+Unix signal
+Unix socket
+UNIX System V
+Unknown Horizons
+Unreal Tournament
+Unreal Tournament 2003
+Unreal Tournament 2004
+Unreal Tournament (upcoming video game)
+Unvanquished (video game)
+updatedb
+UPnP
+Upstart
+upstream (software development)
+Upstream (software development)
+USB
+User agent
+User (computing)
+User Datagram Protocol
+User identifier
+User space
+UTF-8
+UUID
+UWM (computing)
+Uzbl
+Vagrant (software)
+Vala (programming language)
+VariCAD
+Vector graphics
+Verdana
+version control
+Version control system
+VESA BIOS Extensions
+VESA Display Power Management Signaling
+vfat
+Vfat
+vi
+Vi
+Video Acceleration API
+Video compression picture types
+Viewnior
+Vile (editor)
+Vim (text editor)
+Vinagre
+Virtaal
+VirtualBox
+Virtual console
+Virtual file system
+Virtualization
+Virtual Machine
+Virtual private server
+Visual C++
+VLC
+VLC media player
+VNC
+VOB
+Volume boot record
+Vorbis
+VoxSigma
+VP8
+VPN
+VSXu
+Vulkan (API)
+Vulnerability scanner
+Vuze
+VVVVVV
+W3m
+Wake-on-LAN
+Wallpaper (computing)
+Wanderlust (software)
+Warmux
+Warsow (game)
+Warzone 2100
+Watchdog timer
+ Watcom C compiler
+Watermarking attack
+Water model
+WavPack
+Webdings
+Webkit
+WebKit
+ WebKit
+WebM
+Web Proxy Autodiscovery Protocol
+WebRTC
+Web server
+Web storage
+WeeChat
+WeTab
+Wget
+WhatsApp
+Which (Unix)
+Why's (poignant) Guide to Ruby
+Widelands
+widget toolkit
+Widget toolkit
+Wi-Fi Protected Access
+Wiki
+WikiPedia:Trim (computing)
+Winamp
+Window Maker
+Window manager
+Windows
+Windows Internet Name Service
+Windows key
+Windows Preinstallation Environment
+Wine (software)
+Wingdings
+Wings3d
+Wolfram Mathematica
+Wombat
+Wordfast
+WordFast
+WordPress
+Workrave
+World of Goo
+World of Padman
+World Wide Name
+WoW64
+Write amplification
+WSJT (Amateur radio software)
+WSPR (amateur radio software)
+Wubi
+WYSIWYG
+X11 color names
+x264
+x265
+X.509
+x86-64
+X86-64
+Xara LX
+Xara X
+Xara Xtreme LX
+Xarchiver
+XBMC
+xcalc
+Xcas
+X-CD-Roast
+XChat
+xCHM
+Xclock
+X display manager (program type)
+XDrawChem
+XEphem
+XEX-TCB-CTS
+Xfce
+Xfe
+XFS
+Xft
+xine
+Xine
+Xinerama
+xinetd
+X Input Method
+XLFD
+XLIFF
+X-Lite
+X logical font description
+XML
+XML-RPC
+XMMS
+XMMS2
+X-Moto
+XMPP
+X Neural Switcher
+XnView
+Xombrero
+Xonotic
+X.Org Server
+X.Org ServerX.Org
+Xournal
+XPaint
+Xpdf
+X PixMap
+XPN (newsreader)
+X resources
+XULRunner
+XvBA
+XvBA XvBA
+Xvid
+XviD
+XVidCap
+X-Video Bitstream Acceleration
+Xv (software)
+X Window selection
+X Window System
+xz
+Yakuake
+YAML
+ YAML
+Yandex Browser
+Yarrow algorithm
+yEd
+YUV
+Zathura (document viewer)
+Zeitgeist (framework)
+Zenbook
+Zend Opcache
+Zero-configuration netwerking
+Zero-configuration networking
+Zero-K
+Zettabyte
+Zfone
+ZFS
+Zhengma method
+ZiB
+Zile (editor)
+Zimmermann–Sassaman key-signing protocol
+ZLIB license
+ZLIB лиценца
+Zoo (file format)
+Zotero
+ZPAQ
+ نظام النافذة إكس
+μTorrent
+Порт (компьютерные сети)
+Юнікод

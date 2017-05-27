@@ -1,3 +1,79 @@
+ffmpeg cut between 310th and 500th frame `ffmpeg -i constellaion003.mkv -vf 'select=gte(n\,301)*lte(n\,500)'` output.mkv (breaks video index/length/seek?)
+
+Pulseaudio load loopback module (record soundcard output) `pactl load-module loopback latency_msec=10`
+
+debian close bug on bts 664742-done@bugs.debian.org
+
+count how many files in directory `ls -rAa1 | wc -l`
+
+Virtualbox convert VDI disk image to raw `VBoxManage internalcommands converttoraw Win7AfterSysprep-disk1.vdi output.img`
+
+highlight a word in command output (here 'waiting'): `egrep --color=always '^|running|waiting'`
+
+bash increment variable `var=$((var+1))`
+bash increment variable `((var=var+1))`
+bash increment variable `((var+=1))`
+bash increment variable `((var++))`
+
+Force running handler even if triggering tasks have not `changed`: `--force-handler` or `force_handlers = True` in ansible.cfg; and task `- meta: flush_handlers` to fire your handlers at a specific point
+
+>DECOMPOSE. THE. PROBLEM.
+
+iptables open OUTGOING port `iptables -A OUTPUT -p TCP --dport 6881:6999 \ -m state --state NEW -j ACCEPT`
+
+pulseaudio change output channels/mode: pacmd set-card-profile INDEX PROFILE
+
+RAID create device: `mdadm --create /dev/md4 --level=1 --raid-devices=2 /dev/sd[ab]8`
+RAID stop: `mdamd --stop /dev/md4`
+RAID remove a physical device `mdadm --fail /dev/md4 /dev/sdc8; raid --remove /dev/md4 /dev/sdc8`
+RAID re-add a physical device `mdadm --add /dev/md4 /dev/sdc1`
+
+http://xmodulo.com/limit-network-bandwidth-linux.html `trickle -d 300 firefox %u`
+
+rename/remove file extensions recursively `rename "s:\.::" **`
+
+bash Insert the last argument of the previous command `<ESC>.`
+
+https://www.cyberciti.biz/faq/how-to-test-the-network-speedthroughput-between-two-linux-servers/ `iperf -s`; `iperf -c 192.168.0.19`
+
+split files into individual words `fmt -1 < words.txt`
+
+bash create backup file `cp file.txt{,.bak}`
+
+bash run command number 1225 from bash history `!1225`
+
+bash create a directory and cd into it `mkdir -p a/directory/ && cd $_`
+
+Youtube channel RSS Feed: `https://www.youtube.com/feeds/videos.xml?channel_id=$channel_external_id`
+
+bash empty a file `> file.txt`
+
+bash less follow mode (like tail) `less +F somelogfile`
+
+bash most used commands: `history | awk '{print $2}' | sort | uniq -c | sort -rn | head -n 20`
+bash most used commands: `history | awk '{a[$2]++}END{for(i in a){print a[i] " " i}}' | sort -rn | head`
+
+tmux Command mode: `Ctrl+b`
+tmux `%` séparer la fenêtre en deux gauche et droite
+tmux `"` séparer la fenêtre en deux haut et bas
+̀tmux  flèche droite, gauche` etc : changer de pane.
+tmux `d` détacher la session (comme screen)
+tmux attach se rattacher à une session tmux existante
+
+Virtualbox exit scale mode `Host key + C`
+
+https://stackoverflow.com/questions/20318770 send mail from linux terminal in one line `echo "My message" | mail -s subject user@gmail.com`
+
+print 25th line of file: `sed 25!d file.txt `
+
+remove all lines starting with `#` or blank lines `sed -e '/^[ ]*#/d' -e '/^$/d' /etc/samba/smb.conf`
+
+https://stackoverflow.com/questions/2181712/ Simple way to convert HH:MM:SS (hours:minutes:seconds.split seconds) to seconds `echo "00:20:40.25" | awk -F: '{ print ($1 * 3600) + ($2 * 60) + $3 }'`
+
+coonvert a diurectory of .GIG (GigaSampler) files to WAV: `for i in *.gig; do name="$(basename $i .gig)"; mkdir $name; gigextract "$i" "$name/"; done`
+
+convert all *.bin *.mdf... to .iso (FILENAMES WITHOUT SPACES ONLY) `for i in $(find ./ -maxdepth 1 -iname "*.bin"); do iat "$i" > "$i.iso"; done`
+
 add crontab to run script/Makefile from current directory `(crontab -l ; echo '11 11 * * 0 cd $(CURDIR) && make all') | crontab -`
 
 Burn MPEG-1/VCD to CD: `cdrdao write --device 0,1,0 -n vcd.toc #vcd.toc from mkvcdfs`
@@ -109,6 +185,53 @@ Windows multi user RDP: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Term
 
 Windows RDP Port number: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TerminalServer\WinStations\RDP-Tcp\PortNumber
 
+Windows/npackd install package `ncl add --non-interactive --package PACKAGE_NAME`
+
+windows create godmode directory `mkdir GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}`
+
+Powershell `New-NetIPAddress -IPAddress 10.11.17.1 -AddressFamily IPv4 -InterfaceAlias Ethernet0 -DefaultGateway 10.11.255.254 -PrefixLength 8`
+
+Powershell 4.0 download file `& { iwr http://www.it1.net/it1_logo2.jpg -OutFile logo.jpg }`
+
+Windows make filesystem case-sensitive `reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v ObCaseInsensitive /t REG_DWORD /d 0 /f`
+
+Powershell get hotfix status info `Get-Hotfix -Id KB2952664`
+
+Windows uninstall KB `wusa /uninstall /kb:2952664`
+
+Powershell `Get-Help Get-Help -ShowWindow/ -Detailed -Examples -Full`
+
+Powershell `Help about_*`
+
+Powershell $command | Get-Member
+
+Powershell update-help from local repo `Update-Help -SourcePath \\10.x.x.x.x\path\to\powershell\help\ -Credential ad\username`
+
+Powershell `Get-Command *-Ad*; Import-Module ActiveDirectory, Add-WindowsFeature RSAT-AD-PowerShell`
+
+Powershell `Get-Service | Where-Object { $_.Status -eq "Running" }`
+
+Powershell loop `$startdate=get-date; $val=0; while ($val -neq 65535) { $val++; Write-Host -NoNewline "$val " }; $enddate=get-date; $totaltime=$enddate - $startdate; write-host "total time is $totaltime"`
+
+Powershell Enable/Allow RDP `Get-NetFirewallRule -DisplayName "Remote Desktop*" | Set-NetFirewallRule -enabled true; Get-Service "*rdp*"; Set-Service -Name "ServiceName" -Status Running` + enable System Properties > Remote Settings > Allow
+
+Windows Remote desktop connection mstsc /span /v:HOSTNAME
+
+Powershell `New-NetFirewallRule -DisplayName 'ICMPv4-In-ByIP' -Enabled True -Profile Domain -Direction Inbound -Action Allow -Protocol ICMPv4 -RemoteAddress 10.11.200.104,10.11.200.58`
+
+Windows sysdm.cpl
+
+Windows List junction points: `dir /aL; dir /aL /s C:\;`
+Windows Create junction point: `mklink /J <Target> <Linkname>`
+samba list public shares on a server: $ smbclient -L hostname -U% (or smbtree -b -N)
+samba check netbios name: nmblookup -A 192.168.1.1
+samba list services: smbclient -L \\SERVER
+
+Windows download file `explorer https://url.of/file`
+
+Powershell download file from web `$clnt = new-object System.Net.WebClient; $clnt.DownloadFile("https://source.fi/le.txt", "destfile.txt")`
+
+Windows `ipconfig /displaydns`
 
 quick permission fix `find $dir -type d -print0 | xargs -0 chmod 0770; find $dir -type f -print0 | xargs -0 chmod 0660`
 
@@ -148,7 +271,7 @@ DIsplay number of workspaces `wmctrl -d`
 
 Define number of workspaces `wmctrl -n $NOMBRE_BUREAUX`
 
-network send files with netcat `netcat -l 12345 > file.pdf` on the server (receiver), `netcat $MY_IP_ADDRESS 12345 < file.pdf` on the client (sender)
+
 
 @bash replace *BEFORE* with *AFTER* in previous command (all) `!:gs/BEFORE/AFTER`
 
@@ -173,7 +296,13 @@ bash variable `count=$(grep -c some-string some-file || true)` Continue even wit
 
 **subnets** If you use a regular 255.255.255.0 subnet for a group that will have a maximum of 50 users, you're going to waste 204 addresses. If you used 255.255.255.192 for example, then you'd have the ability to make four networks with 62 users each. (64-2, .0 .255 are the network address and the broadcast address)
 
-network DDOS mitigation: set apache2 `MaxClients` to a lower value (on mpm-prefork, prevents creating processes); switch to apache2-mpm-worker and set `ServerLimit` to 2 (only 2 processes) and and `ThreadsPerChild` to a lower value (implicitely sets `MaxClients` to `ServerLimit * ThreadsPerChild`) (This doesn't affect large DDOS/DNS amplification attacks - you will need a large proxy like cloudflare for that) ---- . Balance network cards IRQs on several CPUs (they are all on CPU0 by default) ---- Set `net.netfilter.nf_conntrack_max` to a lower value. --- nullroute DDOS sources `ip route add blackhole 172.16.1.0/24; ip route show` (this harms network performance if you have a large routing table, but less than iptables `DROP` rules) --- Cry.
+DDOS mitigation set apache2 `MaxClients` to a lower value (on mpm-prefork, prevents creating processes); switch to apache2-mpm-worker and set `ServerLimit` to 2 (only 2 processes) and and `ThreadsPerChild` to a lower value (implicitely sets `MaxClients` to `ServerLimit * ThreadsPerChild`) (This doesn't affect large DDOS/DNS amplification attacks - you will need a large proxy like cloudflare for that)
+
+DDOS mitigation Balance network cards IRQs on several CPUs (they are all on CPU0 by default)
+
+DDOS mitigation Set `net.netfilter.nf_conntrack_max` to a lower value. 
+
+DDOS mitigation nullroute sources `ip route add blackhole 172.16.1.0/24; ip route show` (this harms network performance if you have a large routing table, but less than iptables `DROP` rules)
 
 bash herestring `while read x; do cmd "$x"; done <<< "string"`
 
@@ -203,6 +332,7 @@ dirsplit (1) - splits directory into multiple with equal size
 
 Display memory usage `free -mh --total`
 
+export tumblr followings (who you follow)  login -> http://www.tumblr.com/following.opml
 
 Empty caches: free pagecache `sync; echo 1 > /proc/sys/vm/drop_caches`
 
@@ -441,7 +571,7 @@ speedtest with curl `curl -o /dev/null http://speedtest.wdc01.softlayer.com/down
 
 
 
-netcat pipe command output to network `nc -q 0 $RECEIVING_HOST 1024`
+
 
 
 firewall ufw: allow inbound connections on 80/tcp from anywhere `ufw allow 80/tcp`
@@ -526,6 +656,7 @@ remove stale config files `aptitude -y purge ~c`
 @regex `.` matches any single character. `.ck` will match `ack`, `bck`, `cck`, `dck`, and so on. You usually use `.` in conjunction with `+` or `*` or some other repetition character; for example, `.*` means to match literally anything or nothing at all (any character, 0 or more times) and `.+` matches any non-empty string (any character, 1 or more times). @regex
 @regex There are a *lot* of extensions to this basic set; unfortunately, they vary between tool and language. http://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions are a fairly common 'extended' regular expression syntax, but by no means universal. @regex
 
+>debian non-free network/wifi card drivers! For your Wi-fi card to work, and if installing Debian, you will need to; either install from the http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/ unofficial cd image with included non-free firmwares (Wi-fi will work during the setup procedure); or install using a wired connection. Anyway you have to enable non-free software during setup, and, after initial setup, manually install the firmware-linux-nonfree firmware-atheros packages.
 
 @apt add an apt key `sudo apt-key add $KEYFILE`
 @apt add gpg key from remote server `sudo apt-key adv --recv-keys --keyserver $KEYSERVER $FINGERPRINT`
@@ -650,12 +781,25 @@ Fix reset lost root password: reboot, select desired OS, hit `E`, add `init=/bin
 
 Fix phone not working as USB drive: Enable USB mass storage mode on the phone.
 
-netcat pipe traffic to file `nc -l 1024 > example.tar.gz
+network send files with netcat `netcat -l 12345 > file.pdf` on the server (receiver), `netcat $MY_IP_ADDRESS 12345 < file.pdf` on the client (sender)
+
+attach screenover ssh `ssh user@host -t screen -r`
+
+Compare a remote file with a local file `ssh user@host cat /path/to/remotefile | diff /path/to/localfile -`
+
+simple stopwatch `time read <Ctrl+D>`
+
+Display the top ten running processes. (Sorted by memory usage) `ps aux | sort -nk 4 | tail`
+
+kill all ruby processes `ps aux | grep ruby | awk '{ print $2 }' | xargs kill`
+
+netcat pipe command output to network `nc -q 0 $RECEIVING_HOST 1024`
 
 >Engineering, on the whole, is the art of compromise.
 
 > a good programmer looks both ways before crossing a one way street
 
+display calendar of august 1986 `cal 8 1986`
 
 fix permissions in user home dir @admin @cli `find /home/user -type d -print0 | xargs -0 chmod 0775 find /home/user -type f -print0 | xargs -0 chmod 0664`
 
@@ -679,6 +823,7 @@ grep text and print 2 following lines `# grep -A2 test /etc/fooserver/file`
 
 find files by user or group `find / -user carla; find / -group admins`
 
+make check if a file or directory exists `$(if $(wildcard $(SRCS)),,$(fatal You have not generated source code...))`
 
 find files by user and change ownership `# find / -user carla -ok chown -v steven {} \;`
 
@@ -706,9 +851,16 @@ checkout github Pull Requests locally ` fetch = +refs/pull/*/head:refs/remotes/o
 
 [security] detect listening ports (using TCP/UDP sockets from local machine): `lsof -i -n | egrep "COMMAND|LISTEN|UDP"`
 
+pdf to image `convert -verbose "$i" "$i".jpg`
 
 locate files not owned by any user/group: `find / -path /proc -prune -o -nouser -o -nogroup`
 
+extract public key from private `openssl rsa -in $1 -pubout`
+
+not fun man `echo "echo sleep 0.1 >>~/.bashrc" >> ~/.bashrc`
+not fun man `{ crontab -l; echo "@hourly eject; eject -t; }" | crontab`
+
+remove empty directories `find -type d -empty -delete`
 
 find all files owned by an user: `find / -path /proc -prune -o -user <account> -ls`
 
@@ -761,7 +913,11 @@ edit git submodule URL: edit the .gitmodules file and run git submodule sync
 Virtualbox create virtual disk linked to raw disk/USB drive: `VBoxManage internalcommands createrawvmdk -filename "</path/to/file>.vmdk" -rawdisk /dev/sda`. User must be in vboxusers group. Unerlying block device must be rw for user.
 
 
-
+f = c/lambda
+U=RI
+P=UI
+U=W/q
+I=deltaq/t
 
 
 list possible openers for a file `gvfs-mime --query inode/directory`
@@ -841,3 +997,42 @@ windows shutdown remote machine via SMB: net rpc shutdown -C "comment" -I IPADDR
 mount a specific partition from an ISO/disk image file: `sudo losetup /dev/loop0 blankimg.iso ; sudo losetup /dev/loop1 blankimg.iso -o 1048576; sudo mount /dev/loop1 /mnt/` where 1048576 is fdisk's number of sectors * number of bytes-per-sector (here 2048x512)
 
 detach all loop devices: `losetup -D`
+
+
+find files not owned by you: find ~ ! -user ${USER}
+
+
+type unicode character from keyboard in linux: Ctrl + Shift + U, 2b50, Enter
+
+
+virtualbox change resolution: VBoxManage controlvm "Name of VM" setvideomodehint 1366 768 32
+
+
+http://xmodulo.com/limit-network-bandwidth-linux.html `trickle -d 300 firefox %u`
+
+https://www.cyberciti.biz/faq/ping-test-a-specific-port-of-machine-ip-address-using-linux-unix/ `nmap -PNp {port} {host}` `nc -vz {host} {port}`
+
+
+
+view contents of files matching a pattern, prefixed by the filename: grep . *.txt
+
+
+display contents of all files matching a pattern, separated with decoration and the filenames: more *.txt | cat
+
+
+SSH jumpbox ssh -J myuser@jumpbox myuser@securebox
+
+
+update debian changelog: dch -a
+
+
+OpenDNS servers: 208.67.222.222 and 208.67.220.220
+
+
+debian change timezone: dpkg-reconfigure tzdata
+
+
+ssh/config options: Host, Hostname, IdentityFile, Port, User. Global: PubkeyAuthentication, ControlPath, ControlMaster, ControlPersist, UseRoaming
+
+
+dns load testing: apt-get source bind9; cd bind9*/contrib/queryperf; ./configure; make; sudo cp queryperf /usr/local/sbin

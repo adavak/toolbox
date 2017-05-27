@@ -1,0 +1,180 @@
+
+[airwave]
+checkout = git clone --depth=1 'https://github.com/phantom-code/airwave' 'airwave'
+
+[apaxy]
+checkout = git clone --depth=1 'https://github.com/AdamWhitcroft/apaxy' 'apaxy'
+
+[api-documentation]
+checkout = git clone 'https://github.com/shaarli/api-documentation' 'api-documentation'
+
+[awesome]
+checkout = git clone --depth=1 'https://github.com/sindresorhus/awesome' 'awesome'
+
+[awesome-cli]
+checkout = git clone --depth=1 'https://github.com/matthiasbeyer/awesome-cli' 'awesome-cli'
+
+[awesome-cryptography]
+checkout = git clone --depth=1 'https://github.com/sobolevn/awesome-cryptography' 'awesome-cryptography'
+
+[awesome-css]
+checkout = git clone --depth=1 'https://github.com/sotayamashita/awesome-css' 'awesome-css'
+
+[awesome-django]
+checkout = git clone --depth=1 'https://github.com/rosarior/awesome-django' 'awesome-django'
+
+[awesome-donations]
+checkout = git clone --depth=1 'https://github.com/n1trux/awesome-donations' 'awesome-donations'
+
+[awesome-flask]
+checkout = git clone --depth=1 'https://github.com/humiaozuzu/awesome-flask' 'awesome-flask'
+
+[awesome-fonts]
+checkout = git clone --depth=1 'https://github.com/brabadu/awesome-fonts' 'awesome-fonts'
+
+[awesome-gamedev]
+checkout = git clone --depth=1 'https://github.com/Calinou/awesome-gamedev' 'awesome-gamedev'
+
+[awesome-godot]
+checkout = git clone --depth=1 'https://github.com/Calinou/awesome-godot' 'awesome-godot'
+
+[Awesome-Hacking]
+checkout = git clone --depth=1 'https://github.com/Hack-with-Github/Awesome-Hacking' 'Awesome-Hacking'
+
+[awesome-html5]
+checkout = git clone --depth=1 'https://github.com/diegocard/awesome-html5' 'awesome-html5'
+
+[awesome-images]
+checkout = git clone --depth=1 'https://github.com/heyalexej/awesome-images' 'awesome-images'
+
+[awesome-javascript]
+checkout = git clone --depth=1 'https://github.com/sorrycc/awesome-javascript' 'awesome-javascript'
+
+[awesome-jquery]
+checkout = git clone --depth=1 'https://github.com/petk/awesome-jquery' 'awesome-jquery'
+
+[awesome-linuxaudio]
+checkout = git clone 'https://github.com/nodiscc/awesome-linuxaudio' 'awesome-linuxaudio'
+
+[awesome-no-login-web-apps]
+checkout = git clone --depth=1 'https://github.com/aviaryan/awesome-no-login-web-apps' 'awesome-no-login-web-apps'
+
+[awesome-php]
+checkout = git clone --depth=1 'https://github.com/ziadoz/awesome-php' 'awesome-php'
+
+[awesome-python]
+checkout = git clone --depth=1 'https://github.com/vinta/awesome-python' 'awesome-python'
+
+[awesome-raspberry-pi]
+checkout = git clone --depth=1 'https://github.com/thibmaek/awesome-raspberry-pi' 'awesome-raspberry-pi'
+
+[awesome-security]
+checkout = git clone --depth=1 'https://github.com/sbilly/awesome-security' 'awesome-security'
+
+[awesome-selfhosted]
+checkout = git clone --depth=1 'https://github.com/kickball/awesome-selfhosted' 'awesome-selfhosted'
+
+[awesome-shell]
+checkout = git clone --depth=1 'https://github.com/alebcay/awesome-shell' 'awesome-shell'
+
+[awesome-sysadmin]
+checkout = git clone --depth=1 'https://github.com/kahun/awesome-sysadmin' 'awesome-sysadmin'
+
+[Awesome-WebExtensions]
+checkout = git clone --depth=1 'https://github.com/bfred-it/Awesome-WebExtensions' 'Awesome-WebExtensions'
+
+[Bash-Snippets]
+checkout = git clone --depth=1 'https://github.com/alexanderepstein/Bash-Snippets' 'Bash-Snippets'
+
+[bookmark-archiver]
+checkout = git clone --depth=1 'https://github.com/pirate/bookmark-archiver' 'bookmark-archiver'
+
+[cleanerml]
+checkout = git clone --depth=1 'https://github.com/az0/cleanerml/' 'cleanerml'
+
+[dbu]
+checkout = git clone 'git@github.com:nodiscc/dbu' 'dbu'
+
+[dssi-vst]
+checkout = git clone --depth=1 'https://github.com/falkTX/dssi-vst' 'dssi-vst'
+
+[fonts]
+checkout = git clone --depth=1 'https://github.com/nodiscc/fonts' 'fonts'
+
+[games]
+checkout = git clone --depth=1 'https://github.com/leereilly/games' 'games'
+
+[github-stars-backup]
+checkout = git clone --depth=1 'https://github.com/nodiscc/github-stars-backup' 'github-stars-backup'
+
+[glim]
+checkout = git clone --depth=1 'https://github.com/thias/glim' 'glim'
+
+[JackAss]
+checkout = git clone --depth=1 'https://github.com/falkTX/JackAss' 'JackAss'
+
+[kickthemout]
+checkout = git clone --depth=1 'https://github.com/k4m4/kickthemout' 'kickthemout'
+
+[markdown2zim]
+checkout = git clone --depth=1 'https://github.com/Xunius/markdown2zim' 'markdown2zim'
+
+[musical-artifacts-data]
+checkout = git clone 'https://github.com/nodiscc/musical-artifacts-data' 'musical-artifacts-data'
+
+[nginx-resources]
+checkout = git clone --depth=1 'https://github.com/fcambus/nginx-resources' 'nginx-resources'
+
+[ohmpage]
+checkout = git clone 'https://github.com/nodiscc/ohmpage' 'ohmpage'
+
+[pyllyukko-user.js]
+checkout = git clone --depth=1 'https://github.com/pyllyukko/user.js' 'pyllyukko-user.js'
+
+[python-shaarli-client]
+checkout = git clone 'https://github.com/shaarli/python-shaarli-client' 'python-shaarli-client'
+
+[samplecat]
+checkout = git clone --depth=1 'https://github.com/ayyi/samplecat' 'samplecat'
+
+[shaarchiver]
+checkout = git clone 'https://github.com/nodiscc/shaarchiver' 'shaarchiver'
+
+[Shaarli]
+checkout = git clone 'https://github.com/shaarli/Shaarli' 'Shaarli'
+
+[srv01]
+checkout = git clone 'git@github.com:nodiscc/srv01' 'srv01'
+
+#[themes-icons]
+#checkout = git clone --depth=1 'https://github.com/nodiscc/themes-icons' 'themes-icons'
+
+[ttrss-reader]
+checkout = git clone --depth=1 'https://github.com/kucrut/ttrss-reader' 'ttrss-reader'
+
+[tumblr_backup]
+checkout = git clone --depth=1 'https://github.com/bdoms/tumblr_backup' 'tumblr_backup'
+
+[tumblr-upload]
+checkout = git clone --depth=1 'https://github.com/miohtama/tumblr-upload' 'tumblr-upload'
+
+[user.js]
+checkout = git clone 'https://github.com/nodiscc/user.js' 'user.js'
+
+[vcfconvert]
+checkout = git clone --depth=1 'https://github.com/thomascube/vcfconvert' 'vcfconvert'
+
+[wikiteam]
+checkout = git clone --depth=1 'https://github.com/WikiTeam/wikiteam' 'wikiteam'
+
+[wikiteam.wiki]
+checkout = git clone --depth=1 'https://github.com/WikiTeam/wikiteam.wiki.git' 'wikiteam.wiki'
+
+[xwinwrap]
+checkout = git clone --depth=1 'https://github.com/ujjwal96/xwinwrap' 'xwinwrap'
+
+[youtube-dl-gui]
+checkout = git clone 'https://github.com/MrS0m30n3/youtube-dl-gui' 'youtube-dl-gui'
+
+[zim-plugin-instantsearch]
+checkout = git clone --depth=1 'https://github.com/e3rd/zim-plugin-instantsearch/' 'zim-plugin-instantsearch'

@@ -1,0 +1,17 @@
+alias
+bg
+cd
+declare
+disown
+export
+fg
+jobs
+local
+mapfile
+nohup
+popd
+pushd
+read
+set
+test
+trap

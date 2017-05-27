@@ -2,7 +2,6 @@
 #script to build ALSA firmware (works with E-MU 0404 PCI soundcard)
 #From: http://wiki.debian.org/snd-emu10k1
 #License: MIT (http://opensource.org/licenses/MIT)
-#Copyright: nodiscc (https://github.com/nodiscc)
 
 #Check for root privileges
 if [ `whoami` = "root" ]; then
@@ -22,13 +21,13 @@ tar xvf alsa-firmware-1.0.29.tar.bz2 &&
 
 #Compile firmwares
 cd alsa-firmware-1.0.29 &&
-./configure &&
-cd emu && make &&
+./configure --enable-buildfw &&
+cd emu && make && make install
 
 #Install firmwares and reload E-MU kernel module
 mkdir -p /lib/firmware/emu
 cp *fw /lib/firmware/emu/ &&
-rmmod snd_emu10k1 ; modprobe snd_emu10k1 &&
+modprobe -r snd-emu10k1-synth snd-emu10k1; modprobe snd-emu10k1 &&
 
 #Remove temporary build dir
 cd / &&
@@ -37,9 +36,8 @@ rm -r /tmp/alsafirmware &&
 
 #Set E-MU card as default
 touch /etc/modprobe.d/99-alsa-default-emu.conf &&
-echo "options snd_emu10k1 index=0" > /etc/modprobe.d/99-alsa-default-emu.conf &&
-
-#Reload sound system
-service alsa-utils force-reload
+echo "options snd-emu10k1 index=0
+options snd slots=snd_emu10k1,snd_had_intel
+options snd_hda_intel index=1" >| /etc/modprobe.d/99-alsa-default-emu.conf &&
 
 aplay -l
