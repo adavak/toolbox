@@ -1,0 +1,1769 @@
+
+<repository>
+    <license name="org.gnu.GPLv2">
+        <title>GPLv2</title>
+        <url>http://www.gnu.org/licenses/gpl.html</url>
+    </license>
+    <license name="org.wikipedia.Freeware">
+        <title>Freeware</title>
+        <url>http://en.wikipedia.org/wiki/Freeware</url>
+    </license>
+    <license name="com.microsoft.SysinternalsLicense">
+        <title>Sysinternals license</title>
+        <url>http://technet.microsoft.com/en-us/sysinternals/bb469936</url>
+    </license>
+    <license name="org.opensource.MITLicense">
+        <title>MIT license</title>
+        <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+    <license name="org.python.PSFLicense">
+        <title>PSF license</title>
+        <url>http://docs.python.org/license.html</url>
+    </license>
+    <license name="com.angusj.ResourceHackerLicense">
+        <title>Resource Hacker license</title>
+        <url>http://www.angusj.com/resourcehacker/</url>
+    </license>
+    <license name="com.microsoft.SecurityEssentialsLicense">
+        <title>Security Essentials license</title>
+        <url>http://windows.microsoft.com/en-US/windows/products/security-essentials/eula</url>
+    </license>
+    <license name="org.gnu.GPLv3">
+        <title>GPLv3</title>
+        <url>http://www.gnu.org/licenses/gpl.html</url>
+    </license>
+    <license name="com.microsoft.VisualCPPRedistributableLicense">
+        <title>Visual C++ redistributable package license</title>
+        <url>http://files.npackd.org/license/com.microsoft.VisualCPPRedistributableLicense.rtf</url>
+    </license>
+    <license name="org.gnu.LGPLv3">
+        <title>LGPLv3</title>
+        <url>http://www.gnu.de/documents/lgpl-3.0.en.html</url>
+    </license>
+    <license name="org.opensource.BSD3ClauseLicense">
+        <title>BSD 3-clause license</title>
+        <url>http://www.opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+    <license name="mpl-2">
+        <title>MPL 2</title>
+        <url>http://www.mozilla.org/MPL/2.0/</url>
+    </license>
+    <license name="com.microsoft.DotNetRedistributableLicense">
+        <title>.NET Framework Redistributable license</title>
+        <url>http://msdn.microsoft.com/en-us/library/ms994405.aspx</url>
+    </license>
+    <license name="org.7-zip.License">
+        <title>7-zip license</title>
+        <url>http://www.7-zip.org/license.txt</url>
+    </license>
+    <license name="com.mozilla.MozillaFirefoxLicense2">
+        <title>Mozilla Firefox license 2.0</title>
+        <url>http://www.mozilla.com/en/legal/eula/firefox2.html</url>
+    </license>
+    <license name="com.oracle.JavaSELicense">
+        <title>Java SE license</title>
+        <url>http://www.oracle.com/technetwork/java/javase/terms/license/index.html</url>
+    </license>
+    <license name="org.gnu.LGPLv2_1">
+        <title>LGPLv2.1</title>
+        <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
+    </license>
+    <license name="org.opensource.BSDLicense">
+        <title>BSD license</title>
+        <url>http://www.opensource.org/licenses/bsd-license.html</url>
+    </license>
+    <license name="net.nirsoft.FreewareLicense">
+        <title>NirSoft freeware license</title>
+        <url>http://www.nirsoft.net/utils/axhelper.html</url>
+    </license>
+    <package name="hailthebotnetPC.super">
+        <title>List of packages</title>
+    </package>
+    <package name="com.owncloud.OwnCloudClient">
+        <title>ownCloud client</title>
+        <url>http://owncloud.org/</url>
+        <description>client for the ownCloud</description>
+        <icon>https://lh4.googleusercontent.com/-562VF54igPU/USs_DbcDocI/AAAAAAAAA6A/eSqgn8ZQdFU/s800/owncloud.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-562VF54igPU/USs_DbcDocI/AAAAAAAAA6A/eSqgn8ZQdFU/s800/owncloud.png"/>
+    </package>
+    <package name="wxpython">
+        <title>wxPython</title>
+        <url>http://wxpython.org/</url>
+        <description>wxWidgets for Python</description>
+        <icon>https://lh3.googleusercontent.com/-VdxIL8EtxIk/U0-ZK-n5xQI/AAAAAAAABUo/R0ci56Vx2Gc/s16-no/wxpython.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Development</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-VdxIL8EtxIk/U0-ZK-n5xQI/AAAAAAAABUo/R0ci56Vx2Gc/s16-no/wxpython.png"/>
+    </package>
+    <package name="youtube-dl-gui">
+        <title>youtube-dl-gui</title>
+        <url>https://github.com/MrS0m30n3/youtube-dl-gui</url>
+        <description>GUI for youtube-dl</description>
+        <icon>https://raw.githubusercontent.com/MrS0m30n3/youtube-dl-gui/master/youtube_dl_gui/icons/youtube-dl-gui_32x32.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Video</category>
+        <link rel="icon" href="https://raw.githubusercontent.com/MrS0m30n3/youtube-dl-gui/master/youtube_dl_gui/icons/youtube-dl-gui_32x32.png"/>
+    </package>
+    <package name="net.sourceforge.pwgenwin.PWGen">
+        <title>PWGen</title>
+        <url>http://pwgen-win.sourceforge.net</url>
+        <description>password generator capable of creating large amounts of cryptographically-secure passwords or passphrases consisting of words from word lists</description>
+        <icon>https://lh4.googleusercontent.com/-1aYxHh0OXmQ/UUwjV1-4yMI/AAAAAAAABYU/Ho8ZswP8Cgg/s800/pwgn.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Security</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-1aYxHh0OXmQ/UUwjV1-4yMI/AAAAAAAABYU/Ho8ZswP8Cgg/s800/pwgn.png"/>
+    </package>
+    <package name="com.microsoft.ProcessExplorer">
+        <title>Process Explorer</title>
+        <url>http://technet.microsoft.com/en-us/sysinternals/bb896653.aspx</url>
+        <description>WARNING: this package always installs the newest version of the software.
+
+OS process viewer</description>
+        <icon>http://alt2cdn.blob.core.windows.net/dist/icons/process-explorer_41911.png</icon>
+        <license>com.microsoft.SysinternalsLicense</license>
+        <category>Tools</category>
+        <link rel="icon" href="http://alt2cdn.blob.core.windows.net/dist/icons/process-explorer_41911.png"/>
+    </package>
+    <package name="uk.org.greenend.chiark.sgtatham.Putty">
+        <title>Putty</title>
+        <url>http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html</url>
+        <description>SSH client</description>
+        <icon>https://lh6.googleusercontent.com/-E0wnbZL31b8/T2h0OY68qKI/AAAAAAAAAaQ/E0IIgHmr_NM/s800/uk.org.greenend.chiark.sgtatham.Putty.png</icon>
+        <license>org.opensource.MITLicense</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-E0wnbZL31b8/T2h0OY68qKI/AAAAAAAAAaQ/E0IIgHmr_NM/s800/uk.org.greenend.chiark.sgtatham.Putty.png"/>
+    </package>
+    <package name="org.python.Python">
+        <title>Python</title>
+        <url>http://www.python.org</url>
+        <description>programming language</description>
+        <icon>https://lh3.googleusercontent.com/--CLxMMKTezM/UcKfVSv3sVI/AAAAAAAACME/ikiC3gkqfes/s800/python.png</icon>
+        <license>org.python.PSFLicense</license>
+        <category>Development</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/--CLxMMKTezM/UcKfVSv3sVI/AAAAAAAACME/ikiC3gkqfes/s800/python.png"/>
+    </package>
+    <package name="quod-libet">
+        <title>Quod Libet</title>
+        <url>https://quodlibet.readthedocs.org/en/latest/</url>
+        <description>GTK+-based audio player written in Python.
+
+It’s designed around the idea that you know how to organize your music better than we do. It lets you make playlists based on regular expressions (don’t worry, regular searches work too). It lets you display and edit any tags you want in the file, for all the file formats it supports.
+
+Unlike some, Quod Libet will scale to libraries with tens of thousands of songs. It also supports most of the features you’d expect from a modern media player: Unicode support, advanced tag editing, Replay Gain, podcasts &amp; Internet radio, album art support and all major audio formats</description>
+        <icon>https://raw.githubusercontent.com/quodlibet/quodlibet/master/win_installer/misc/quodlibet.ico</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Music</category>
+        <link rel="icon" href="https://raw.githubusercontent.com/quodlibet/quodlibet/master/win_installer/misc/quodlibet.ico"/>
+    </package>
+    <package name="com.angusj.ResourceHacker">
+        <title>Resource Hacker</title>
+        <url>http://www.angusj.com/resourcehacker</url>
+        <description>WARNING: this package always installs the newest version of the software.
+
+editor for resource files</description>
+        <license>com.angusj.ResourceHackerLicense</license>
+        <category>Development</category>
+    </package>
+    <package name="savegamebackup.net">
+        <title>SaveGameBackup.net</title>
+        <url>http://sourceforge.net/projects/savegamebackup/</url>
+        <description>SaveGameBackup.net is your savegame solution. SGB.net gives every gamer a way to easily backup and restore their game saves with just a couple clicks. Whether you just want a backup of your saves, or you are building a new computer, SGB.net is the tool you need.</description>
+        <icon>https://a.fsdn.com/allura/p/savegamebackup/icon</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Games</category>
+        <link rel="icon" href="https://a.fsdn.com/allura/p/savegamebackup/icon"/>
+    </package>
+    <package name="com.microsoft.SecurityEssentials64">
+        <title>Security Essentials 64 bit</title>
+        <url>http://windows.microsoft.com/en-US/windows/products/security-essentials</url>
+        <description>antivirus. WARNING: at least XP SP2 is required</description>
+        <icon>http://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23</icon>
+        <license>com.microsoft.SecurityEssentialsLicense</license>
+        <category>Security</category>
+        <link rel="icon" href="http://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23"/>
+    </package>
+    <package name="org.safer-networking.SpyBotSearchAndDestroy">
+        <title>Spybot Search&amp;Destroy</title>
+        <url>http://www.safer-networking.org/en/home/index.html</url>
+        <description>anti malware</description>
+        <icon>http://alt2cdn.blob.core.windows.net/dist/icons/spybot-sd_53279.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Security</category>
+        <link rel="icon" href="http://alt2cdn.blob.core.windows.net/dist/icons/spybot-sd_53279.png"/>
+    </package>
+    <package name="info.kowalczyk.blog.SumatraPDF">
+        <title>Sumatra PDF</title>
+        <url>http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html</url>
+        <description>PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader</description>
+        <icon>https://lh3.googleusercontent.com/-eJE-cCZaiKo/UQIYIvmaciI/AAAAAAAAAC4/ddEJ3yJ78wc/s800/sumatrapdf_32.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Text</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-eJE-cCZaiKo/UQIYIvmaciI/AAAAAAAAAC4/ddEJ3yJ78wc/s800/sumatrapdf_32.png"/>
+    </package>
+    <package name="com.sweethome3d.SweetHome3D">
+        <title>Sweet Home 3D</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>interior design application (draw the plan of house, arrange furniture on it and visit the results in 3D)</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="com.sweethome3d.SH3DContributions">
+        <title>Sweet Home 3D - 3DModels Contributions</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>additional 3D models</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="com.sweethome3d.SH3DKatorLega">
+        <title>Sweet Home 3D - 3DModels KatorLega</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>additional 3D models</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="com.sweethome3d.SH3DLucaPresidente">
+        <title>Sweet Home 3D - 3DModels LucaPresidente</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>additional 3D models</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="com.sweethome3d.SH3DReallusion">
+        <title>Sweet Home 3D - 3DModels Reallusion</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>additional 3D models</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="com.sweethome3d.SH3DScopia">
+        <title>Sweet Home 3D - 3DModels Scopia</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>additional 3D models</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="com.sweethome3d.SH3DTrees">
+        <title>Sweet Home 3D - 3DModels Trees</title>
+        <url>http://www.sweethome3d.com</url>
+        <description>additional 3D models</description>
+        <icon>https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png</icon>
+        <license>org.wikipedia.Freeware</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-mRECWajaPxs/UUA0ZVwBsiI/AAAAAAAABTk/8HztkLNDors/s800/sweethome3d.png"/>
+    </package>
+    <package name="sysinternals-suite">
+        <title>Sysinternals suite</title>
+        <url>https://technet.microsoft.com/en-us//sysinternals/bb545021.aspx</url>
+        <description>WARNING: this package always installs the newest version of the software.
+
+File and Disk Utilities, Networking Utilities,  Process Utilities, Security Utilities, System Information Utilities, Miscellaneous Utilities. The Suite is a bundling of the following selected Sysinternals Utilities:
+
+AccessChk, AccessEnum, AdExplorer, AdInsight, AdRestore, Autologon, Autoruns, BgInfo, CacheSet, ClockRes, Contig, Coreinfo, Ctrl2Cap, DebugView, Desktops, Disk2vhd, DiskExt, DiskMon, DiskView, Disk Usage (DU), EFSDump, FindLinks, Handle, Hex2dec, Junction, LDMDump, ListDLLs, LiveKd, LoadOrder, LogonSessions, MoveFile, NTFSInfo, PendMoves, PipeList, PortMon, ProcDump, Process Explorer, Process Monitor, PsExec, PsFile, PsGetSid, PsInfo, PsPing, PsKill, PsList, IsLoggedOn, PsLogList, PsPasswd, PsService, PsShutdown, PsSuspend, RAMMap, RegDelNull, Registry Usage (RU), RegJump, SDelete, ShareEnum, ShellRunas, Sigcheck, Streams, Strings, Sync, Sysmon, TCPView, VMMap, VolumeID, WhoIs, WinObj, ZoomIt</description>
+        <icon>https://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23</icon>
+        <license>com.microsoft.SysinternalsLicense</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23"/>
+    </package>
+    <package name="org.cgsecurity.testdisk.TestDisk64">
+        <title>TestDisk &amp; PhotoRec 64 bit</title>
+        <url>http://www.cgsecurity.org/wiki/TestDisk</url>
+        <description>command line tools for recover lost partitions, make non-booting disks bootable again, fix partition table, recover FAT32/NTFS boot sector from its backup, rebuild FAT12/FAT16/FAT32/NTFS boot sector, fix FAT tables, copy files from deleted FAT/exFAT/NTFS/ext2/ext3/ext4 partitions and etc</description>
+        <icon>https://lh6.googleusercontent.com/-4YDIq37cDvk/UWzozWUQRDI/AAAAAAAAByk/XctjiJ8dsUA/s800/testdisk.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-4YDIq37cDvk/UWzozWUQRDI/AAAAAAAAByk/XctjiJ8dsUA/s800/testdisk.png"/>
+    </package>
+    <package name="tiled">
+        <title>Tiled</title>
+        <url>http://www.mapeditor.org/</url>
+        <description>tile map editor</description>
+        <icon>http://www.mapeditor.org/img/tiled-logo-white.png</icon>
+        <category>Games</category>
+        <link rel="icon" href="http://www.mapeditor.org/img/tiled-logo-white.png"/>
+    </package>
+    <package name="com.twinery.twine64">
+        <title>Twine 64 bit</title>
+        <url>https://twinery.org/</url>
+        <description>An open-source tool for telling interactive, nonlinear stories.</description>
+        <icon>https://twinery.org/img/logo.svg</icon>
+        <license>org.gnu.GPLv3</license>
+        <category>Development</category>
+        <link rel="icon" href="https://twinery.org/img/logo.svg"/>
+    </package>
+    <package name="com.videolan.VLCMediaPlayer64">
+        <title>VLC Media Player 64 bit</title>
+        <url>http://www.videolan.org/vlc</url>
+        <description>media player</description>
+        <icon>https://lh4.googleusercontent.com/-Hy1y2NOOb8g/T2h0CsmF_0I/AAAAAAAAAXk/wNx0dV9wRBc/s800/com.videolan.VLCMediaPlayer.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Video</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-Hy1y2NOOb8g/T2h0CsmF_0I/AAAAAAAAAXk/wNx0dV9wRBc/s800/com.videolan.VLCMediaPlayer.png"/>
+    </package>
+    <package name="org.virtualbox.virtualbox64">
+        <title>VirtualBox 64 bit</title>
+        <url>http://www.virtualbox.org</url>
+        <description>virtual machine (VM). WARNING: 4 confirmations about unsigned drivers on windows XP</description>
+        <icon>https://lh4.googleusercontent.com/-wqV2ecIYmJM/USkGnHOKYxI/AAAAAAAAA1Y/egWicM-Igjk/s800/virtualbox.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-wqV2ecIYmJM/USkGnHOKYxI/AAAAAAAAA1Y/egWicM-Igjk/s800/virtualbox.png"/>
+    </package>
+    <package name="org.virtualdub.VirtualDub64">
+        <title>VirtualDub 64 bit</title>
+        <url>http://www.virtualdub.org</url>
+        <description>video capture/processing</description>
+        <icon>https://c.fsdn.com/allura/p/virtualdub/icon</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Video</category>
+        <link rel="icon" href="https://c.fsdn.com/allura/p/virtualdub/icon"/>
+    </package>
+    <package name="com.microsoft.VisualCPPRedistributable">
+        <title>Visual C++ redistributable package</title>
+        <url>http://www.microsoft.com/en-us/download/details.aspx?id=30679</url>
+        <description>Visual C++ runtime
+
+Visual Studio -	4.0
+Visual Studio 97 - 5.0
+Visual Studio 6.0 - 6.0
+Visual Studio .NET (2002) - 7.0
+Visual Studio .NET 2003 - 7.1
+Visual Studio 2005 - 8.0
+Visual Studio 2008 - 9.0
+Visual Studio 2008 SP1 - 9.0.30729.17
+Visual Studio 2010 - 10.0
+Visual Studio 2010 sp1 - 10.0.40219
+Visual Studio 2012 - 11.0
+Visual Studio 2012 Update 4 - 11.0.61030
+Visual Studio 2013 - 12.0 
+Visual Studio 2015 - 14.0</description>
+        <icon>https://lh4.googleusercontent.com/-vzTCP1Ext4I/UZ8yfUsPiNI/AAAAAAAACGA/LNIXeyzPMJY/s800/visualstudio11.png</icon>
+        <license>com.microsoft.VisualCPPRedistributableLicense</license>
+        <category>Development</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-vzTCP1Ext4I/UZ8yfUsPiNI/AAAAAAAACGA/LNIXeyzPMJY/s800/visualstudio11.png"/>
+    </package>
+    <package name="com.microsoft.VisualCPPRedistributable64">
+        <title>Visual C++ redistributable package 64 bit</title>
+        <url>http://www.microsoft.com/downloads/en/details.aspx?FamilyID=BD512D9E-43C8-4655-81BF-9350143D5867</url>
+        <description>Visual C++ runtime
+
+Visual Studio -	4.0
+Visual Studio 97 - 5.0
+Visual Studio 6.0 - 6.0
+Visual Studio .NET (2002) - 7.0
+Visual Studio .NET 2003 - 7.1
+Visual Studio 2005 - 8.0
+Visual Studio 2005 sp1 - 8.0.56336
+Visual Studio 2008 - 9.0
+Visual Studio 2008 SP1 - 9.0.30729.17
+Visual Studio 2010 - 10.0
+Visual Studio 2010 sp1 - 10.0.40219
+Visual Studio 2012 - 11.0
+Visual Studio 2012 Update 4 - 11.0.61030
+Visual Studio 2013 - 12.0 
+Visual Studio 2015 - 14.0</description>
+        <icon>https://lh4.googleusercontent.com/-vzTCP1Ext4I/UZ8yfUsPiNI/AAAAAAAACGA/LNIXeyzPMJY/s800/visualstudio11.png</icon>
+        <license>com.microsoft.VisualCPPRedistributableLicense</license>
+        <category>Development</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-vzTCP1Ext4I/UZ8yfUsPiNI/AAAAAAAACGA/LNIXeyzPMJY/s800/visualstudio11.png"/>
+    </package>
+    <package name="wsus-offline-updater">
+        <title>WSUS Offline Updater</title>
+        <url>http://www.wsusoffline.net/</url>
+        <description>Create offline update media for any computer running Microsoft Windows or Office.</description>
+        <license>org.gnu.GPLv3</license>
+        <category>Tools</category>
+    </package>
+    <package name="win32-disk-imager">
+        <title>Win32 Disk Imager</title>
+        <url>http://sourceforge.net/projects/win32diskimager/</url>
+        <description>writes a raw disk image to a removable device or backup a removable device to a raw image file. It is very useful for embedded development, namely Arm development projects (Android, Ubuntu on Arm, etc).
+
+It can also be user to write Linux distributions installer images to USB drives, as does dd on Linux.</description>
+        <icon>http://c.fsdn.com/allura/p/win32diskimager/icon</icon>
+        <category>Tools</category>
+        <link rel="icon" href="http://c.fsdn.com/allura/p/win32diskimager/icon"/>
+    </package>
+    <package name="org.sysprogs.WinCDEmu64">
+        <title>WinCDEmu 64 bit</title>
+        <url>http://wincdemu.sysprogs.org</url>
+        <description>CD/DVD/BD emulator. WARNING: confirmation about unsigned driver on windows XP</description>
+        <icon>https://lh6.googleusercontent.com/-61vC_YIIXSE/UQRNoXngYkI/AAAAAAAAAF8/Giq6--ZJdRY/s800/wincdemu_32.png</icon>
+        <license>org.gnu.LGPLv3</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-61vC_YIIXSE/UQRNoXngYkI/AAAAAAAAAF8/Giq6--ZJdRY/s800/wincdemu_32.png"/>
+    </package>
+    <package name="info.windirstat.WinDirStat">
+        <title>WinDirStat</title>
+        <url>http://windirstat.info</url>
+        <description>disk usage statistics</description>
+        <icon>https://lh5.googleusercontent.com/-FM68YsWtMO0/USkcLGVjrzI/AAAAAAAAA2w/AESELXGEGoc/s800/windirstat.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-FM68YsWtMO0/USkcLGVjrzI/AAAAAAAAA2w/AESELXGEGoc/s800/windirstat.png"/>
+    </package>
+    <package name="winff64">
+        <title>WinFF 64 bit</title>
+        <url>http://winff.org/html_new</url>
+        <description>GUI for the command line video converter, FFMPEG</description>
+        <icon>https://lh3.googleusercontent.com/-Vcl-l6Km0ZU/USkdvZ9M7jI/AAAAAAAAA28/xgHT8GhYGyU/s800/WinFF.png</icon>
+        <license>org.gnu.GPLv3</license>
+        <category>Video</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-Vcl-l6Km0ZU/USkdvZ9M7jI/AAAAAAAAA28/xgHT8GhYGyU/s800/WinFF.png"/>
+    </package>
+    <package name="net.winscp.WinSCP">
+        <title>WinSCP</title>
+        <url>http://winscp.net/eng/docs/start</url>
+        <description>FTP client</description>
+        <icon>https://lh4.googleusercontent.com/--9qrJrSECsA/UYn9o-GzD7I/AAAAAAAAB8Y/y5XYEfZ8Ig0/s800/winscp.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Communications</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/--9qrJrSECsA/UYn9o-GzD7I/AAAAAAAAB8Y/y5XYEfZ8Ig0/s800/winscp.png"/>
+    </package>
+    <package name="ogg-codecs">
+        <title>Ogg Codecs</title>
+        <url>https://www.xiph.org/downloads/</url>
+        <description>The Xiph.org DirectShow filters support playing of files encoded with Vorbis, Speex, Theora, and/or FLAC.</description>
+        <icon>https://www.xiph.org/images/logos/xiph.ico</icon>
+        <license>org.opensource.BSD3ClauseLicense</license>
+        <category>Music</category>
+        <link rel="icon" href="https://www.xiph.org/images/logos/xiph.ico"/>
+    </package>
+    <package name="open-broadcaster-software">
+        <title>Open Broadcaster Software</title>
+        <url>https://obsproject.com/</url>
+        <description>Free, open source software for live streaming and recording
+
+Open Broadcaster Software is free and open source software for video recording and live streaming. Supported features include:
+
+- Encoding using H264 (x264) and AAC.
+- Support for Intel Quick Sync Video (QSV) and NVENC.
+- Unlimited number of scenes and sources.
+- Live RTMP streaming to Twitch, YouTube, DailyMotion, Hitbox and more.
+- File output to MP4 or FLV.
+- GPU-based game capture for high performance game streaming.
+- DirectShow capture device support (webcams, capture cards, etc).
+- Windows 8 high speed monitor capture support.
+- Bilinear or lanczos3 resampling.</description>
+        <icon>https://obsproject.com/assets/images/new_icon_small.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Video</category>
+        <link rel="icon" href="https://obsproject.com/assets/images/new_icon_small.png"/>
+    </package>
+    <package name="open-hardware-monitor">
+        <title>Open Hardware Monitor</title>
+        <url>http://openhardwaremonitor.org</url>
+        <description>voltages, fan speeds, temperatures, load and clock speeds monitor</description>
+        <icon>https://lh3.googleusercontent.com/-uObGa4mk1sY/UYoGom0Ky5I/AAAAAAAAB80/y_9aTIf1WiA/s800/openhardwaremonitor.png</icon>
+        <license>mpl-2</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-uObGa4mk1sY/UYoGom0Ky5I/AAAAAAAAB80/y_9aTIf1WiA/s800/openhardwaremonitor.png"/>
+    </package>
+    <package name="com.microsoft.DotNetRedistributable">
+        <title>.NET redistributable runtime</title>
+        <url>https://msdn.microsoft.com/en-us/netframework/default.aspx</url>
+        <description>.NET runtime
+
+4.5.1: 4.5.50938.18408
+4.5.2: 4.5.51209.34209
+4.6: 4.6.81
+4.6.1: 4.6.1055
+4.6.2: 4.6.1590</description>
+        <icon>https://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23</icon>
+        <license>com.microsoft.DotNetRedistributableLicense</license>
+        <category>Development</category>
+        <link rel="icon" href="https://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23"/>
+    </package>
+    <package name="org.7-zip.SevenZIP64">
+        <title>7-ZIP 64 bit</title>
+        <url>http://www.7-zip.org</url>
+        <description>file archiver
+
+Most of the source code is under the GNU LGPL license. The unRAR code is under a mixed license: GNU LGPL + unRAR restrictions. 
+
+The main features of 7-Zip:
+
+- High compression ratio in 7z format with LZMA and LZMA2 compression
+- Supported formats:
+- Packing / unpacking: 7z, XZ, BZIP2, GZIP, TAR, ZIP and WIM
+- Unpacking only: ARJ, CAB, CHM, CPIO, CramFS, DEB, DMG, FAT, HFS, ISO, LZH, LZMA, MBR, MSI, NSIS, NTFS, RAR, RPM,  SquashFS, UDF, VHD, WIM, XAR and Z.
+- For ZIP and GZIP formats, 7-Zip provides a compression ratio that is 2-10 % better than the ratio provided by PKZip and WinZip
+- Strong AES-256 encryption in 7z and ZIP formats
+- Self-extracting capability for 7z format
+- Integration with Windows Shell
+- File Manager
+- command line version
+- Plugin for FAR Manager
+- Localizations for 79 languages
+
+kw: 7zip</description>
+        <icon>https://lh5.googleusercontent.com/-nbJJ_tns0to/UcqlMmDce_I/AAAAAAAACQ8/Zys6cidYQaQ/s800/7zip.png</icon>
+        <license>org.7-zip.License</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-nbJJ_tns0to/UcqlMmDce_I/AAAAAAAACQ8/Zys6cidYQaQ/s800/7zip.png"/>
+    </package>
+    <package name="audacious">
+        <title>Audacious</title>
+        <url>http://audacious-media-player.org</url>
+        <description>audio player</description>
+        <icon>https://lh3.googleusercontent.com/-hposoQ_89tI/UXDovPsyjOI/AAAAAAAAB1Q/kmi8tunWp2w/s800/audacious.png</icon>
+        <license>org.gnu.GPLv3</license>
+        <category>Music</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-hposoQ_89tI/UXDovPsyjOI/AAAAAAAAB1Q/kmi8tunWp2w/s800/audacious.png"/>
+    </package>
+    <package name="net.sourceforge.audacity.Audacity">
+        <title>Audacity</title>
+        <url>http://audacity.sourceforge.net/?lang=en</url>
+        <description>audio editor</description>
+        <icon>https://lh5.googleusercontent.com/-xKnCkJ9aSr4/UQIX_UvpSBI/AAAAAAAAABQ/U8pBgvn6gW4/s800/audacity_32.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Music</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-xKnCkJ9aSr4/UQIX_UvpSBI/AAAAAAAAABQ/U8pBgvn6gW4/s800/audacity_32.png"/>
+    </package>
+    <package name="net.sourceforge.avidemux.Avidemux64">
+        <title>Avidemux 64 bit</title>
+        <url>http://avidemux.sourceforge.net</url>
+        <description>video editor</description>
+        <icon>https://lh6.googleusercontent.com/-kM9twrKMtVc/UQIX_bJqs4I/AAAAAAAAABU/cnK5K2brsrE/s800/avidemux_32.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Video</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-kM9twrKMtVc/UQIX_bJqs4I/AAAAAAAAABU/cnK5K2brsrE/s800/avidemux_32.png"/>
+    </package>
+    <package name="bleachbit">
+        <title>BleachBit</title>
+        <url>http://bleachbit.sourceforge.net</url>
+        <description>disk cleaner</description>
+        <icon>https://lh6.googleusercontent.com/-kEoXv8HRHqU/UXDikzCO0wI/AAAAAAAAB1A/w06FH2nCEZ8/s800/bleachbit.png</icon>
+        <license>org.gnu.GPLv3</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-kEoXv8HRHqU/UXDikzCO0wI/AAAAAAAAB1A/w06FH2nCEZ8/s800/bleachbit.png"/>
+    </package>
+    <package name="org.blender.Blender64">
+        <title>Blender 64 bit</title>
+        <url>http://www.blender.org/</url>
+        <description>3D content creator</description>
+        <icon>https://lh5.googleusercontent.com/-kFYTFEF166c/T2h0G2-FprI/AAAAAAAAAYw/tYsLnlw3vfU/s800/org.blender.Blender.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-kFYTFEF166c/T2h0G2-FprI/AAAAAAAAAYw/tYsLnlw3vfU/s800/org.blender.Blender.png"/>
+    </package>
+    <package name="cccp64">
+        <title>Combined Community Codec Pack (CCCP) 64 bit</title>
+        <url>http://www.cccp-project.net/</url>
+        <description>The Combined Community Codec Pack is a simple playback pack for Windows with the goal of supporting the majority of video formats in use today. http://www.cccp-project.net/wiki/index.php?title=Main_Page</description>
+        <icon>http://www.cccp-project.net/favicon.ico</icon>
+        <category>Video</category>
+        <link rel="icon" href="http://www.cccp-project.net/favicon.ico"/>
+    </package>
+    <package name="net.sourceforge.console.Console">
+        <title>Console</title>
+        <url>http://sourceforge.net/projects/console/</url>
+        <description>console window enhancement</description>
+        <icon>https://lh3.googleusercontent.com/-IEZUirGJptU/VC7gap_2kxI/AAAAAAAAByY/ZfPglDSuZDA/s48/net.sourceforge.console.Console.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-IEZUirGJptU/VC7gap_2kxI/AAAAAAAAByY/ZfPglDSuZDA/s48/net.sourceforge.console.Console.png"/>
+    </package>
+    <package name="crystaldiskinfo">
+        <title>CrystalDiskInfo</title>
+        <url>https://crystalmark.info/software/CrystalDiskInfo/index-e.html</url>
+        <description>HDD/SSD utility software which supports a part of USB connection and Intel RAID</description>
+        <license>org.wikipedia.Freeware</license>
+        <category>Tools</category>
+    </package>
+    <package name="org.deluge-torrent.Deluge">
+        <title>Deluge</title>
+        <url>http://deluge-torrent.org</url>
+        <description>BitTorrent client</description>
+        <icon>https://lh3.googleusercontent.com/-wm17G6i3bBE/UQimNUtRljI/AAAAAAAAAKs/1i5luw4wGEo/s800/deluge_32.png</icon>
+        <license>org.gnu.GPLv3</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-wm17G6i3bBE/UQimNUtRljI/AAAAAAAAAKs/1i5luw4wGEo/s800/deluge_32.png"/>
+    </package>
+    <package name="org.gnome.live.dia.Dia">
+        <title>Dia</title>
+        <url>http://live.gnome.org/Dia</url>
+        <description>diagram creation</description>
+        <icon>https://lh5.googleusercontent.com/-az66BOepG7A/T2h0J-3tJwI/AAAAAAAAAZM/ISplIg5NrIs/s800/org.gnome.live.dia.Dia.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-az66BOepG7A/T2h0J-3tJwI/AAAAAAAAAZM/ISplIg5NrIs/s800/org.gnome.live.dia.Dia.png"/>
+    </package>
+    <package name="duplicate-files-finder">
+        <title>Duplicate Files Finder</title>
+        <url>http://doubles.sourceforge.net/</url>
+        <description>searches for duplicate files (files which have the same content, but not necessarily the same name) and lets the user remove duplicate files, either by deleting them or by creating links.</description>
+        <category>Tools</category>
+    </package>
+    <package name="org.electricsheep.ElectricSheep">
+        <title>Electric Sheep</title>
+        <url>http://www.electricsheep.org</url>
+        <description>collaborative abstract artwork. When the computers &quot;sleep&quot;, the Electric Sheep comes on and the computers communicate with each other by the internet to share the work of creating morphing abstract animations known as &quot;sheep&quot;</description>
+        <icon>https://lh3.googleusercontent.com/-t8d2S5ng_pw/UcKyV949HVI/AAAAAAAACOE/hRTEwaOwV04/s800/electricsheep.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Video</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-t8d2S5ng_pw/UcKyV949HVI/AAAAAAAACOE/hRTEwaOwV04/s800/electricsheep.png"/>
+    </package>
+    <package name="emet">
+        <title>Enhanced Mitigation Experience Toolkit</title>
+        <url>http://technet.microsoft.com/en-us/security/jj653751</url>
+        <description>A toolkit for deploying and configuring security mitigation technologies</description>
+        <icon>http://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23</icon>
+        <category>Security</category>
+        <link rel="icon" href="http://c.s-microsoft.com/en-us/CMSImages/microsoft_logo_56x56.png?version=ad0d2fa7-0ee8-4e82-ddbf-8ea5dc9d9c23"/>
+    </package>
+    <package name="org.mozilla.FirefoxESR">
+        <title>Firefox ESR</title>
+        <url>https://www.mozilla.org/en-US/firefox/organizations/all.html</url>
+        <description>web browser</description>
+        <icon>https://lh5.googleusercontent.com/-fiLdJPeoq90/UcqWcTrNzmI/AAAAAAAACQs/2O0Dm0H6dlE/s800/firefox.png</icon>
+        <license>com.mozilla.MozillaFirefoxLicense2</license>
+        <category>Productivity</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-fiLdJPeoq90/UcqWcTrNzmI/AAAAAAAACQs/2O0Dm0H6dlE/s800/firefox.png"/>
+    </package>
+    <package name="net.sourceforge.FreeFileRenamer">
+        <title>Free File Renamer</title>
+        <url>http://sourceforge.net/projects/freefilerenamer</url>
+        <description>file and folder mass renamer according to multiple rules</description>
+        <icon>https://lh6.googleusercontent.com/-KTuTks6Y0UA/UT1670UZpgI/AAAAAAAABPM/lVknI63ns5g/s800/freefilerenamer.png</icon>
+        <license>org.gnu.GPLv3</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-KTuTks6Y0UA/UT1670UZpgI/AAAAAAAABPM/lVknI63ns5g/s800/freefilerenamer.png"/>
+    </package>
+    <package name="org.gimp.Gimp">
+        <title>Gimp</title>
+        <url>http://www.gimp.org</url>
+        <description>raster graphics editor</description>
+        <icon>http://npackd.sourceforge.net/org.gimp.Gimp.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Photo</category>
+        <link rel="icon" href="http://npackd.sourceforge.net/org.gimp.Gimp.png"/>
+    </package>
+    <package name="github">
+        <title>GitHub</title>
+        <url>https://windows.github.com/</url>
+        <description>WARNING: this package always installs the newest version of the software
+GitHub client</description>
+        <icon>https://lh5.googleusercontent.com/-BaLJOVGKkQ8/U2p5Jvv_7rI/AAAAAAAABZg/Ou8MHycArSM/s32-no/github.png</icon>
+        <category>Development</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-BaLJOVGKkQ8/U2p5Jvv_7rI/AAAAAAAABZg/Ou8MHycArSM/s32-no/github.png"/>
+    </package>
+    <package name="com.github.bmatzelle.Gow">
+        <title>Gow</title>
+        <url>https://github.com/bmatzelle/gow</url>
+        <description>Gow (Gnu On Windows) is the lightweight alternative to Cygwin. It uses a 
+convenient Windows installer that installs about 130 extremely useful 
+open source UNIX applications compiled as native win32 binaries.
+
+Features &amp; benefits:
+* Ultra light: Small, light subset (about 10 MB) of of very useful UNIX 
+  binaries that do not have decent installers.
+* Shell window from any directory: Adds a Windows Explorer shell window 
+  so that you can right-click on any directory and open a command 
+  (cmd.exe) window from that directory.
+* Stable binaries: All commands are kept up to date but also as stable as 
+  possible.
+
+Programs:
+basename cat chgrp chmod chown cksum comm cp csplit cut dd df dircolors dirname du env expand expr factor fmt fold head id join ln logname ls md5sum mkdir mkfifo mknod mv nl od paste pathchk pr printenv printf pwd rm rmdir seq sha1sum sleep sort split su sum sync tac tail tee test touch tr uname unexpand uniq wc whoami yes bc bison bunzip2 bzip2 bzip2recover curl dc diff diff3 dos2unix gfind fgrep flex gawk gow gsar gzip indent jwhois less lesskey m4 make pageant patch pcre3 plink pscp psftp putty puttygen recode sed sftp shar tar unix2dos unshar unzip uudecode vim wget whereis xargs zip</description>
+        <icon>https://lh6.googleusercontent.com/-7dPvCSw3Yzk/UWqzesDhMLI/AAAAAAAABDg/8brpJn9gL38/s32/com.github.bmatzelle.Gow.png</icon>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-7dPvCSw3Yzk/UWqzesDhMLI/AAAAAAAABDg/8brpJn9gL38/s32/com.github.bmatzelle.Gow.png"/>
+    </package>
+    <package name="fr.handbrake.HandBrake64">
+        <title>HandBrake 64 bit</title>
+        <url>http://handbrake.fr</url>
+        <description>video encoding</description>
+        <icon>http://handbrake.fr/img/logo.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Video</category>
+        <link rel="icon" href="http://handbrake.fr/img/logo.png"/>
+    </package>
+    <package name="com.oracle.JRE">
+        <title>JRE</title>
+        <url>http://www.java.com/en/</url>
+        <description>Java runtime. This package uses internal version numbers. For example, 1.7.0.1 corresponds to &quot;Version 7 update 1 or 7u1&quot;</description>
+        <icon>https://lh3.googleusercontent.com/-sXXEAE_p8bQ/Ucq_VzLdikI/AAAAAAAACRg/S2kpAQb-ymQ/s800/jre.png</icon>
+        <license>com.oracle.JavaSELicense</license>
+        <category>Development</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-sXXEAE_p8bQ/Ucq_VzLdikI/AAAAAAAACRg/S2kpAQb-ymQ/s800/jre.png"/>
+    </package>
+    <package name="ar.com.buanzo.lame.LameForAudacity">
+        <title>Lame for Audacity</title>
+        <url>http://lame.buanzo.org/</url>
+        <description>MP3 encoding library</description>
+        <icon>https://lh6.googleusercontent.com/-bErhOj2v8xI/URTgxIt9uRI/AAAAAAAAAd0/PFtFOmOLMsM/s800/lame.png</icon>
+        <license>org.gnu.LGPLv2_1</license>
+        <category>Music</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-bErhOj2v8xI/URTgxIt9uRI/AAAAAAAAAd0/PFtFOmOLMsM/s800/lame.png"/>
+    </package>
+    <package name="meld">
+        <title>Meld</title>
+        <url>http://meldmerge.org/</url>
+        <description>visual diff and merge tool targeted at developers. Meld helps you compare files, directories, and version controlled projects. It provides two- and three-way comparison of both files and directories, and has support for many popular version control systems.</description>
+        <icon>http://meldmerge.org/images/meld-96.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Development</category>
+        <link rel="icon" href="http://meldmerge.org/images/meld-96.png"/>
+    </package>
+    <package name="com.microsoft.MSXML">
+        <title>Microsoft Core XML Services MSXML</title>
+        <url>https://msdn.microsoft.com/en-us/library/ms763742(v=vs.85).aspx</url>
+        <description>XML library</description>
+        <icon>https://lh5.googleusercontent.com/-moib0rXMm2c/UZ89P1jefQI/AAAAAAAACHc/OHY3aSVG7yY/s800/microsoft.png</icon>
+        <category>Development</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-moib0rXMm2c/UZ89P1jefQI/AAAAAAAACHc/OHY3aSVG7yY/s800/microsoft.png"/>
+    </package>
+    <package name="mixxx">
+        <title>Mixxx 64 bit</title>
+        <url>https://www.mixxx.org/</url>
+        <description>Advanced Free DJ software</description>
+        <icon>https://raw.githubusercontent.com/mixxxdj/mixxx/master/res/images/mixxx-icon.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Music</category>
+        <link rel="icon" href="https://raw.githubusercontent.com/mixxxdj/mixxx/master/res/images/mixxx-icon.png"/>
+    </package>
+    <package name="net.sourceforge.mumble.Mumble">
+        <title>Mumble</title>
+        <url>http://wiki.mumble.info/wiki/Main_Page</url>
+        <description>voice chat software primarily intended for use while gaming</description>
+        <icon>https://lh5.googleusercontent.com/-sVkTrxpAKn4/UcKxZPbiASI/AAAAAAAACN0/NezT1-uFvyA/s800/mumble.png</icon>
+        <license>org.opensource.BSDLicense</license>
+        <category>Video</category>
+        <link rel="icon" href="https://lh5.googleusercontent.com/-sVkTrxpAKn4/UcKxZPbiASI/AAAAAAAACN0/NezT1-uFvyA/s800/mumble.png"/>
+    </package>
+    <package name="net.nirsoft.MyUninstaller">
+        <title>MyUninstaller</title>
+        <url>http://www.nirsoft.net/utils/myuninst.html</url>
+        <description>WARNING: this package always installs the newest version of the software.
+
+alternative uninstaller utility to the standard Add/Remove applet in the control panel</description>
+        <icon>https://lh6.googleusercontent.com/-qoKVZIR160g/USjLXpR3bZI/AAAAAAAAAtk/DLVvIuwq_Ik/s800/-myuninst.png</icon>
+        <license>net.nirsoft.FreewareLicense</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh6.googleusercontent.com/-qoKVZIR160g/USjLXpR3bZI/AAAAAAAAAtk/DLVvIuwq_Ik/s800/-myuninst.png"/>
+    </package>
+    <package name="net.nirsoft.NirCmd">
+        <title>NirCmd</title>
+        <url>http://www.nirsoft.net/utils/nircmd.html</url>
+        <description>WARNING: no new versions of this software will be added as there are no direct download links.
+
+command line utility</description>
+        <icon>https://lh3.googleusercontent.com/-2CFHUCZ2_9c/U_oWx3nRoqI/AAAAAAAABoA/19quWbjyiLU/s16/net.nirsoft.NirCmd.png</icon>
+        <license>net.nirsoft.FreewareLicense</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-2CFHUCZ2_9c/U_oWx3nRoqI/AAAAAAAABoA/19quWbjyiLU/s16/net.nirsoft.NirCmd.png"/>
+    </package>
+    <package name="net.nirsoft.Launcher">
+        <title>NirLauncher</title>
+        <url>http://launcher.nirsoft.net</url>
+        <description>WARNING: no new versions of this software will be added as there are no direct download links.
+
+package of more than 150 portable utilities, all of them developed for NirSoft Web site. WARNING: Microsoft Security Essentials finds 5 HackTools here</description>
+        <icon>https://lh4.googleusercontent.com/-Fjh_mkp-HlE/UcK5r5iKpVI/AAAAAAAACOs/xveQxFZLPDk/s800/nirsoftlauncher.png</icon>
+        <license>net.nirsoft.FreewareLicense</license>
+        <category>Tools</category>
+        <link rel="icon" href="https://lh4.googleusercontent.com/-Fjh_mkp-HlE/UcK5r5iKpVI/AAAAAAAACOs/xveQxFZLPDk/s800/nirsoftlauncher.png"/>
+    </package>
+    <package name="notepadpp64">
+        <title>Notepad++ 64 bit</title>
+        <url>https://notepad-plus-plus.org/</url>
+        <description>text editor</description>
+        <icon>https://lh3.googleusercontent.com/-r0aNDmhz9lk/T2h0DEgyK4I/AAAAAAAAAXc/9YKm7u1kadA/s800/net.sourceforge.NotepadPlusPlus.png</icon>
+        <license>org.gnu.GPLv2</license>
+        <category>Text</category>
+        <link rel="icon" href="https://lh3.googleusercontent.com/-r0aNDmhz9lk/T2h0DEgyK4I/AAAAAAAAAXc/9YKm7u1kadA/s800/net.sourceforge.NotepadPlusPlus.png"/>
+    </package>
+    <version name="2017.5.24.20.57.59" package="hailthebotnetPC.super" type="one-file">
+        <url>Rep.xml</url>
+        <dependency package="com.owncloud.OwnCloudClient" versions="[0, 2000000000)"/>
+        <dependency package="wxpython" versions="[0, 2000000000)"/>
+        <dependency package="youtube-dl-gui" versions="[0, 2000000000)"/>
+        <dependency package="net.sourceforge.pwgenwin.PWGen" versions="[0, 2000000000)"/>
+        <dependency package="com.microsoft.ProcessExplorer" versions="[0, 2000000000)"/>
+        <dependency package="uk.org.greenend.chiark.sgtatham.Putty" versions="[0, 2000000000)"/>
+        <dependency package="org.python.Python" versions="[0, 2000000000)"/>
+        <dependency package="quod-libet" versions="[0, 2000000000)"/>
+        <dependency package="com.angusj.ResourceHacker" versions="[0, 2000000000)"/>
+        <dependency package="savegamebackup.net" versions="[0, 2000000000)"/>
+        <dependency package="com.microsoft.SecurityEssentials64" versions="[0, 2000000000)"/>
+        <dependency package="org.safer-networking.SpyBotSearchAndDestroy" versions="[0, 2000000000)"/>
+        <dependency package="info.kowalczyk.blog.SumatraPDF" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SH3DContributions" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SH3DKatorLega" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SH3DLucaPresidente" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SH3DReallusion" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SH3DScopia" versions="[0, 2000000000)"/>
+        <dependency package="com.sweethome3d.SH3DTrees" versions="[0, 2000000000)"/>
+        <dependency package="sysinternals-suite" versions="[0, 2000000000)"/>
+        <dependency package="org.cgsecurity.testdisk.TestDisk64" versions="[0, 2000000000)"/>
+        <dependency package="tiled" versions="[0, 2000000000)"/>
+        <dependency package="com.twinery.twine64" versions="[0, 2000000000)"/>
+        <dependency package="com.videolan.VLCMediaPlayer64" versions="[0, 2000000000)"/>
+        <dependency package="org.virtualbox.virtualbox64" versions="[0, 2000000000)"/>
+        <dependency package="org.virtualdub.VirtualDub64" versions="[0, 2000000000)"/>
+        <dependency package="com.microsoft.VisualCPPRedistributable" versions="[0, 2000000000)"/>
+        <dependency package="com.microsoft.VisualCPPRedistributable64" versions="[0, 2000000000)"/>
+        <dependency package="wsus-offline-updater" versions="[0, 2000000000)"/>
+        <dependency package="win32-disk-imager" versions="[0, 2000000000)"/>
+        <dependency package="org.sysprogs.WinCDEmu64" versions="[0, 2000000000)"/>
+        <dependency package="info.windirstat.WinDirStat" versions="[0, 2000000000)"/>
+        <dependency package="winff64" versions="[0, 2000000000)"/>
+        <dependency package="net.winscp.WinSCP" versions="[0, 2000000000)"/>
+        <dependency package="ogg-codecs" versions="[0, 2000000000)"/>
+        <dependency package="open-broadcaster-software" versions="[0, 2000000000)"/>
+        <dependency package="open-hardware-monitor" versions="[0, 2000000000)"/>
+        <dependency package="com.microsoft.DotNetRedistributable" versions="[0, 2000000000)"/>
+        <dependency package="org.7-zip.SevenZIP64" versions="[0, 2000000000)"/>
+        <dependency package="audacious" versions="[0, 2000000000)"/>
+        <dependency package="net.sourceforge.audacity.Audacity" versions="[0, 2000000000)"/>
+        <dependency package="net.sourceforge.avidemux.Avidemux64" versions="[0, 2000000000)"/>
+        <dependency package="bleachbit" versions="[0, 2000000000)"/>
+        <dependency package="org.blender.Blender64" versions="[0, 2000000000)"/>
+        <dependency package="cccp64" versions="[0, 2000000000)"/>
+        <dependency package="net.sourceforge.console.Console" versions="[0, 2000000000)"/>
+        <dependency package="crystaldiskinfo" versions="[0, 2000000000)"/>
+        <dependency package="org.deluge-torrent.Deluge" versions="[0, 2000000000)"/>
+        <dependency package="org.gnome.live.dia.Dia" versions="[0, 2000000000)"/>
+        <dependency package="duplicate-files-finder" versions="[0, 2000000000)"/>
+        <dependency package="org.electricsheep.ElectricSheep" versions="[0, 2000000000)"/>
+        <dependency package="emet" versions="[0, 2000000000)"/>
+        <dependency package="org.mozilla.FirefoxESR" versions="[0, 2000000000)"/>
+        <dependency package="net.sourceforge.FreeFileRenamer" versions="[0, 2000000000)"/>
+        <dependency package="org.gimp.Gimp" versions="[0, 2000000000)"/>
+        <dependency package="github" versions="[0, 2000000000)"/>
+        <dependency package="com.github.bmatzelle.Gow" versions="[0, 2000000000)"/>
+        <dependency package="fr.handbrake.HandBrake64" versions="[0, 2000000000)"/>
+        <dependency package="com.oracle.JRE" versions="[0, 2000000000)"/>
+        <dependency package="ar.com.buanzo.lame.LameForAudacity" versions="[0, 2000000000)"/>
+        <dependency package="meld" versions="[0, 2000000000)"/>
+        <dependency package="com.microsoft.MSXML" versions="[0, 2000000000)"/>
+        <dependency package="mixxx" versions="[0, 2000000000)"/>
+        <dependency package="net.sourceforge.mumble.Mumble" versions="[0, 2000000000)"/>
+        <dependency package="net.nirsoft.MyUninstaller" versions="[0, 2000000000)"/>
+        <dependency package="net.nirsoft.NirCmd" versions="[0, 2000000000)"/>
+        <dependency package="net.nirsoft.Launcher" versions="[0, 2000000000)"/>
+        <dependency package="notepadpp64" versions="[0, 2000000000)"/>
+    </version>
+    <version name="2.2.4" package="com.owncloud.OwnCloudClient" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD%
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+verify
+</file>
+        <url>ownCloud-2.2.4.6408-setup.exe</url>
+        <sha1>3b1a73a41b20f4914538b7921e562ccea7914c15</sha1>
+    </version>
+    <version name="3.0.2" package="wxpython" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot; &amp;&amp; del /f /q &quot;%setup%&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">wx-3.0-msw\unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>wxPython3.0-win32-3.0.2.0-py27.exe</url>
+        <sha1>864d44e418a0859cabff71614a495bea57738c5d</sha1>
+        <dependency package="org.python.Python" versions="[2.7, 3)"/>
+    </version>
+    <version name="0.3.8" package="youtube-dl-gui">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot; &amp;&amp; del /f /q &quot;%setup%&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>youtube-dl-gui-0.3.8-win-setup.zip</url>
+        <sha1>dd110949e7d4c06513ed10f9ce594037c84fd2b0</sha1>
+        <dependency package="wxpython" versions="[3, 3.1)"/>
+    </version>
+    <version name="2.4" package="org.pdfforge.PDFCreator" type="one-file">
+        <file path=".Npackd\InnoSetupDef.ini">[Setup]
+Toolbar=0</file>
+        <file path=".Npackd\Install.bat">net start Spooler
+sc config Spooler start= auto
+call &quot;%nih%\InstallInnoSetup.bat&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">call &quot;%nih%\UninstallInnoSetup.bat&quot; unins000.exe
+</file>
+        <url>PDFCreator-2_4_0-Setup.exe</url>
+        <sha1>51f1f8973118cae5ac062dd936df65120e1741b8</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.3, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="2.9" package="net.sourceforge.pwgenwin.PWGen" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%NIH%\InstallInnoSetup.bat&quot;</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%NIH%\UninstallInnoSetup.bat&quot; unins000.exe</file>
+        <url>PWGen-2.9.0-Setup.exe</url>
+        <sha1>e43f260ed87e8b66e2399b92d6134a16c84d70b2</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.3, 2)">
+            <variable>NIH</variable>
+        </dependency>
+    </version>
+    <version name="16.20" package="com.microsoft.ProcessExplorer">
+        <important-file path="procexp.exe" title="Process Explorer"/>
+        <url>ProcessExplorer.zip</url>
+    </version>
+    <version name="0.67" package="uk.org.greenend.chiark.sgtatham.Putty" type="one-file">
+        <important-file path="putty.exe" title="Putty"/>
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">start &quot;Click No&quot; &quot;%nircmd%\nircmdc.exe&quot; cmdwait 60000 dlgany &quot;putty.exe&quot; &quot;PuTTY Uninstallation&quot; click no
+
+unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>putty-0.67-installer.exe</url>
+        <sha1>3911d72eb2371b9a530744a4afef993ecdd2f57e</sha1>
+        <dependency package="net.nirsoft.NirCmd" versions="[2, 3)">
+            <variable>nircmd</variable>
+        </dependency>
+    </version>
+    <version name="3.6" package="org.python.Python" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%npackd_package_binary%&quot; /quiet InstallAllUsers=1 &quot;TargetDir=%cd%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+%setup% /uninstall /quiet InstallAllUsers=1
+</file>
+        <url>python-3.6.0.exe</url>
+        <sha1>886deb10586dd04ed9d221d930cc81e990466e6c</sha1>
+    </version>
+    <version name="3.8.1" package="quod-libet" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%npackd_package_binary%&quot; /S /D=%CD%\Prog &amp;&amp; del /f /q &quot;%npackd_package_binary%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">Prog\uninstall.exe /S _?=%CD%\Prog
+</file>
+        <url>quodlibet-3.8.1-installer.exe</url>
+        <sha1>d14c2065f1070c9797eeded8f329da09e0b25844</sha1>
+    </version>
+    <version name="4.5.30" package="com.angusj.ResourceHacker" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%    
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>reshacker_setup.exe</url>
+    </version>
+    <version name="1.3" package="savegamebackup.net">
+        <url>sgbnet13.zip</url>
+        <sha1>cf6558a534a9083b762000819b0711456dac6765</sha1>
+    </version>
+    <version name="4.8.204" package="com.microsoft.SecurityEssentials64" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /s /o /runwgacheck
+</file>
+        <file path=".Npackd\Uninstall.bat">mseinstall.exe /u /s
+</file>
+        <url>mseinstall.exe</url>
+    </version>
+    <version name="2.4" package="org.safer-networking.SpyBotSearchAndDestroy" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>org.safer-networking.SpyBotSearchAndDestroy-2.4.exe</url>
+        <sha1>c614123c91d8b983f1e239d8a8c38883e21c6768</sha1>
+    </version>
+    <version name="3.1.2" package="info.kowalczyk.blog.SumatraPDF" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D &quot;%CD%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S
+</file>
+        <url>SumatraPDF-3.1.2-install.exe</url>
+        <sha1>b750eec0f91a5cf2e43259c935c5473c82d27d72</sha1>
+    </version>
+    <version name="5.4" package="com.sweethome3d.SweetHome3D" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>SweetHome3D-5.4-windows.exe</url>
+        <sha1>df48d55975d436c7329f8c28fc69164415a2924d</sha1>
+    </version>
+    <version name="1.6.2" package="com.sweethome3d.SH3DContributions">
+        <file path=".Npackd\Install.bat">md &quot;%APPDATA%\eTeks&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture&quot;
+copy /y Contributions.sh3f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\&quot;</file>
+        <file path=".Npackd\Uninstall.bat">del /q /f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\Contributions.sh3f&quot;</file>
+        <url>3DModels-Contributions-1.6.2.zip</url>
+        <sha1>dc567f3c90837278f6a5156fe5ed5abe68f95717</sha1>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[3.7, 6)"/>
+    </version>
+    <version name="1.6.2" package="com.sweethome3d.SH3DKatorLega">
+        <file path=".Npackd\Install.bat">md &quot;%APPDATA%\eTeks&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture&quot;
+copy /y KatorLegaz.sh3f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\&quot;</file>
+        <file path=".Npackd\Uninstall.bat">del /q /f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\KatorLegaz.sh3f&quot;</file>
+        <url>3DModels-KatorLegaz-1.6.2.zip</url>
+        <sha1>b10bd13e8083e9dbf80262533d288944a64af7da</sha1>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[3.7, 6)"/>
+    </version>
+    <version name="1.6.2" package="com.sweethome3d.SH3DLucaPresidente">
+        <file path=".Npackd\Install.bat">md &quot;%APPDATA%\eTeks&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture&quot;
+copy /y LucaPresidente.sh3f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\&quot;</file>
+        <file path=".Npackd\Uninstall.bat">del /q /f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\LucaPresidente.sh3f&quot;</file>
+        <url>3DModels-LucaPresidente-1.6.2.zip</url>
+        <sha1>8c9331502d16b076b20eef2e3e4109691c660d35</sha1>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[3.7, 6)"/>
+    </version>
+    <version name="1.6.2" package="com.sweethome3d.SH3DReallusion">
+        <file path=".Npackd\Install.bat">md &quot;%APPDATA%\eTeks&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture&quot;
+copy /y Reallusion.sh3f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\&quot;</file>
+        <file path=".Npackd\Uninstall.bat">del /q /f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\Reallusion.sh3f&quot;</file>
+        <url>3DModels-Reallusion-1.6.2.zip</url>
+        <sha1>ce63de83c55b032936fa253e4227fcd9c6cc4095</sha1>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[3.7, 6)"/>
+    </version>
+    <version name="1.6.2" package="com.sweethome3d.SH3DScopia">
+        <file path=".Npackd\Install.bat">md &quot;%APPDATA%\eTeks&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture&quot;
+copy /y Scopia.sh3f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\&quot;</file>
+        <file path=".Npackd\Uninstall.bat">del /q /f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\Scopia.sh3f&quot;</file>
+        <url>3DModels-Scopia-1.6.2.zip</url>
+        <sha1>28f46c37013a0575691839c5cf8aa40136787df5</sha1>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[3.7, 6)"/>
+    </version>
+    <version name="1.6.2" package="com.sweethome3d.SH3DTrees">
+        <file path=".Npackd\Install.bat">md &quot;%APPDATA%\eTeks&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D&quot;
+md &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture&quot;
+copy /y Trees.sh3f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\&quot;</file>
+        <file path=".Npackd\Uninstall.bat">del /q /f &quot;%APPDATA%\eTeks\Sweet Home 3D\furniture\Trees.sh3f&quot;</file>
+        <url>3DModels-Trees-1.6.2.zip</url>
+        <sha1>a662554c2c4cc2d034b1a11a4276fbcdcdb08b27</sha1>
+        <dependency package="com.sweethome3d.SweetHome3D" versions="[3.7, 6)"/>
+    </version>
+    <version name="1" package="sysinternals-suite">
+        <url>SysinternalsSuite.zip</url>
+    </version>
+    <version name="7" package="org.cgsecurity.testdisk.TestDisk64">
+        <important-file path="testdisk_win.exe" title="TestDisk"/>
+        <important-file path="photorec_win.exe" title="PhotoRec"/>
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b testdisk*') do set name=%%x
+cd &quot;%name%&quot;        
+for /f &quot;delims=&quot; %%a in ('dir /b') do (
+  move &quot;%%a&quot; ..
+)
+cd ..
+rmdir &quot;%name%&quot;
+</file>
+        <url>testdisk-7.0.win64.zip</url>
+        <sha1>6ef1901bcf373653c8edf672def7c104be86ad15</sha1>
+    </version>
+    <version name="0.16.1" package="tiled" type="one-file">
+        <file path=".Npackd\Install.bat">call &quot;%nih%\InstallMSI.bat&quot; INSTALLDIR yes
+</file>
+        <url>tiled-0.16.1-win32.msi</url>
+        <sha1>9133062bf97172e0c99b798a026b16222959393d</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.1, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="2.1" package="com.twinery.twine64" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%npackd_package_binary%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%npackd_package_binary%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+</file>
+        <url>twine_2.1.0_win64.exe</url>
+        <sha1>d6e200262bc3b30b83bc0d4266d5632e7bff19e6</sha1>
+    </version>
+    <version name="2.2.4" package="com.videolan.VLCMediaPlayer64">
+        <important-file path="vlc.exe" title="VLC Media Player"/>
+        <file path=".Npackd\Extensions.txt">a52 aac ac3 adt adts aif ifc iff mr aob ape cda dts flac it m4a m4p mid mka mlp mod mp1 mp2 mp3 mpc oga ogg oma rmi s3m spx tta voc vqf w64 wav wma wv xa xm 3g2 3gp 3gp2 3gpp amv asf avi bin cue divx dv flv gxf iso m1v m2v m2t m2ts m4v mkv mov mp2 mp2v mp4 mp4v mpa mpe mpeg mpeg1 mpeg2 mpeg4 mpg mpv2 mts mxf nsv nuv ogg ogm ogv ogx ps rec rm rmvb tod ts tts vob vro webm wmv asx b4s ifo m3u m3u8 pls ram rar sdp vlc xspf zip cdg idx srt sub utf ass ssa aqt jss psb rt smi
+</file>
+        <file path=".Npackd\Uninstall.bat">set package=com.videolan.VLCMediaPlayer64
+set version=%NPACKD_PACKAGE_VERSION%
+set key=%package%-%version%
+
+reg delete HKLM\SOFTWARE\Classes\Applications\%key% /f
+
+rem read extensions from the file
+for /f &quot;usebackq delims=&quot; %%a in (.Npackd\Extensions.txt) do (
+set extensions=%%a
+goto out
+)
+:out
+
+for %%g in (%extensions%) do reg delete HKLM\SOFTWARE\Classes\.%%g\OpenWithList\%key% /f</file>
+        <file path=".Npackd\Install.bat">for /f %%x in ('dir /b vlc*') do set name=%%x
+for /f &quot;delims=&quot; %%x in ('dir /b aria*') do set name=%%x
+cd &quot;%name%&quot;        
+for /f &quot;delims=&quot; %%a in ('dir /b') do (
+  move &quot;%%a&quot; ..
+)
+cd ..
+rmdir &quot;%name%&quot;
+
+set package=com.videolan.VLCMediaPlayer64
+set version=%NPACKD_PACKAGE_VERSION%
+set key=%package%-%version%
+
+reg add HKLM\SOFTWARE\Classes\Applications\%key%\shell\open /v FriendlyAppName /d &quot;VLC Media Player (%version%)&quot; /f
+set c=\&quot;%CD%\vlc.exe\&quot; \&quot;%%1\&quot;
+reg add HKLM\SOFTWARE\Classes\Applications\%KEY%\shell\open\command /d &quot;%c%&quot; /f
+
+rem read extensions from the file
+for /f &quot;usebackq delims=&quot; %%a in (.Npackd\Extensions.txt) do (
+set extensions=%%a
+goto out
+)
+:out
+
+for %%g in (%extensions%) do reg add HKLM\SOFTWARE\Classes\.%%g\OpenWithList\%key% /f</file>
+        <url>vlc-2.2.4-win64.zip</url>
+        <sha1>1229e21e9242f7f38bb9637e8c42441b48193f78</sha1>
+    </version>
+    <version name="5.1.14" package="org.virtualbox.virtualbox64" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; -x -s -p &quot;%CD%&quot;
+
+
+&quot;%sevenzip%\7z.exe&quot; x common.cab -aos -o&quot;%CD%\common&quot;
+&quot;%sevenzip%\7z.exe&quot; x &quot;%CD%\common\file_VBoxGuestAdditions.iso&quot; -aos -o&quot;%CD%\common\file_VBoxGuestAdditions&quot;
+
+certutil.exe -addstore -f &quot;TrustedPublisher&quot; &quot;%CD%\common\file_VBoxGuestAdditions\cert\oracle-vbox.cer&quot;
+
+for /f &quot;delims=&quot; %%x in ('dir /b *MultiArch_amd64.msi') do set setup=%%x
+msiexec.exe /qn /norestart /Lime .Npackd\MSI.log /i &quot;%setup%&quot;
+set err=%errorlevel%
+type .Npackd\MSI.log
+rem 3010=restart required
+if %err% equ 3010 exit 0
+if %err% neq 0 exit %err%
+
+for /f &quot;delims=&quot; %%x in ('dir /b *MultiArch_x86.msi') do set trash=%%x
+del /q /f &quot;%trash%&quot;
+
+if exist &quot;%CD%\common&quot; (rd /s /q &quot;%CD%\common&quot;)</file>
+        <file path=".Npackd\Uninstall.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.msi') do set setup=%%x
+msiexec.exe /qn /norestart /Lime .Npackd\MSI.log /x &quot;%setup%&quot;
+set err=%errorlevel%
+type .Npackd\MSI.log
+rem 3010=restart required
+if %err% equ 3010 exit 0
+if %err% neq 0 exit %err%</file>
+        <url>VirtualBox-5.1.14-112924-Win.exe</url>
+        <sha1>e0893474955e91fc84aba978388b38b9833def9a</sha1>
+        <dependency package="org.7-zip.SevenZIP64" versions="[9.20, 20)">
+            <variable>sevenzip</variable>
+        </dependency>
+    </version>
+    <version name="1.10.4" package="org.virtualdub.VirtualDub64">
+        <important-file path="Veedub64.exe" title="VirtualDub"/>
+        <url>VirtualDub-1.10.4-AMD64.zip</url>
+        <sha1>af324c94e6d8b95b06e327ebe2ca9d90623332ce</sha1>
+    </version>
+    <version name="14.0.23026" package="com.microsoft.VisualCPPRedistributable" type="one-file">
+        <file path=".Npackd\Install.bat">vc_redist.x86.exe /q /log .Npackd\VCRInstall.log /norestart
+set err=%errorlevel%
+type .Npackd\VCRInstall.log
+rem 3010=restart required
+if %err% equ 3010 exit /b 0
+if %err% neq 0 exit /b %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">vc_redist.x86.exe /q /uninstall /log .Npackd\VCRUninstall.log /norestart
+set err=%errorlevel%
+type .Npackd\VCRUninstall.log
+rem 3010=restart required
+if %err% equ 3010 exit /b 0
+if %err% neq 0 exit /b %err%
+</file>
+        <url>vc_redist.x86.exe</url>
+        <sha1>bfb74e498c44d3a103ca3aa2831763fb417134d1</sha1>
+    </version>
+    <version name="14.0.23026" package="com.microsoft.VisualCPPRedistributable64" type="one-file">
+        <file path=".Npackd\Install.bat">vc_redist.x64.exe /q /log .Npackd\VCRInstall.log /norestart
+set err=%errorlevel%
+type .Npackd\VCRInstall.log
+rem 3010=restart required
+if %err% equ 3010 exit /b 0
+if %err% neq 0 exit /b %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">vc_redist.x64.exe /q /uninstall /log .Npackd\VCRUninstall.log /norestart
+set err=%errorlevel%
+type .Npackd\VCRUninstall.log
+rem 3010=restart required
+if %err% equ 3010 exit /b 0
+if %err% neq 0 exit /b %err%
+</file>
+        <url>vc_redist.x64.exe</url>
+        <sha1>3155cb0f146b927fcc30647c1a904cd162548c8c</sha1>
+    </version>
+    <version name="10.9.1" package="wsus-offline-updater">
+        <file path=".Npackd\Install.bat">&quot;%nih%\ExtractDir.bat&quot; wsusoffline
+</file>
+        <url>wsusoffline1091.zip</url>
+        <sha1>355a7920672181d0b026e1122da8ac5003929388</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.3, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="0.9.5" package="win32-disk-imager">
+        <important-file path="Win32DiskImager.exe" title="Win32 Disk Imager"/>
+        <url>Win32DiskImager-0.9.5-binary.zip</url>
+        <sha1>75e886d0941b0de14b463a55609125631b307398</sha1>
+    </version>
+    <version name="4.1" package="org.sysprogs.WinCDEmu64" type="one-file">
+        <file path=".Npackd\Install.bat">rem &quot;%ProgramFiles%\GowData\bin\wget.exe&quot; -O wincdemu.cer http://dl.dropboxusercontent.com/s/x4u9hlz8o411c8w/wincdemu.cer
+rem certutil -addstore -f &quot;TrustedPublisher&quot; wincdemu.cer
+
+for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /UNATTENDED
+
+rd /s /q &quot;%ProgramFiles(x86)%\WinCDEmu\x86&quot;
+del /q /f &quot;%ProgramFiles(x86)%\WinCDEmu\batchmnt.exe&quot;
+del /q /f &quot;%ProgramFiles(x86)%\WinCDEmu\vmnt.exe&quot;
+del /q /f &quot;%ProgramFiles(x86)%\WinCDEmu\uninstall.exe&quot;</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%ProgramFiles(x86)%\WinCDEmu\uninstall64.exe&quot; /UNATTENDED
+
+rd /s /q &quot;%ALLUSERSPROFILE%\Start Menu\Programs\WinCDEmu&quot; || rd /s /q &quot;%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\WinCDEmu&quot;</file>
+        <url>WinCDEmu-4.1.exe</url>
+        <sha1>6ea5cb4fa2e058172d5bc9b3499cb0ecf0e69069</sha1>
+        <dependency package="com.github.bmatzelle.Gow" versions="[0.7, 2)"/>
+    </version>
+    <version name="1.1.2" package="info.windirstat.WinDirStat">
+        <important-file path="windirstat1_1_1-exe-unicode\windirstat.exe" title="WinDirStat"/>
+        <url>windirstat1_1_1-exe-unicode.zip</url>
+        <sha1>0ec9ab7c772a536cbf53052defe15ec3deb7dacd</sha1>
+    </version>
+    <version name="1.5.4" package="winff64" type="one-file">
+        <file path=".Npackd\Install.bat">ren uc setup.exe
+for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>uc</url>
+        <sha1>75dc292fe9e3d47755959d5ff31cb1422989b72b</sha1>
+    </version>
+    <version name="5.7.2" package="net.winscp.WinSCP" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>winscp572setup.exe</url>
+        <sha1>fab7d2d4ded7a78390b4835e821d148b699adc67</sha1>
+    </version>
+    <version name="0.83.17220" package="ogg-codecs" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%myun%\myuninst.exe&quot; /uninstall &quot;Xiph.Org Ogg Codecs 0.83.17220 32-bit&quot;
+</file>
+        <url>oggcodecs_0.83.17220-win32.exe</url>
+        <sha1>da791720c5d3bd35b024985d1fc774b905a6f9b2</sha1>
+        <dependency package="net.nirsoft.MyUninstaller" versions="[1.74, 2)">
+            <variable>myun</variable>
+        </dependency>
+    </version>
+    <version name="18.0.1" package="open-broadcaster-software" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%myun%\myuninst.exe&quot; /uninstall &quot;Open Broadcaster Software&quot;</file>
+        <url>OBS-Studio-18.0.1-Full-Installer.exe</url>
+        <sha1>9265ca8ec425f4ffe4203ae032af22bbfcdb43a9</sha1>
+        <dependency package="net.nirsoft.MyUninstaller" versions="[1.74, 2)">
+            <variable>myun</variable>
+        </dependency>
+    </version>
+    <version name="0.8" package="open-hardware-monitor">
+        <important-file path="OpenHardwareMonitor.exe" title="OpenHardwareMonitor"/>
+        <file path=".Npackd\Install.bat">cd OpenHardwareMonitor
+for /f &quot;delims=&quot; %%a in ('dir /b') do (
+  move &quot;%%a&quot; ..
+)
+cd ..
+rmdir OpenHardwareMonitor</file>
+        <url>openhardwaremonitor-v0.8.0-beta.zip</url>
+        <sha1>f37890bc9e1697808a4da4d9e09c9a6c552d9c68</sha1>
+        <dependency package="com.microsoft.DotNetRedistributable" versions="[2.0.50727.42, 4.5.50709.17929]"/>
+    </version>
+    <version name="4.6.1590" package="com.microsoft.DotNetRedistributable" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /norestart /q &gt; .Npackd\Output.txt &amp; type .Npackd\Output.txt &amp; del /f /q &quot;%setup%&quot;
+
+rem list of errors: http://msdn.microsoft.com/en-us/library/windows/desktop/aa368542(v=vs.85).aspx
+rem 3010=restart required
+if %errorlevel% equ 3010 exit /b 0
+</file>
+        <file path=".Npackd\Uninstall.bat">msiexec.exe /qn /norestart /Lime .Npackd\MSI.log /x{5F01B3C4-9BEC-465D-9C68-BB97D381FFAD}
+set err=%errorlevel%
+type .Npackd\MSI.log
+
+if %err% equ 3010 goto eof
+if %err% neq 0 exit /b %err%
+</file>
+        <url>NDP462-KB3151800-x86-x64-AllOS-ENU.exe</url>
+        <dependency package="com.microsoft.Windows" versions="[6.0.6002, 20)"/>
+    </version>
+    <version name="16.4" package="org.7-zip.SevenZIP64" type="one-file">
+        <cmd-file path="7z.exe"/>
+        <cmd-file path="7zg.exe"/>
+        <file path=".Npackd\Install.bat">cscript //Nologo //E:JScript //T:300 //U .Npackd\AddProperty.js
+if %errorlevel% neq 0 exit /b %errorlevel%
+
+cscript //Nologo //E:JScript //T:300 //U .Npackd\Install.js
+</file>
+        <file path=".Npackd\Uninstall.bat">cscript //Nologo //E:JScript //T:300 //U .Npackd\Uninstall.js
+</file>
+        <file path=".Npackd\Install.js">try {
+    var fs = new ActiveXObject(&quot;Scripting.FileSystemObject&quot;);
+    var sh = WScript.CreateObject(&quot;WScript.Shell&quot;);
+    var lib = eval(fs.OpenTextFile(
+          sh.ExpandEnvironmentStrings(&quot;%NIH%&quot;) + &quot;\\Lib.js&quot;, 1).ReadAll());
+
+    if (!lib.installMSI(null, &quot;INSTALLDIR&quot;))
+        throw new Error(&quot;MSI installation failed&quot;);
+
+    var extensions = fs.OpenTextFile(&quot;.Npackd\\Extensions.txt&quot;, 1).ReadAll().split(&quot; &quot;);
+    var key = sh.ExpandEnvironmentStrings(&quot;org.7-zip.SevenZIP64-%NPACKD_PACKAGE_VERSION%&quot;);
+    var curDir = sh.currentDirectory;
+    var cmd = &quot;\&quot;&quot; + curDir + &quot;\\7zFM.exe\&quot; \&quot;%1\&quot;&quot;;
+    var title = &quot;7-Zip File Manager (7-ZIP/64 bit &quot; + sh.ExpandEnvironmentStrings(&quot;%NPACKD_PACKAGE_VERSION%&quot;) + &quot;)&quot;;
+    lib.registerOpenWith(key, cmd, title, extensions);
+} catch (e) {
+    WScript.Echo(e.name + &quot;: &quot; + e.message);
+    WScript.Echo(e.number + &quot;: &quot; + e.description);
+    WScript.Quit(1);
+}
+</file>
+        <file path=".Npackd\Extensions.txt">.001 .7z .arj .bz2 .bzip2 .cab .cpio .deb .dmg .egg .fat .gz .gzip .hfs .iso .lha .lzh .lzma .ntfs .rar .rpm .squashfs .swm .tar .taz .tbz .tbz2 .tgz .tpz .txz .vhd .wim .xar .xz .z .zip</file>
+        <file path=".Npackd\Uninstall.js">try {
+    var fs = new ActiveXObject(&quot;Scripting.FileSystemObject&quot;);
+    var sh = WScript.CreateObject(&quot;WScript.Shell&quot;);
+    var lib = eval(fs.OpenTextFile(
+          sh.ExpandEnvironmentStrings(&quot;%NIH%&quot;) + &quot;\\Lib.js&quot;, 1).ReadAll());
+
+    if (!lib.uninstallMSI(null))
+        throw new Error(&quot;MSI uninstallation failed&quot;);
+
+    var extensions = fs.OpenTextFile(&quot;.Npackd\\Extensions.txt&quot;, 1).ReadAll().split(&quot; &quot;);
+    var key = sh.ExpandEnvironmentStrings(&quot;org.7-zip.SevenZIP64-%NPACKD_PACKAGE_VERSION%&quot;);
+    lib.unregisterOpenWith(key, extensions);
+} catch (e) {
+    WScript.Echo(e.name + &quot;: &quot; + e.message);
+    WScript.Echo(e.number + &quot;: &quot; + e.description);
+    WScript.Quit(1);
+}
+</file>
+        <file path=".Npackd\AddProperty.js">try {
+    var fs = new ActiveXObject(&quot;Scripting.FileSystemObject&quot;);
+    var sh = WScript.CreateObject(&quot;WScript.Shell&quot;);
+    var lib = eval(fs.OpenTextFile(
+          sh.ExpandEnvironmentStrings(&quot;%NIH%&quot;) + &quot;\\Lib.js&quot;, 1).ReadAll());
+
+    lib.addPropertyToMSI(lib.findFile(&quot;.&quot;, /\.msi$/i), &quot;INSTALLDIR&quot;, &quot;C:\\&quot;);
+} catch (e) {
+    WScript.Echo(e.name + &quot;: &quot; + e.message);
+    WScript.Echo(e.number + &quot;: &quot; + e.description);
+    WScript.Quit(1);
+}
+</file>
+        <url>7z1604-x64.msi</url>
+        <sha1>bae316e5148d3b42efa1d3f272afc10d3ffa6f4b</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.12, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="3.8.2" package="audacious">
+        <important-file path="bin\audacious.exe" title="Audacious"/>
+        <url>audacious-3.8.2-win32.zip</url>
+        <sha1>2ca578c76c5c073a1b3fd0d37f0884f141a7c6f3</sha1>
+    </version>
+    <version name="2.1" package="net.sourceforge.audacity.Audacity" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>audacity-win-2.1.0.exe</url>
+        <sha1>8e019bed47819759a95c3820fb860f310e07a488</sha1>
+        <dependency package="ar.com.buanzo.lame.LameForAudacity" versions="[3.98.3, 4)"/>
+    </version>
+    <version name="2.6.19" package="net.sourceforge.avidemux.Avidemux64" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%npackd_package_binary%&quot; /S /D=%CD%
+verify
+
+del &quot;%npackd_package_binary%&quot;
+verify
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+verify
+</file>
+        <url>avidemux_2.6.19_win64.exe</url>
+        <sha1>8d9f89a7ee138249e62d0eac0b8efc9d7500e17b</sha1>
+    </version>
+    <version name="1.12" package="bleachbit" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%npackd_package_binary%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%npackd_package_binary%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+</file>
+        <url>BleachBit-1.12-setup.exe</url>
+        <sha1>65ea0add67f0e5b2a56357f0c36989c7e9676c00</sha1>
+    </version>
+    <version name="2.78.3" package="org.blender.Blender64">
+        <important-file path="blender.exe" title="Blender"/>
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b blender*') do set name=%%x
+&quot;%NIH%\ExtractDir.bat&quot; &quot;%name%&quot;</file>
+        <url>blender-2.78c-windows64.zip</url>
+        <sha1>01ddc1d62fbb9c523f304e55aedd0d171eeec4bf</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.3, 2)">
+            <variable>NIH</variable>
+        </dependency>
+        <dependency package="com.microsoft.VisualCPPRedistributable64" versions="[9, 10)"/>
+    </version>
+    <version name="20151018" package="cccp64" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%nih%\InstallInnoSetup.bat&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%nih%\UninstallInnoSetup.bat&quot; unins000.exe</file>
+        <url>Combined-Community-Codec-Pack-64bit-2015-10-18.exe</url>
+        <sha1>7669315495c56a38bc72bfc9af7ec2e146f764a4</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.3, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="2.0.148" package="net.sourceforge.console.Console">
+        <important-file path="Console.exe" title="Console"/>
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b Console*') do set name=%%x
+cd &quot;%name%&quot;        
+for /f &quot;delims=&quot; %%a in ('dir /b') do (
+  move &quot;%%a&quot; ..
+)
+cd ..
+rmdir &quot;%name%&quot;
+</file>
+        <url>Console-2.00b148-Beta_32bit.zip</url>
+        <sha1>4122a6c5943a4113197a31a27ed6ce140fe2f1c8</sha1>
+    </version>
+    <version name="7.0.5" package="crystaldiskinfo" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%nih%\InstallInnoSetup.bat&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%nih%\UninstallInnoSetup.bat&quot; unins000.exe</file>
+        <url>CrystalDiskInfo7_0_5.exe</url>
+        <sha1>599b7bd62dcb2314dd14c6c2751195648c376348</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.3, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="1.3.11" package="org.deluge-torrent.Deluge" type="one-file">
+        <file path=".Npackd\Install.bat">for /f %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD%</file>
+        <file path=".Npackd\Uninstall.bat">Deluge-uninst.exe /S</file>
+        <url>deluge-1.3.11-win32-setup.exe</url>
+        <sha1>a7e2f12f0117474d703e69faee3e143c432f1f1e</sha1>
+        <dependency package="com.microsoft.VisualCPPRedistributable" versions="[9, 10)"/>
+    </version>
+    <version name="0.97.2" package="org.gnome.live.dia.Dia" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD%
+</file>
+        <file path=".Npackd\Uninstall.bat">for /f &quot;delims=&quot; %%x in ('dir /b *uninstall.exe') do set setup=%%x
+&quot;%setup%&quot; /S _?=%CD%
+</file>
+        <url>dia-setup-0.97.2.exe</url>
+        <sha1>1558482d19fc71de34a6f0b09e1dd6d3bfb7c151</sha1>
+    </version>
+    <version name="0.8" package="duplicate-files-finder" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+</file>
+        <url>DupFinderSetup-0.8.0.exe</url>
+        <sha1>39ee52da69decbcd9f7529b43f9df54e1a015a50</sha1>
+    </version>
+    <version name="2.7.2.35" package="org.electricsheep.ElectricSheep" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD%\Prog
+</file>
+        <file path=".Npackd\Uninstall.bat">Prog\uninst.exe /S _?=%CD%\Prog
+</file>
+        <url>electricsheep-2.7b35.exe</url>
+        <sha1>1de3f030f86c139d6cdfa9d2aa437730d9e1b961</sha1>
+    </version>
+    <version name="5.52" package="emet" type="one-file">
+        <file path=".Npackd\Install.bat">call &quot;%npackdih%\InstallMSI.bat&quot; TARGETDIR yes
+</file>
+        <url>EMET%20Setup.msi</url>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.1, 2)">
+            <variable>npackdih</variable>
+        </dependency>
+    </version>
+    <version name="52.1" package="org.mozilla.FirefoxESR" type="one-file">
+        <file path=".Npackd\Install.bat">echo [Install] &gt; .Npackd\FF.ini
+echo InstallDirectoryPath=%CD% &gt;&gt; .Npackd\FF.ini
+echo QuickLaunchShortcut=false &gt;&gt; .Npackd\FF.ini
+echo DesktopShortcut=false &gt;&gt; .Npackd\FF.ini
+&quot;%npackd_package_binary%&quot; /INI=&quot;%CD%\.Npackd\FF.ini&quot; &amp;&amp; del /f /q &quot;%npackd_package_binary%&quot;</file>
+        <file path=".Npackd\Uninstall.bat">uninstall\helper.exe /S
+verify</file>
+        <url>Firefox%20Setup%2052.1.0esr.exe</url>
+        <sha1>6fb5ff7028b0fb2dfc1372f849dae119664504cf</sha1>
+    </version>
+    <version name="2.1" package="net.sourceforge.FreeFileRenamer">
+        <important-file path="Free File Renamer.exe" title="FreeFileRenamer"/>
+        <url>Free%20File%20Renamer.exe.zip</url>
+        <sha1>a3d27755a70f27f4a1ee6f5bbe2647cc5ff58240</sha1>
+        <dependency package="com.oracle.JRE" versions="[1.7.0.10, 2)"/>
+    </version>
+    <version name="2.8.20" package="org.gimp.Gimp" type="one-file">
+        <important-file path="bin\gimp-2.8.exe" title="Gimp"/>
+        <file path=".Npackd\Install.bat">path
+
+for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot;
+set err=%errorlevel%
+if %err% neq 0 exit /b %err%
+
+set key=org.gimp.Gimp-%NPACKD_PACKAGE_VERSION%
+reg add HKLM\SOFTWARE\Classes\Applications\%key%\shell\open /v FriendlyAppName /d &quot;Gimp (%NPACKD_PACKAGE_VERSION%)&quot; /f
+set c=\&quot;%CD%\bin\gimp-2.8.exe\&quot; \&quot;%%1\&quot;
+reg add HKLM\SOFTWARE\Classes\Applications\%KEY%\shell\open\command /d &quot;%c%&quot; /f
+for %%g in (xcf pix matte mask alpha als fli flc xcf.bz2 bz2 xcfbz2 desktop dcm dicom eps fit fits g3 gif pat gbr gpb gih xcf.gz gz xcfgz jpg jpeg jpe cel ico wmf apm psp tub pspimage psd png pnm ppm pgm pbm pdf ps sgi rgb rgba bw ico im1 im8 im24 im32 rs ras svg tga vda icb vst tif tiff bmp xbm icon bitmap xpm xwd pcx pcc) do reg add HKLM\SOFTWARE\Classes\.%%g\OpenWithList\%key% /f
+</file>
+        <file path=".Npackd\Uninstall.bat">uninst\unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART
+set err=%errorlevel%
+if %err% neq 0 exit /b %err%
+
+set key=org.gimp.Gimp-%NPACKD_PACKAGE_VERSION%
+reg delete HKLM\SOFTWARE\Classes\Applications\%key% /f
+for %%g in (xcf pix matte mask alpha als fli flc xcf.bz2 bz2 xcfbz2 desktop dcm dicom eps fit fits g3 gif pat gbr gpb gih xcf.gz gz xcfgz jpg jpeg jpe cel ico wmf apm psp tub pspimage psd png pnm ppm pgm pbm pdf ps sgi rgb rgba bw ico im1 im8 im24 im32 rs ras svg tga vda icb vst tif tiff bmp xbm icon bitmap xpm xwd pcx pcc) do reg delete HKLM\SOFTWARE\Classes\.%%g\OpenWithList\%key% /f
+</file>
+        <url>gimp-2.8.20-setup.exe</url>
+        <sha1>4d5f1a3e4bb30acdf32a320e5dcc8bf5af829c3a</sha1>
+    </version>
+    <version name="3.3.4" package="github" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">&quot;%myun%\myuninst.exe&quot; /uninstall &quot;github&quot;
+</file>
+        <url>GitHubSetup.exe</url>
+        <dependency package="net.nirsoft.MyUninstaller" versions="[1.74, 2)">
+            <variable>myun</variable>
+        </dependency>
+    </version>
+    <version name="0.8" package="com.github.bmatzelle.Gow" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">Uninstall.exe /S _?=%CD%
+</file>
+        <url>Gow-0.8.0.exe</url>
+        <sha1>4ba1250be4f5dd14aff5f58bf24030252aee3893</sha1>
+    </version>
+    <version name="1.0.7" package="fr.handbrake.HandBrake64" type="one-file">
+        <file path=".Npackd\Install.bat">&quot;%npackd_package_binary%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%npackd_package_binary%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninst.exe /S _?=%CD%
+</file>
+        <url>HandBrake-1.0.7-x86_64-Win_GUI.exe</url>
+        <sha1>602e342cd786227812c34040574084ca95bad479</sha1>
+        <dependency package="com.microsoft.DotNetRedistributable" versions="[2, 3)"/>
+    </version>
+    <version name="1.8.0.131" package="com.oracle.JRE" type="one-file">
+        <file path=".Npackd\Uninstall.bat">&quot;%nih%\UninstallMSI.bat&quot; {26A24AE4-039D-4CA4-87B4-2F32180131F0}
+</file>
+        <file path=".Npackd\Install.bat">call &quot;%nih%\DownloadOracle.bat&quot; http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jre-8u131-windows-i586.exe
+if %errorlevel% neq 0 exit /b %errorlevel%
+
+for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /s /L &quot;%cd%\.Npackd\MSI.log&quot; INSTALLDIR=&quot;%CD%&quot; STATIC=1 &amp;&amp; del /f /q &quot;%npackd_package_binary%&quot;
+set err=%errorlevel%
+type .Npackd\MSI.log
+if %err% neq 0 exit /b %err%
+</file>
+        <url>README.md</url>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.22, 2)">
+            <variable>nih</variable>
+        </dependency>
+    </version>
+    <version name="3.99.3" package="ar.com.buanzo.lame.LameForAudacity" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /SP- /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART /DIR=&quot;%CD%&quot; /SAVEINF=&quot;%CD%\.Npackd\InnoSetupInfo.ini&quot; /LOG=&quot;%CD%\.Npackd\InnoSetupInstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupInstall.log
+if %err% neq 0 exit %err%
+</file>
+        <file path=".Npackd\Uninstall.bat">unins000.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /LOG=&quot;%CD%\.Npackd\InnoSetupUninstall.log&quot;
+set err=%errorlevel%
+type .Npackd\InnoSetupUninstall.log
+if %err% neq 0 exit %err%
+</file>
+        <url>ar.com.buanzo.lame.LameForAudacity-3.99.3.exe</url>
+        <sha1>a9aa7463aa9b685bdd20a5e12448c25b40a7677f</sha1>
+    </version>
+    <version name="1.8.6" package="meld" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+</file>
+        <url>meld-1.8.6.0.exe</url>
+        <sha1>bce6ef2223294d8e6e98b805e43344173ad05d5d</sha1>
+    </version>
+    <version name="6.0.3883" package="com.microsoft.MSXML" type="one-file">
+        <file path=".Npackd\Install.bat">call &quot;%npackdih%\InstallMSI.bat&quot; TARGETDIR yes</file>
+        <url>msxml6.msi</url>
+        <sha1>2308743ddb4cb56ae910e461eeb3eab0a9e58058</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.1, 2)">
+            <variable>npackdih</variable>
+        </dependency>
+    </version>
+    <version name="2" package="mixxx" type="one-file">
+        <file path=".Npackd\Install.bat">for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD% &amp;&amp; del /f /q &quot;%setup%&quot;
+</file>
+        <file path=".Npackd\Uninstall.bat">uninstall.exe /S _?=%CD%
+</file>
+        <url>mixxx-2.0.0-win64.exe</url>
+        <sha1>785fa30ccd4bb4b5e07a38600071d492829ac447</sha1>
+    </version>
+    <version name="1.2.19" package="net.sourceforge.mumble.Mumble" type="one-file">
+        <file path=".Npackd\Install.bat">call &quot;%npackdih%\InstallMSI.bat&quot; INSTALLDIR yes</file>
+        <url>mumble-1.2.19.msi</url>
+        <sha1>766bdd55045fe0b1ad271ccd2b3bf40e5f080a3f</sha1>
+        <dependency package="com.googlecode.windows-package-manager.NpackdInstallerHelper" versions="[1.1, 2)">
+            <variable>npackdih</variable>
+        </dependency>
+    </version>
+    <version name="1.77" package="net.nirsoft.MyUninstaller">
+        <important-file path="myuninst.exe" title="MyUninstaller"/>
+        <url>myuninst.zip</url>
+    </version>
+    <version name="2.75" package="net.nirsoft.NirCmd">
+        <url>net.nirsoft.NirCmd-2.75.zip</url>
+        <sha1>2a602ea04468422dd10f8925dc7fbc70775b558d</sha1>
+    </version>
+    <version name="1.19.57" package="net.nirsoft.Launcher">
+        <important-file path="NirLauncher.exe" title="NirLauncher"/>
+        <url>net.nirsoft.Launcher-1.19.57.zip</url>
+        <sha1>3cd0e71f18a8eb35e6bbb1f6a0fbfa368b4441b9</sha1>
+    </version>
+    <version name="7.3.2" package="notepadpp64" type="one-file">
+        <file path=".Npackd\Install.bat">xcopy &quot;%allusersprofile%\Npackd\Config\net.sourceforge.NotepadPlusPlus&quot; .  /E /C /I /F /H /R /Y &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+
+for /f &quot;delims=&quot; %%x in ('dir /b *.exe') do set setup=%%x
+&quot;%setup%&quot; /S /D=%CD%
+if %errorlevel% neq 0 exit /b %errorlevel%
+
+set package=net.sourceforge.NotepadPlusPlus
+set version=%NPACKD_PACKAGE_VERSION%
+set key=%package%
+
+reg add HKLM\SOFTWARE\Classes\Applications\%KEY%\shell\open /v FriendlyAppName /d &quot;Notepad++ (%version%)&quot; /f &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+set c=\&quot;%CD%\notepad++.exe\&quot; \&quot;%%1\&quot;
+reg add HKLM\SOFTWARE\Classes\Applications\%KEY%\shell\open\command /d &quot;%c%&quot; /f &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+for %%g in (txt log ini h hpp hxx c cpp cxx cc m java cs pas inc html htm php phtml properties js jsp asp css xml sh bsh nsi nsh lua pl pm py as mx vb vbs f for f90 f95 f2k tex sql nfo mak hgignore) do reg add HKLM\SOFTWARE\Classes\.%%g\OpenWithList\%key% /f &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+
+reg add &quot;HKCR\*\shell\Notepad++\command&quot; /ve /f /d &quot;\&quot;%cd%\notepad++.exe\&quot; %%1&quot; &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+
+verify</file>
+        <file path=".Npackd\Uninstall.bat">rmdir /s /q &quot;%allusersprofile%\Npackd\Config\net.sourceforge.NotepadPlusPlus&quot;
+xcopy Plugins &quot;%allusersprofile%\Npackd\Config\net.sourceforge.NotepadPlusPlus\Plugins&quot; /E /C /I /F /H /R /Y &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+
+set package=net.sourceforge.NotepadPlusPlus
+set version=%NPACKD_PACKAGE_VERSION%
+set key=%package%
+
+set newname=%key%_%random%
+ren %appdata%\Notepad++ %newname%
+uninstall.exe /S _?=%CD%
+if %errorlevel% neq 0 exit /b %errorlevel%
+ren %appdata%\%newname% Notepad++
+
+rem unregister &quot;Open With...&quot; entries
+reg delete HKLM\SOFTWARE\Classes\Applications\%KEY% /f &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+for %%g in (txt log ini h hpp hxx c cpp cxx cc m java cs pas inc html htm php phtml properties js jsp asp css xml sh bsh nsi nsh lua pl pm py as mx vb vbs f for f90 f95 f2k tex sql nfo mak hgignore) do reg delete HKLM\SOFTWARE\Classes\.%%g\OpenWithList\%key% /f &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+
+reg delete HKCR\*\shell\Notepad++ /f &gt; .Npackd\Output.txt &amp;&amp; type .Npackd\Output.txt
+
+rem remove Explorer extension
+set trash=..\.Trash\%key%_%random%
+mkdir %trash%
+move NppShell*.dll %trash%
+verify
+		</file>
+        <url>npp.7.3.2.Installer.x64.exe</url>
+        <sha1>f2f3260099d090cd66d1a760fc26d2f61bc55392</sha1>
+    </version>
+</repository>
