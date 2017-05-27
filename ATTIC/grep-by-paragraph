@@ -1,0 +1,5 @@
+#!/bin/bash
+#description: grep by paragraph
+#source: http://www.commandlinefu.com/commands/view/4547/
+[ $# -eq 1 ] && perl -00ne "print if /$1/i" || perl -00ne "print if /$1/i" < "$2"
+
