@@ -1,0 +1,138 @@
+[submodule "LINUX/MAN-PAGER"]
+	path = ATTIC/MAN-PAGER
+	url = https://github.com/nodiscc/MAN-PAGER
+	shallow = true
+	branch = master
+[submodule "LINUX/awesome-linuxaudio"]
+	path = awesome-linuxaudio
+	url = https://github.com/nodiscc/awesome-linuxaudio
+	shallow = true
+	branch = master
+[submodule "LINUX/shaarchiver"]
+	path = ATTIC/shaarchiver
+	url = https://github.com/nodiscc/shaarchiver
+	shallow = true
+	branch = master
+[submodule "LINUX/srv01"]
+	path = srv01
+	url = https://github.com/nodiscc/srv01
+	shallow = true
+	branch = master
+[submodule "CONFIG/fonts"]
+	path = CONFIG/fonts
+	url = https://github.com/nodiscc/fonts
+	shallow = true
+	branch = master
+[submodule "LINUX/dbu"]
+	path = dbu
+	url = https://github.com/nodiscc/dbu
+	shallow = true
+	branch = master
+[submodule "LINUX/tumblr-upload"]
+	path = ATTIC/tumblr-upload
+	url = https://github.com/miohtama/tumblr-upload
+	shallow = true
+	branch = master
+[submodule "LINUX/kickthemout"]
+	path = ATTIC/kickthemout
+	url = https://github.com/k4m4/kickthemout
+	shallow = true
+	branch = master
+[submodule "LINUX/ohmpage"]
+	path = ohmpage
+	url = https://github.com/nodiscc/ohmpage
+	shallow = true
+	branch = master
+[submodule "LINUX/python-shaarli-client"]
+	path = ATTIC/python-shaarli-client
+	url = https://github.com/shaarli/python-shaarli-client
+	shallow = true
+	branch = master
+[submodule "LINUX/api-documentation"]
+	path = ATTIC/shaarli-api-documentation
+	url = https://github.com/shaarli/api-documentation
+	shallow = true
+	branch = master
+[submodule "LINUX/user.js"]
+	path = user.js
+	url = https://github.com/nodiscc/user.js
+	shallow = true
+	branch = dbu
+[submodule "LINUX/Shaarli"]
+	path = ATTIC/Shaarli
+	url = https://github.com/shaarli/Shaarli
+	shallow = true
+	branch = master
+[submodule "LINUX/redditPostArchiver"]
+	path = ATTIC/redditPostArchiver
+	url = https://github.com/nodiscc/redditPostArchiver
+[submodule "LINUX/conkyselect"]
+	path = ATTIC/conkyselect
+	url = git@github.com:nodiscc/conkyselect
+	shallow = true
+	branch = master
+[submodule "LINUX/awesome-selfhosted"]
+	path = awesome-selfhosted
+	url = https://github.com/kickball/awesome-selfhosted
+	shallow = true
+	branch = master
+[submodule "LINUX/git-fat"]
+	path = ATTIC/git-fat
+	url = https://github.com/jedbrown/git-fat
+[submodule "glim"]
+	path = glim
+	url = https://github.com/nodiscc/glim
+[submodule "win7autosetup"]
+	path = win7autosetup
+	url = https://github.com/nodiscc/win7autosetup
+[submodule "github-stars-backup"]
+	path = github-stars-backup
+	url = https://github.com/nodiscc/github-stars-backup
+[submodule "ATTIC/MAN-PAGER"]
+	path = ATTIC/MAN-PAGER
+	url = https://github.com/nodiscc/MAN-PAGER
+[submodule "awesome-linuxaudio"]
+	path = awesome-linuxaudio
+	url = https://github.com/nodiscc/awesome-linuxaudio
+[submodule "ATTIC/shaarchiver"]
+	path = ATTIC/shaarchiver
+	url = https://github.com/nodiscc/shaarchiver
+[submodule "srv01"]
+	path = srv01
+	url = https://github.com/nodiscc/srv01
+[submodule "dbu"]
+	path = dbu
+	url = https://github.com/nodiscc/dbu
+[submodule "ATTIC/tumblr-upload"]
+	path = ATTIC/tumblr-upload
+	url = https://github.com/miohtama/tumblr-upload
+[submodule "ATTIC/kickthemout"]
+	path = ATTIC/kickthemout
+	url = https://github.com/k4m4/kickthemout
+[submodule "ohmpage"]
+	path = ohmpage
+	url = https://github.com/nodiscc/ohmpage
+[submodule "ATTIC/python-shaarli-client"]
+	path = ATTIC/python-shaarli-client
+	url = https://github.com/shaarli/python-shaarli-client
+[submodule "ATTIC/shaarli-api-documentation"]
+	path = ATTIC/shaarli-api-documentation
+	url = https://github.com/shaarli/api-documentation
+[submodule "user.js"]
+	path = user.js
+	url = https://github.com/nodiscc/user.js
+[submodule "ATTIC/Shaarli"]
+	path = ATTIC/Shaarli
+	url = https://github.com/shaarli/Shaarli
+[submodule "ATTIC/redditPostArchiver"]
+	path = ATTIC/redditPostArchiver
+	url = https://github.com/nodiscc/redditPostArchiver
+[submodule "ATTIC/conkyselect"]
+	path = ATTIC/conkyselect
+	url = git@github.com:nodiscc/conkyselect
+[submodule "awesome-selfhosted"]
+	path = awesome-selfhosted
+	url = https://github.com/kickball/awesome-selfhosted
+[submodule "ATTIC/git-fat"]
+	path = ATTIC/git-fat
+	url = https://github.com/jedbrown/git-fat
