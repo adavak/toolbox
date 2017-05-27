@@ -15,10 +15,9 @@ submodules:
 	git submodule foreach git pull
 
 downloads: downloads_linux downloads_windows downloads_macos glim
-	make -f DOWNLOADS.Makefile
-	cd LINUX/dbu && make update
-	cd LINUX/MULTIBOOT-USB; make download
-	cd LINUX/GITHUB-STARS; ./github-backup-stars nodiscc
+	cd dbu && make update
+	cd glim && ./download-linux-distributions.sh debian centos tails
+	cd github-stars-backup; ./github-backup-stars nodiscc
 	#-cd SUBMODULES/themes-icons; make
 
 # Releases RSS feeds
@@ -37,10 +36,6 @@ downloads_windows:
 
 downloads_macos:
 	cd BINARIES/MACOS && make downloads_macos
-
-
-download:
-	cd glim && ./download-linux-distributions debian tails centos
 
 ################################################
 # extra
