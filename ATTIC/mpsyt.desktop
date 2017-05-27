@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=mps-Youtube
+Comment=Terminal based YouTube jukebox
+Comment[fr]=Jukebox Youtube pour le terminal
+GenericName=mps-youtube
+Exec=mpsyt
+TryExec=mpsyt
+Icon=youtube
+Categories=GTK;Audio;AudioVideo;Player
+Terminal=true
