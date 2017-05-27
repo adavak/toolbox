@@ -1,0 +1,4 @@
+#!/bin/bash
+#view changes in repos since $1 days
+#requirements: myrepos
+mr run git log --all --color --format=oneline --since="$1 days ago" | less -R
