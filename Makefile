@@ -17,6 +17,7 @@ submodules:
 	git submodule foreach git pull
 
 mr:
+	cd MIRRORS/GIT && mr -c mrconfig co
 	cd MIRRORS/GIT && mr -c mrconfig update
 
 downloads: downloads_iso downloads_linux downloads_macos downloads_windows

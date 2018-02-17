@@ -1,6 +1,12 @@
-ffmpeg cut between 310th and 500th frame `ffmpeg -i constellaion003.mkv -vf 'select=gte(n\,301)*lte(n\,500)'` output.mkv (breaks video index/length/seek?)
+ffmpeg cut between 310th and 500th frame `ffmpeg -i constellation003.mkv -vf 'select=gte(n\,301)*lte(n\,500)'` output.mkv (breaks video index/length/seek?)
 
 Pulseaudio load loopback module (record soundcard output) `pactl load-module loopback latency_msec=10`
+
+iptables DNAT `iptables -t nat -A  PREROUTING -d 86.87.88.89 -j DNAT --to-destination 192.168.1.101`
+
+IPv4 routing/forwarding `sysctl -w net.ipv4.ip_forward 1`
+
+iptables SNAT `iptables -t nat -A POSTROUTING -s 192.168.1.101 -j SNAT --to-source 86.87.88.89`
 
 debian close bug on bts 664742-done@bugs.debian.org
 

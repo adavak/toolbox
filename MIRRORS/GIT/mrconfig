@@ -178,3 +178,6 @@ checkout = git clone 'https://github.com/MrS0m30n3/youtube-dl-gui' 'youtube-dl-g
 
 [zim-plugin-instantsearch]
 checkout = git clone --depth=1 'https://github.com/e3rd/zim-plugin-instantsearch/' 'zim-plugin-instantsearch'
+
+[Awesome-Linux-Software]
+checkout = git clone --depth=1 'https://github.com/luongvo2009/Awesome-Linux-Software' 'Awesome-Linux-Software'
