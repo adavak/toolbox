@@ -46,7 +46,7 @@ downloads_linux:
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/gbevin/SendMIDI/releases/download/1.0.5/sendmidi-linux-1.0.5.zip
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/junegunn/fzf-bin/releases/download/0.15.9/fzf-0.15.9-linux_amd64.tgz
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://s3.amazonaws.com/Minecraft.Download/versions/1.11.2/minecraft_server.1.11.2.jar
-	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/vrana/adminer/releases/download/v4.4.0/adminer-4.4.0.php
+	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/vrana/adminer/releases/download/v4.6.1/adminer-4.6.1.php
 	#$(WGET) -P MIRRORS/BIN-LINUX/ http://iographica.com/download/linux/IOGraph_v1_0_1.jar
 	#$(WGET) -P MIRRORS/BIN-LINUX/ http://al.chemy.org/files/Alchemy-008.tar.gz
 	# https://github.com/mank319/Go-For-It (see PPA for other files)
@@ -60,14 +60,17 @@ downloads_linux:
 	# https://www.sublimetext.com/3
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://download.sublimetext.com/sublime_text_3_build_3143_x64.tar.bz2
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://packagecontrol.io/Package%20Control.sublime-package
-	$(WGET) -P MIRRORS/BIN-LINUX/ https://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_9.0/amd64/qownnotes_18.02.0-1_amd64.deb
+	# http://www.qownnotes.org/ (blocks wget user-agent)
+	#$(WGET) -P MIRRORS/BIN-LINUX/ https://download.opensuse.org/repositories/home:/pbek:/QOwnNotes/Debian_9.0/amd64/qownnotes_18.02.0-1_amd64.deb
 	# https://github.com/brrd/Abricotine
-	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/brrd/Abricotine/releases/download/0.5.0/Abricotine-linux-ubuntu-debian-x64.deb
+	# $(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/brrd/Abricotine/releases/download/0.5.0/Abricotine-linux-ubuntu-debian-x64.deb
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://downloads.tuxfamily.org/godotengine/2.1.3/Godot_v2.1.3-stable_x11.64.zip
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/mifi/lossless-cut/releases/download/v1.6.0/LosslessCut-linux-x64.zip
-	$(WGET) -P MIRRORS/BIN-LINUX/ https://download.kiwix.org/portable/wikipedia_fr_all.zip.torrent
-	$(WGET) -P MIRRORS/BIN-LINUX/ https://download.kiwix.org/portable/wikipedia_en_all.zip.torrent
-	$(WGET) -P MIRRORS/BIN-LINUX/ https://download.opensuse.org/repositories/home:/RockHopper/Debian_9.0/amd64/shuriken_0.5.2-2stretch1_amd64.deb
+	# https://kiwix.org/ (blocks wget user-agent)
+	# $(WGET) -P MIRRORS/BIN-LINUX/ https://download.kiwix.org/portable/wikipedia_fr_all.zip.torrent
+	# $(WGET) -P MIRRORS/BIN-LINUX/ https://download.kiwix.org/portable/wikipedia_en_all.zip.torrent
+	# https://rock-hopper.github.io/shuriken/ (blocks wget user-agent)
+	# $(WGET) -P MIRRORS/BIN-LINUX/ https://download.opensuse.org/repositories/home:/RockHopper/Debian_9.0/amd64/shuriken_0.5.2-2stretch1_amd64.deb
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/mltframework/shotcut/releases/download/v17.09/shotcut-linux-x86_64-170904.tar.bz2
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/kmkolasinski/AwesomeBump/releases/download/Linuxv5.0/AwesomeBumpV5.Bin64Linux.tar.gz
 	$(WGET) -P MIRRORS/BIN-LINUX/ https://github.com/artfwo/andes/releases/download/v0.1/Andes1-0.1-linux-x86_64.tar.gz
