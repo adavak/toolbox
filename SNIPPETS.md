@@ -139,6 +139,24 @@ python get all attributes/variables for an object: `from pprint import pprint; p
 rename all .txt to .wiki in a directory (rename extension)  `rename 's/.txt$/.wiki/' *.txt`
 
 
+```
+#Redhat network configuration: /etc/sysconfig/network-scripts/ifcfg-{device_name}:
+DEVICE={device_name}
+BOOTPROTO=none
+ONBOOT=yes
+PREFIX=24 or NETMASK=255.255.255.0
+IPADDR=10.0.0.1
+GATEWAY=10.0.0.254
+DNS1=...
+DNS2=...
+```
+
+Rescan SCSI bus: `echo "- - -" > /syc/class/scsi_host/hostXXX/scan`
+
+crontab fields: `min hour day_of_mth mth day_of_wk command`
+
+Problem resolution: read the docs, test, isolate problem, implement solution, test/verify solution, document
+
 compress a directory to a .tar.gz archive `tar -pczf $NAME_OF_YOUR_ARCHIVE.tar.gz $DIRECTORY`
 
 find broken symbonlic links in a directory `find $DIRECTORY -type l ! -exec test -r {} \; -print`
@@ -1069,3 +1087,6 @@ SSH jumpbox: `ssh -J myuser@jumpbox myuser@securebox`
 update debian changelog: dch -a
 
 OpenDNS servers: 208.67.222.222 and 208.67.220.220
+
+
+fix optimus/bumblebee lockup at boot `nouveau.modeset=0 acpi_osi=Linux acpi_osi="!Windows 2015"`

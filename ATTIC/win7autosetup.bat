@@ -7,6 +7,8 @@ REM ░▀░▀░▀▀▀░▀░▀░▀░░░▀░▀░▀▀▀░�
 :: Removes/disables/blocks unneeded/annoying services/telemetry/updates
 :: Applies basic configuration tweaks
 :: License: http://www.wtfpl.net/
+:: Status: Archived. This file will no longer be updated (2018-02-26)
+:: Use at your own risk
 ::
 :: USAGE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::
@@ -528,8 +530,6 @@ Next 'BLOCKUPDATESVBS
 :: # TODO
 ::
 :: TODO remove npackd dependency, write NuGet repository
-:: TODO Powershell rewrite (Windows7=PS2.0)
-:: TODO Windows 10 variant
 :: TODO [enh] better error handling...
 :: TODO [bug] npackd: some interactive install dialogs still popup (electricsheep)
 :: TODO [bug] some services must be stopped in safe mode
