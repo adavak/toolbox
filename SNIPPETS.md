@@ -1,12 +1,4 @@
-ffmpeg cut between 310th and 500th frame `ffmpeg -i constellation003.mkv -vf 'select=gte(n\,301)*lte(n\,500)'` output.mkv (breaks video index/length/seek?)
-
-Pulseaudio load loopback module (record soundcard output) `pactl load-module loopback latency_msec=10`
-
-iptables DNAT `iptables -t nat -A  PREROUTING -d 86.87.88.89 -j DNAT --to-destination 192.168.1.101`
-
-IPv4 routing/forwarding `sysctl -w net.ipv4.ip_forward 1`
-
-iptables SNAT `iptables -t nat -A POSTROUTING -s 192.168.1.101 -j SNAT --to-source 86.87.88.89`
+ffmpeg cut between 310th and 500th frame `ffmpeg -i constellaion003.mkv -vf 'select=gte(n\,301)*lte(n\,500)'` output.mkv (breaks video index/length/seek?)
 
 debian close bug on bts 664742-done@bugs.debian.org
 
@@ -15,6 +7,9 @@ count how many files in directory `ls -rAa1 | wc -l`
 Virtualbox convert VDI disk image to raw `VBoxManage internalcommands converttoraw Win7AfterSysprep-disk1.vdi output.img`
 
 highlight a word in command output (here 'waiting'): `egrep --color=always '^|running|waiting'`
+
+
+open .mozlz4: `apt-get install liblz4-dev; git clone https://github.com/andikleen/lz4json.git; cd lz4json; make; ./lz4jsoncat ~/.mozilla/firefox/*/bookmarkbackups/*.jsonlz4`
 
 bash increment variable `var=$((var+1))`
 bash increment variable `((var=var+1))`
@@ -62,7 +57,7 @@ bash most used commands: `history | awk '{a[$2]++}END{for(i in a){print a[i] " "
 tmux Command mode: `Ctrl+b`
 tmux `%` séparer la fenêtre en deux gauche et droite
 tmux `"` séparer la fenêtre en deux haut et bas
-̀tmux  flèche droite, gauche` etc : changer de pane.
+tmux  flèche droite, gauche` etc : changer de pane.
 tmux `d` détacher la session (comme screen)
 tmux attach se rattacher à une session tmux existante
 
@@ -177,6 +172,12 @@ locate files and move them to specified directory `locate -0 -i *barthes* | xarg
 
 ssh `socat -d -d TCP-L:22,reuseaddr,fork SYSTEM:"nc \$SOCAT_PEERADDR 22"` Confuse people SSHing to your host with a redirect back to theirs.
 
+Powershell list hidden windows updates: `(New-Object -ComObject Microsoft.Update.Session).CreateUpdateSearcher().Search('IsInstalled=0 and IsHidden=1').Updates | %{'KB'+$_.KBArticleIDs}`
+
+Windows server configuration tool `sconfig`
+
+Windows Remote desktop connection `mstsc.exe [<Connection File>] [/v:<Server>[:<Port>]] [/admin] [/f] [/w:<Width> /h:<Height>] [/public] [/span] /edit <Connection File> /migrate`
+
 Trigger BSOD in windows: regedit > HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\i8042prt\Parameters or HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters. New DWORD > `CrashOnCtrlScroll` = 1. Hit Right Ctrl + Scroll Lock x2. Or kill csrss.exe.
 
 Windows remove password prompt at boot `Win + R` > "control userpasswords2" > Uncheck password
@@ -201,47 +202,75 @@ Powershell 4.0 download file `& { iwr http://www.it1.net/it1_logo2.jpg -OutFile 
 
 Windows make filesystem case-sensitive `reg add "HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v ObCaseInsensitive /t REG_DWORD /d 0 /f`
 
-Powershell get hotfix status info `Get-Hotfix -Id KB2952664`
+Powershell set DNS server for client machine: `Set-DNSClientServerIpADdress -InterfaceIndex 12 -ServerAddress '10.0.0.1, 10.0.0.9'`
+
+Powershell set DNS suffix `Set-DNSClientGlobalSetting -SearchSuffix example.local`
+
+Powershell get hotfix status info: `Get-Hotfix -Id KB2952664`
 
 Windows uninstall KB `wusa /uninstall /kb:2952664`
 
-Powershell `Get-Help Get-Help -ShowWindow/ -Detailed -Examples -Full`
+windows shutdown remote machine via SMB: net rpc shutdown -C "comment" -I IPADDRESS -U USERNAME%PASSWORD
 
-Powershell `Help about_*`
+windows add firewall rule: netsh advfirewall firewall add rule name="Block NetBIOS Port 137 (UDP)" dir=in action=block protocol=UDP localport=137
 
-Powershell $command | Get-Member
+windows check NTP server offset: w32tm /stripchart /computer:time.windows.com
 
-Powershell update-help from local repo `Update-Help -SourcePath \\10.x.x.x.x\path\to\powershell\help\ -Credential ad\username`
+Windows disable SMBv1: Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" SMB1 -Type DWORD -Value 0 -Force
 
-Powershell `Get-Command *-Ad*; Import-Module ActiveDirectory, Add-WindowsFeature RSAT-AD-PowerShell`
+Powershell help: `Get-Help Get-Help -ShowWindow/ -Detailed -Examples -Full`
 
-Powershell `Get-Service | Where-Object { $_.Status -eq "Running" }`
+Powershell help: `Help about_*`
+
+Powershell list methods/attributes: `$command | Get-Member`
+
+Powershell update-help from local repo: `Update-Help -SourcePath \\10.x.x.x.x\path\to\powershell\help\ -Credential ad\username`
+
+Powershell install Active Directory: `Get-Command *-Ad*; Import-Module ActiveDirectory, Add-WindowsFeature RSAT-AD-PowerShell`
+
+Powershell install DHCP: `install-windowsfeature [dhcp|rsat-dhcp]`
+
+Powershell install DNS: `install-windowsfeature [dns|rsta-dns-server]`
+
+Powershell add DNS conditional forwarder: `add-DNSServerConditionalForwarderZone -Name example.com -MasterServers x.x.x.x`
+
+Powershell add DNS global forwarder: `add-DNSServerForwarder -IPAddress 10.0.0.1`
+
+Powershell add primary DNS zone: `add-DNSServerPrimaryZone -Name ad.example.com -Zonefile ad.example.com`
+
+Powershell show DNS resource record: `Get-DNSServerResourceRecord -Name ad.example.com`
+
+Powershell list running services: `Get-Service | Where-Object { $_.Status -eq "Running" }`
 
 Powershell loop `$startdate=get-date; $val=0; while ($val -neq 65535) { $val++; Write-Host -NoNewline "$val " }; $enddate=get-date; $totaltime=$enddate - $startdate; write-host "total time is $totaltime"`
 
-Powershell Enable/Allow RDP `Get-NetFirewallRule -DisplayName "Remote Desktop*" | Set-NetFirewallRule -enabled true; Get-Service "*rdp*"; Set-Service -Name "ServiceName" -Status Running` + enable System Properties > Remote Settings > Allow
+Powershell Enable/Allow RDP: `Get-NetFirewallRule -DisplayName "Remote Desktop*" | Set-NetFirewallRule -enabled true; Get-Service "*rdp*"; Set-Service -Name "ServiceName" -Status Running` + enable System Properties > Remote Settings > Allow
 
 Windows Remote desktop connection mstsc /span /v:HOSTNAME
 
-Powershell `New-NetFirewallRule -DisplayName 'ICMPv4-In-ByIP' -Enabled True -Profile Domain -Direction Inbound -Action Allow -Protocol ICMPv4 -RemoteAddress 10.11.200.104,10.11.200.58`
+Powershell create firewall rule: `New-NetFirewallRule -DisplayName 'ICMPv4-In-ByIP' -Enabled True -Profile Domain -Direction Inbound -Action Allow -Protocol ICMPv4 -RemoteAddress 10.11.200.104,10.11.200.58`
 
-Windows sysdm.cpl
+Windows System properties: `sysdm.cpl`
 
 Windows List junction points: `dir /aL; dir /aL /s C:\;`
+
 Windows Create junction point: `mklink /J <Target> <Linkname>`
-samba list public shares on a server: $ smbclient -L hostname -U% (or smbtree -b -N)
-samba check netbios name: nmblookup -A 192.168.1.1
-samba list services: smbclient -L \\SERVER
 
 Windows download file `explorer https://url.of/file`
 
 Powershell download file from web `$clnt = new-object System.Net.WebClient; $clnt.DownloadFile("https://source.fi/le.txt", "destfile.txt")`
 
-Windows `ipconfig /displaydns`
+Windows ipconfig commands: `/displaydns /all /release /renew`
 
-quick permission fix `find $dir -type d -print0 | xargs -0 chmod 0770; find $dir -type f -print0 | xargs -0 chmod 0660`
+Windows local GPO console: `gpedit.msc`
 
-extract still images from video `ffmpeg -i input_file.mp4 -r 1 image_%4d.png`
+################################################################################
+
+add IP address to interface: `ip addr add 172.21.19.254/22 dev eth1`
+
+quick permission fix: `find $dir -type d -print0 | xargs -0 chmod 0770; find $dir -type f -print0 | xargs -0 chmod 0660`
+
+extract still images from video: `ffmpeg -i input_file.mp4 -r 1 image_%4d.png`
 
 install xfce from netinstall: ajouter le paramètre desktop=xfce aux options de boot de l'installeur
 
@@ -302,13 +331,13 @@ bash variable `count=$(grep -c some-string some-file || true)` Continue even wit
 
 **subnets** If you use a regular 255.255.255.0 subnet for a group that will have a maximum of 50 users, you're going to waste 204 addresses. If you used 255.255.255.192 for example, then you'd have the ability to make four networks with 62 users each. (64-2, .0 .255 are the network address and the broadcast address)
 
-DDOS mitigation set apache2 `MaxClients` to a lower value (on mpm-prefork, prevents creating processes); switch to apache2-mpm-worker and set `ServerLimit` to 2 (only 2 processes) and and `ThreadsPerChild` to a lower value (implicitely sets `MaxClients` to `ServerLimit * ThreadsPerChild`) (This doesn't affect large DDOS/DNS amplification attacks - you will need a large proxy like cloudflare for that)
+DDOS mitigation: set apache2 `MaxClients` to a lower value (on mpm-prefork, prevents creating processes); switch to apache2-mpm-worker and set `ServerLimit` to 2 (only 2 processes) and and `ThreadsPerChild` to a lower value (implicitely sets `MaxClients` to `ServerLimit * ThreadsPerChild`) (This doesn't affect large DDOS/DNS amplification attacks - you will need a large proxy like cloudflare for that)
 
-DDOS mitigation Balance network cards IRQs on several CPUs (they are all on CPU0 by default)
+DDOS mitigation: Balance network cards IRQs on several CPUs (they are all on CPU0 by default)
 
-DDOS mitigation Set `net.netfilter.nf_conntrack_max` to a lower value. 
+DDOS mitigation: Set `net.netfilter.nf_conntrack_max` to a lower value. 
 
-DDOS mitigation nullroute sources `ip route add blackhole 172.16.1.0/24; ip route show` (this harms network performance if you have a large routing table, but less than iptables `DROP` rules)
+DDOS mitigation nullroute sources: `ip route add blackhole 172.16.1.0/24; ip route show` (this harms network performance if you have a large routing table, but less than iptables `DROP` rules)
 
 bash herestring `while read x; do cmd "$x"; done <<< "string"`
 
@@ -322,7 +351,25 @@ list a samba/windows file server shares `smbclient --user=$USER -L $HOSTNAME`
 
 mount a SAMBA/windows share `smbmount "\\\\$HOSTNAME\\$SHARE" $MOUNTPOINT -o user=$USER`
 
-network display routing table `netstat -rn`
+samba list public shares on a server: $ smbclient -L hostname -U% (or smbtree -b -N)
+
+samba check netbios name: nmblookup -A 192.168.1.1
+
+samba list services: smbclient -L \\SERVER
+
+samba mandatory global options: `workgroup, netbios name, server role, passdb backend, map to guest, guest account`
+
+samba share options: `path, valid users, read only, browseable, read only, guest ok`
+
+samba check config: `testparm -s`; `testparm -sv`
+
+samba add user to SAM database: `pdbedit -a username`
+
+samba change user password: `smpbasswd username`
+
+samba fstab mount entry: `//172.21.24.3/myshare /mnt/mysharemountpoint cifs _netdev,auto,username=xxx,pass=xxx 0 0`
+
+network display routing table `netstat -rn` or `ip r`
 
 scan local network `nmap -sP 192.168.1.0/24`
 
@@ -413,9 +460,9 @@ windows enable password for UAC: Local Security Policy > Local Policies > Securi
 > Reset windows passwords:** Load up a linux distro and copy the SAM that is located in C:\windows\system32\config; run ophcrack on it
 
 
-Windows Connected USB drives list: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR\`, `C:\Windows\setupapi.log` ‐> Perform search for Serial Number
+Windows Connected USB drives list: `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USBSTOR\`, `C:\Windows\setupapi.log` -> Perform search for Serial Number
 
-windows Unicode Right-to-left override `“Awesome Song uploaded by \[U+202e\]3pm.exe”`
+windows Unicode Right-to-left override `"Awesome Song uploaded by \[U+202e\]3pm.exe"`
 
 
 windows **local privilege escalation** reboot, disconnect power during splash, plug back in, boot, ` Launch startup repair (recommended)` , on system restore dialog: ` Cancel` , Scan, "Cannot repair automatically" dialog: ` View problem details`, click link to ` X:\Windows\System32\en-US\erofflps.txt`, pops notepad, ` File>Open>C:\Windows\System32\`, set view to ` all files *.*`, rename `Sethc`  to ` Sethc1` , duplicate ` cmd`, rename new `cmd`  to ` Sethc`. Press shift 5 times (opens cmd instead of Sethc stickiy keys dialog) to test. Reboot. Wait for login prompt, press Shift 5 times,cmd opens, ` whoami` should return `NT AUTHORITY\SYSTEM`. `net user` to show available users, `net user $username *`, type new password, close cmd, login. <http://ifconfig.dk/password/> Can also be done by booting live CD, copying `cmd.exe`  to `magnify.exe`,  reboot, click magnify icon. Commands: `net user username new_password`; `net user username password /add`, `net localgroup administrators username /add`, `net user username /delete`, `net localgroup Remote Desktop Users UserLoginName /add` (RDP); `net user commands Reference`
@@ -470,9 +517,9 @@ mysql update/change field value in table `UPDATE $table SET $field=$newvalue WHE
 
 mysql: rsync fast **replicate databases** `rsync --progress --delete -avzun /nfs-mysql/* /vm/mysql/` http://www.reddit.com/r/linuxadmin/comments/23s2gh/easiest_way_to_replicate_an_sql_database/
 
+nfs: setup `/etc/exports`, `showmount --exports`
 
 mysql `GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE TEMPORARY TABLES ON 'wiki'.* TO 'wiki'@'localhost'; `
-
 
 >As someone who knows Bash pretty well, @shell -- There are language features you should avoid, they are there for historic reasons; Know the few-ish actual language warts that you need to work around. (pipefail, when subshells are created); Know how field-separation works. Use trap for cleanup. *22-01-2014 19:40* ----- @bash
 
@@ -562,23 +609,17 @@ rename all .jpeg and .JPG files to .jpg `rename 's/\.jpe?g$/.jpg/i' *`
 
 resize image (but keep ratio) `convert -resize '1024x600^' image.jpg small-image.jpg`
 
-check DNS servers in use by Network Manager ``nmcli dev list iface eth0 | grep IP4`` 
+check DNS servers in use by Network Manager `nmcli dev list iface eth0 | grep IP4`
 
-get list of wifi networks: ``nmcli dev wifi list | awk '{print $1 }'``
+get list of wifi networks: `nmcli dev wifi list | awk '{print $1 }'`
 
-get current wifi network name: ``nmcli -t -f name con status`` 
+get current wifi network name: `nmcli -t -f name con status`
 
 display apache2 traffic in logstalgia `tail -f /var/log/apache2/access.log | logstalgia -640x480 -` @logs
 
 Get HTTP headers with curl `curl -I http://www.example.com`
 
 speedtest with curl `curl -o /dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip`
-
-
-
-
-
-
 
 firewall ufw: allow inbound connections on 80/tcp from anywhere `ufw allow 80/tcp`
 
@@ -604,7 +645,7 @@ git afficher une ancienne révision d'un fichier: ``git show <rev>:path/fo/file.
 
 git ignore changes in already tracked file: ``git update-index --assume-unchanged <file>``. To start tracking changes again: ``git update-index --no-assume-unchanged <file>``
 
-Find the date of the first commit in a git repository — `$ git rev-list --all|tail -n1|xargs git show|grep -v diff|head -n1|cut -f1-3 -d' '`
+Find the date of the first commit in a git repository: `$ git rev-list --all|tail -n1|xargs git show|grep -v diff|head -n1|cut -f1-3 -d' '`
 
 Generate changelog since a git tag `git log --oneline 0.9.1-mathcore...master | cut -f1 -d" " --complement  |sort`
 
@@ -651,29 +692,44 @@ Android wifi keys storage `/data/misc/wifi/wpa_supplicant.conf`
 
 run VM in headless mode in Virtualbox GUI :`Shift`+ Run
 
-remove stale config files `aptitude -y purge ~c`
+apt remove stale config files `aptitude -y purge ~c`
 
-@regex ``grep -E '[0-9]{4}' `` matche 4 nombres de 0 à 9 consécutifs @regex
+@regex `grep -E '[0-9]{4}'` matche 4 nombres de 0 à 9 consécutifs @regex
+
 @regex `()` are used to group, to make operators apply to one or more thing. For example, `(ab)+` applies the `+` to `ab`, not just `b`. @regex
+
 @regex `*` matches 0 or more of what's before it. For example, `f\*ck` matches `ck`, `fck`, `ffck`, and so on, with literally any number of `f` characters. @regex
+
 @regex `+` is like `*`, except it matches 1 or more, so `f+ck` would match `fck`, `ffck`, and so on, but not `ck`. Note that if you have `*` you don't need `+`, as `ff*ck` is equivalent to `f+ck`. @regex
+
 @regex `?` matches either 0 or 1 of what came before it. `f?ck` matches either `ck` or `fck`. @regex
+
 @regex `|` is alternation, which picks between alternatives. `(f|d)ck` matches either `fck` or `dck`. @regex
+
 @regex `.` matches any single character. `.ck` will match `ack`, `bck`, `cck`, `dck`, and so on. You usually use `.` in conjunction with `+` or `*` or some other repetition character; for example, `.*` means to match literally anything or nothing at all (any character, 0 or more times) and `.+` matches any non-empty string (any character, 1 or more times). @regex
+
 @regex There are a *lot* of extensions to this basic set; unfortunately, they vary between tool and language. http://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions are a fairly common 'extended' regular expression syntax, but by no means universal. @regex
 
 >debian non-free network/wifi card drivers! For your Wi-fi card to work, and if installing Debian, you will need to; either install from the http://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/ unofficial cd image with included non-free firmwares (Wi-fi will work during the setup procedure); or install using a wired connection. Anyway you have to enable non-free software during setup, and, after initial setup, manually install the firmware-linux-nonfree firmware-atheros packages.
 
 @apt add an apt key `sudo apt-key add $KEYFILE`
+
 @apt add gpg key from remote server `sudo apt-key adv --recv-keys --keyserver $KEYSERVER $FINGERPRINT`
+
 @apt add a key to gpg keyring `curl http://mozilla.debian.net/archive.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/rxtx.gpg add -`
+
 @apt show package for a file `dpkg -S $FICHIER`
+
 @apt show obsolete packages `aptitude search ?obsolete`
+
 @apt search in package names/descriptions `apt-cache search $MOTCLE`
+
 @apt show package info `apt-cache show $PAQUET`
+
 @apt freeze/hold package in it's current version `aptitude hold $PAQUET`
 
 deb @packaging: create a package from a directory `dpkg-deb --build $REPERTOIRE`
+
 deb @packaging: rename package from control file `dpkg-name $PAQUET`
 
 @apt List installed packages, sorted by size `dpkg-query -Wf '${Installed-Size}\t${Package}' | sort -n`
@@ -686,7 +742,7 @@ fire and forget `echo ./program | at now` or `echo 'notify-send "laundry is read
 
 @systemd directories `/usr/lib/systemd/system` `/etc/systemd/system` `/etc/lib/systemd/user/` `/etc/systemd/user/`
 
-systemd: unti config  directives `include /usr/lib/systemd/system/nfs-secure.service` `CpuShares` (1024=100%), `MemoryLimit`, `BlockIOWeight`, `PrivateTmp=yes`
+systemd: unit config directives `include /usr/lib/systemd/system/nfs-secure.service` `CpuShares` (1024=100%), `MemoryLimit`, `BlockIOWeight`, `PrivateTmp=yes`
 
 systemd: View logs with journalctl, eg `journalctl PRIORITY=7 -since=yesterday`, see `man systemd.journal-fields`.
 
@@ -849,13 +905,13 @@ limit user processes to 10000 `/etc/security/limits.conf: user hard nproc 10000`
 checkout github Pull Requests locally ` fetch = +refs/pull/*/head:refs/remotes/origin/pr/*`
 
 
-[security] detect listening ports (from local machine): `netstat -tulp`
+list listening ports (from local machine): `netstat -tulp` or `ss -pau`
 
+list listening ports (from remote machine): `nmap -sTU`
 
-[security] detect listening ports (from remote machine): `nmap -sTU`
+detect listening ports (using TCP/UDP sockets from local machine): `lsof -i -n | egrep "COMMAND|LISTEN|UDP"`
 
-
-[security] detect listening ports (using TCP/UDP sockets from local machine): `lsof -i -n | egrep "COMMAND|LISTEN|UDP"`
+list ipv6 listening ports `ss -6pau`
 
 pdf to image `convert -verbose "$i" "$i".jpg`
 
@@ -912,12 +968,9 @@ nmap -n -Ddecoy-ip1,decoy-ip2,your-own-ip,decoy-ip3,decoy-ip4 remote-host-ip #cr
 
 git shallow submodules `git config -f .gitmodules submodule.<name>.shallow bool`
 
-
 edit git submodule URL: edit the .gitmodules file and run git submodule sync
 
-
 Virtualbox create virtual disk linked to raw disk/USB drive: `VBoxManage internalcommands createrawvmdk -filename "</path/to/file>.vmdk" -rawdisk /dev/sda`. User must be in vboxusers group. Unerlying block device must be rw for user.
-
 
 f = c/lambda
 U=RI
@@ -925,42 +978,39 @@ P=UI
 U=W/q
 I=deltaq/t
 
-
 list possible openers for a file `gvfs-mime --query inode/directory`
-
 
 change associated program `gvfs --set inode/directory org.gnome.Nautilus.desktop`
 
-
 virtualbox host-only network: create host-only network in VB preferences, set ip to 192.168.56.1, netmask to 255.255.255.0, no dhcp; add host-only network adapter to VM; in VM, list adapters: `ls /sys/class/net`; `nano /etc/network/interfaces`; setup interface address to 192.168.56.x, netmask, network and broadcast settings; reload networking
-
 
 NetworkManager: use local caching DNS proxy (dnsmasq/dnscrypt): `/etc/NetworkManager/NetworkManager.conf`: `dns=127.0.0.1`
 
-
 disable firewire/DMA: blacklist modules firewire_ohci firewire_sbp2 firewire_core yenta_socket pcmcia
 
+isc-dhcp-server dhcpd.conf directives: `subnet netmask {range; default-lease-time; option domain-name-server; option routers; }`
 
+isc-dhcp-relay `/etc/default/isc-dhcp-relay: SERVERS; INTERFACES`
 
+bind/rndc commands: `flush, querylog, reload, status, dumpdb -zones, notify <zonename>`
 
+bind ACLs `/etc/bind/named.conf.options: acl mynetworks { 172.21.16.0/22; 192.168.0.0/16; }; options { ... allow-[query|recursion] { mynetworks; }; ...};`
+
+bind listen only on IPv4 `/etc/systemd/system/multi-user.target.wants/bind9.service: ExecStart: /usr/bin/named -4 -f -u bind`
+
+bind zone definition `/etc/bind/named.conf.local: zone "example.com" { type master/slave/forward; forward only; forwarders {x.x.x.x;}; masters {x.x.x.x;}; allow-transfer {x.x.x.x;}; file "/var/cache/bind/db.example.com";};`
 
 git show changed files between 2 commits: `git diff --name-only SHA1 SHA2`
 
-
 free disk space charts in HTML: `dfc -c always -p -tmpfs,devtmpfs,cgroup,cgmfs -e html >| /var/log/last-dfc.html`
-
 
 convert git shallow repository to full: git fetch --unshallow
 
-
-I’ve used a chainsaw, and you’re simultaneously amazed at (1) how easily it slices through a tree, and (2) that you’re dumb enough to use this thing three feet away from your vital organs. This is Unix.
-
+I've used a chainsaw, and you're simultaneously amazed at (1) how easily it slices through a tree, and (2) that you're dumb enough to use this thing three feet away from your vital organs. This is Unix.
 
 add SSH key to gnome-keyring: /usr/lib/x86_64-linux-gnu/seahorse/seahorse-ssh-askpass id_rsa
 
-
 ansible all -m setup -a "filter=ansible_distribution*"
-
 
 python list builtins: dir(__builtins__)
 
@@ -969,8 +1019,6 @@ inotify: inotifywait -m -r -e modify,attrib,close_write,move,create,delete /tmp
 LVM: fdisk, pvcreate, vgextend, pvmove, vgreduce/vgsplit
 
 SSL/TLS X509 cert to text: openssl x509 -in cert.pem -text
-
-windows check NTP server offset: w32tm /stripchart /computer:time.windows.com
 
 html iframe: <iframe src="https://www.w3schools.com"></iframe>
 
@@ -984,61 +1032,40 @@ nftable (nft tool) replaces/consolidates iptables + ip6tables + arptables + ebta
 
 ip replaces/consolidates ifconfig + iwconfig + route + arp + netstat
 
-windows add firewall rule: netsh advfirewall firewall add rule name="Block NetBIOS Port 137 (UDP)" dir=in action=block protocol=UDP localport=137
-
 show available entropy: cat /proc/sys/kernel/random/entropy_avail
 
-show configured network interfaces IP addresses: ip -c addr
+show configured network interfaces IP addresses: `ip -c addr`
+
+add IP route: `ip route add 10.1.2.3 via 192.168.1.0` add it to `post-up` interface directive in /etc/network/interfaces to make it permanent
+
+setup source NAT (SNAT): `iptables -t nat -A POSTROUTING -o ethpublic0 -j SNAT --to 8.9.10.11`
+
+iptables make rules permanent: `apt install iptables-permanent; iptables-save > /etc/iptables/rules.v4; cat /etc/iptables/rules.v4 | iptables-restore`
 
 extract audio from video without conversion: ffmpeg -i video.mp4 -vn -acodec copy audio.aac
 
-Windows disable SMBv1: Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" SMB1 -Type DWORD -Value 0 -Force
-
-
 build debian APT repo packages index: dpkg-scanpackages . /dev/null | gzip -9c > Packages.gz
-
-
-windows shutdown remote machine via SMB: net rpc shutdown -C "comment" -I IPADDRESS -U USERNAME%PASSWORD
 
 mount a specific partition from an ISO/disk image file: `sudo losetup /dev/loop0 blankimg.iso ; sudo losetup /dev/loop1 blankimg.iso -o 1048576; sudo mount /dev/loop1 /mnt/` where 1048576 is fdisk's number of sectors * number of bytes-per-sector (here 2048x512)
 
 detach all loop devices: `losetup -D`
 
-
 find files not owned by you: find ~ ! -user ${USER}
-
 
 type unicode character from keyboard in linux: Ctrl + Shift + U, 2b50, Enter
 
-
 virtualbox change resolution: VBoxManage controlvm "Name of VM" setvideomodehint 1366 768 32
-
 
 http://xmodulo.com/limit-network-bandwidth-linux.html `trickle -d 300 firefox %u`
 
 https://www.cyberciti.biz/faq/ping-test-a-specific-port-of-machine-ip-address-using-linux-unix/ `nmap -PNp {port} {host}` `nc -vz {host} {port}`
 
-
-
 view contents of files matching a pattern, prefixed by the filename: grep . *.txt
-
 
 display contents of all files matching a pattern, separated with decoration and the filenames: more *.txt | cat
 
-
-SSH jumpbox ssh -J myuser@jumpbox myuser@securebox
-
+SSH jumpbox: `ssh -J myuser@jumpbox myuser@securebox`
 
 update debian changelog: dch -a
 
-
 OpenDNS servers: 208.67.222.222 and 208.67.220.220
-
-
-debian change timezone: dpkg-reconfigure tzdata
-
-
-ssh/config options: Host, Hostname, IdentityFile, Port, User. Global: PubkeyAuthentication, ControlPath, ControlMaster, ControlPersist, UseRoaming
-
-
-dns load testing: apt-get source bind9; cd bind9*/contrib/queryperf; ./configure; make; sudo cp queryperf /usr/local/sbin

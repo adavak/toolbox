@@ -12,6 +12,7 @@ set -o pipefail
 #TODO: support Debian Live (multiple variants from main glim grub config)
 #TODO: add support for debian netinstall to glim
 #TODO: add support for tails and centos in main glim grub configuration
+#TODO: add support for Proxmox VE
 #TODO: support other distros (arch/ubuntu/mint/zorin/alpine/android-x86/fedora/dban/gentoo...)
 #TODO: support downloading via bittorrent/transmission-cli
 #TODO: centos: make version configurable
