@@ -165,9 +165,7 @@ find files modified since 60 minutes `find $DIRECTORY -mmin 60` -print
 
 find empty directories `find $DIRECTORY -maxdepth 1 -type d -empty`
 
-
-fin the target for a symlink `$FILE | awk '{print $6}`
-
+find the target for a symlink: `$FILE | awk '{print $6}`
 
 display the full executable path for a command `which $COMMAND`
 
@@ -179,6 +177,20 @@ prevent overwriting a file `chattr +a $FILE`
 
 create multiple directories `mkdir -p /home/user/{test,test1,test2}`
 
+bash variable substitution: `${var[:]{-=}default}`:
+
+    -   display default (if undefined)
+    :-  display default (if undefined OR null)
+    =   assign default (if undefined)
+    :=  assign default (if undefined OR null)
+
+bash remove shortest left segment of variable: `${var#*SEP}`
+
+bash remove longest left segment of variable: `${var##*SEP}`
+
+bash remove shortest right segment of variable: `${var%SEP*}`
+
+bash remove shortest right segment of variable: `${var%%SEP*}`
 
 bash convert text to uppercase `upper() { echo ${@^^}; }`
 
@@ -546,21 +558,30 @@ mysql `GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, DROP, INDEX, ALTER, CREATE 
 >The difference between $@ and $*: Without quotes (don't do this!), there is no difference. With double quotes, "$@" expands to each parameter as its own argument: "$1" "$2" ..., while "$*" expands to the single argument "$1c$2c...", where 'c' is the first character of IFS. You almost always want "$@" (QUOTED!). The same goes for arrays: "${array[@]}". *21-01-2014 21:38* ----- @bash
 
 bash builtin: edit and run previous command in text editor `fc`
+
 bash builtin: edit and run a new command in text editor `Ctrl+x+e`
+
 bash filter out file extension: `touch example.list; file=example.list; echo "${file%.*}"`
 
 bash Iterate Through Array Values `for i in "${ARR[@]}"; do echo $i; done`
 
 bash Declare an array `ARR=(value1 value2 value3)`
+
 bash print an array: `printf "%s\n" "${ARR[@]}"`
+
 bash print all items in an array: `${ARR[*]}`
+
 bash print All of the indexes in an array `# ${!ARR[*]}`
+
 bash print Number of items in an array `${#ARR[*]}`
+
 bash print Length of array item zero `${#ARR[0]}`
 
 bash single tab to show ambiguous completions `set show-all-if-ambiguous on`  (~/.inputrc)
+
 bash completion: ignore case `set completion-ignore-case on` (~/.inputrc)
 
+bash arrays `while true; do var[0]=K; var[1]=I; var[2]=L; var[3]=L; var[4]="_"; var[5]=A; var[6]=L; var[7]=L; var[8]="_"; var[9]=H; var[10]=U; var[11]=M; var[12]=A; var[13]=N; var[14]=S; var[15]="_"; for i in $(seq 0 15); do echo -n ${var[$i]}; done; done`
 
 >**`source`** is a bash shell built-in command that executes the content of the file passed as argument, **in the current shell**.  (whereas `./script` runs the script as an executable file, launching a new shell to run it ") http://superuser.com/questions/46139/what-does-source-do @bash
 
@@ -574,11 +595,17 @@ bash **options**: `nounset` (do not allow unset variables), errexit (exit on any
 LUKS **encrypted swap** `swapoff -a; cryptsetup luksFormat /dev/hda2; cryptsetup luksOpen /dev/hda2 cryptswap; mkswap /dev/mapper/cryptswap; #add to /etct/crypttab: cryptswap /dev/hda2 none swap,luks,timeout=30; #add to /etc/fstab: /dev/mapper/cryptswap none swap sw 0 0; swapon -a; cat /proc/swaps`
 
 power: put computer to sleep during 30 seconds `rtcwake -m mem --seconds 30`
+
 power: turn computer on in 15 minutes `rtcwake -m no --seconds 900`
+
 power: turn computer on at defined time (RTC alarm) `rtcwake -m no --time $UNIX_TIME`
+
 check computer on current time `cat /sys/class/rtc/rtc0/wakealarm`
+
 xfce brightness setting `pkexec /usr/sbin/xfpm-power-backlight-helper --set-brightness 3`
+
 set display brightness `gksu 'echo "7" > ./devices/pci0000:00/0000:00:02.0/backlight/acpi_video0/brightness`
+
 power: display power management information `acpi -abit`
 
 retirer les données EXIF d'une image `mogrify -strip $IMAGE`
