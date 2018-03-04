@@ -682,48 +682,47 @@ Enable-WindowsOptionalFeature -NoRestart -Online -FeatureName Microsoft-Windows-
 "%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 :: TODO choco feature enable -n allowGlobalConfirmation
 
-
-choco --yes install 7zip.install
-choco --yes install sumatrapdf
-choco --yes install libreoffice-fresh
-choco --yes install firefoxesr
-choco --yes install mumble
-choco --yes install jre8
-choco --yes install deluge
-choco --yes install nextcloud-client
-choco --yes install winscp
-choco --yes install youtube-dl
-choco --yes install vlc
-choco --yes install quodlibet
-choco --yes install opencodecs
-choco --yes install winff
-choco --yes install audacity
-choco --yes install audacity-lame
-choco --yes install mixxx
-choco --yes install blender
-choco --yes install obs
-choco --yes install gimp
-choco --yes install dia
-choco --yes install duplicatefilefinder
-choco --yes install nirlauncher
-choco --yes install sysinternals
-choco --yes install openhardwaremonitor
-choco --yes install bleachbit
-choco --yes install win32diskimager
-choco --yes install windirstat
-choco --yes install virtualbox
-choco --yes install pwgen
-choco --yes install putty.install
-choco --yes install notepadplusplus
-choco --yes install cdburnerxp
-choco --yes install meld
-choco --yes install resourcehacker.portable
-choco --yes install git
-choco --yes install wget
-choco --yes install steam
+choco install 7zip.install --yes
+choco install sumatrapdf --yes
+choco install libreoffice-fresh --yes
+choco install firefoxesr --yes
+choco install mumble --yes
+choco install jre8 --yes
+choco install deluge --yes
+choco install nextcloud-client --yes
+choco install winscp --yes
+choco install youtube-dl --yes
+choco install vlc --yes
+choco install quodlibet --yes
+choco install opencodecs --yes
+choco install winff --yes
+choco install audacity --yes
+choco install audacity-lame --yes
+choco install mixxx --yes
+choco install blender --yes
+choco install obs --yes
+choco install gimp --yes
+choco install dia --yes
+choco install duplicatefilefinder --yes
+choco install nirlauncher --yes
+choco install sysinternals --yes
+choco install openhardwaremonitor --yes
+choco install bleachbit --yes
+choco install win32diskimager --yes
+choco install windirstat --yes
+choco install virtualbox --yes
+choco install pwgen --yes
+choco install putty.install --yes
+choco install notepadplusplus --yes
+choco install cdburnerxp --yes
+choco install meld --yes
+choco install resourcehacker.portable --yes
+choco install git --yes
+choco install wget --yes
+choco install steam --yes
 
 :: Download additional software
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://freefr.dl.sourceforge.net/project/savegamebackup/sgbnet13.zip'))"
+"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "New-Object System.Net.WebClient).DownloadString('https://freefr.dl.sourceforge.net/project/savegamebackup/sgbnet13.zip'"
 
 :: UPDATES :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -738,5 +737,5 @@ REM Run misc programs
 :: start /wait CLEANMGR /C: /sageset:0 || echo ERROR && exit /b
 :: wuauclt.exe /detectnow /updatenow || echo ERROR && exit /b
 start /wait msconfig
-start /wait sfc /scannow
+:: start /wait sfc /scannow
 :: start /wait chkdsk.exe %SystemDrive%
