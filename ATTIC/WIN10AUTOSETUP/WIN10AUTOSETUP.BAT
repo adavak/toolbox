@@ -1,41 +1,45 @@
 :: ╻ ╻╻┏┓╻╺┓ ┏━┓┏━┓╻ ╻╺┳╸┏━┓┏━┓┏━╸╺┳╸╻ ╻┏━┓
 :: ┃╻┃┃┃┗┫ ┃ ┃┃┃┣━┫┃ ┃ ┃ ┃ ┃┗━┓┣╸  ┃ ┃ ┃┣━┛
 :: ┗┻┛╹╹ ╹╺┻╸┗━┛╹ ╹┗━┛ ╹ ┗━┛┗━┛┗━╸ ╹ ┗━┛╹  
-:: Windows 10 automated setup for offline personal gaming/multimedia machine
+:: Windows 10 automated setup for offline/standalone personal gaming/multimedia machine
 :: Removes/disables/blocks unneeded/annoying services/telemetry/updates
 :: Installs basic preset software list
 :: Applies basic configuration tweaks
 :: Do not run in other Windows versions!
-:: This will not run in safe mode as some required services are not enabled
-:: Some settings here (HKCU...) will only affect the current user. If you don't intend to run sysprep, you must set these registry settings from the user account you will be using.
+:: Use at your own risk.
+:: Use a Free Software operating system such as GNU/Linux unless you really need Windows for a specific task.
+:: This will not run in safe mode as some required services are not enabled.
+:: Some registry settings (HKCU...) will only affect the current user. If you don't intend to run sysprep, you must set these registry settings from the user account you will be using (not the admin account)
 :: License: MIT (https://opensource.org/licenses/MIT)
 :: Sources: https://github.com/bmrf/tron, https://github.com/nodiscc/toolbox, https://community.spiceworks.com/scripts/show/3298-windows-10-decrapifier-version-1, https://github.com/dfkt/win10-unfuck, https://github.com/WindowsLies/BlockWindows
+:: Known limitations: Blank tiles are displayed in the start menu after running the script. You have to remove the tiles manually.
 :: TODO: check https://github.com/W4RH4WK/Debloat-Windows-10/, https://github.com/ReneNyffenegger/Configure-Windows, https://github.com/szepeviktor/windows-workstation, 
 ::
 :: USAGE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::
-:: Install Windows from an official Microsoft ISO image
-:: Run Windows Update, install all updates, Reboot as many times as necessary
-:: Enable the local Administrator account in MMC console "users", login as Administrator
-:: Delete the non-privilegied user account, remove the corresponding user profile
-:: Save this script as WIN10AUTOSETUP.BAT
-:: Save unattend.xml and setacl.exe to the same directory as the script
-::   unattend.xml file is required to use the Administrator user profile as default template for new user accounts after sysprep
-::   Setacl.exe by Helge Klein, Freeware, http://helgeklein.com/setacl/, SHA256 427ff43693cb3ca2812c4754f607f107a6b2d3f5a8b313addee57d89982df419
-:: Read the whole file, comment out unwanted changes
-:: Start Menu > cmd.exe (make sure it is running as administrator)
-:: cd C:\Users\Administrator\Downloads\ && WIN7AUTOSETUP.BAT
-:: Wait for the script to complete
-:: Reboot
-:: Install other software/change other preferences
-:: Recheck that no more Windows updates are available
-:: Run C:\Windows\System32\sysprep\sysprep.exe /generalize /oobe /shutdown /unattend:C:\unattend.xml
-::   This will generate a ready to clone/deploy Windows image
-:: Clone the resulting disk image to the target machine using dd/clonezilla/VM cloning tool
-::   Optional: Create a windows image with DISM (from a Windows PE installation), customize it with AD/WAIK, deploy it with with MDT.
-:: Boot your machine, activate Windows
+:: - Install Windows from an official Microsoft ISO image
+:: - Run Windows Update, install all updates, Reboot as many times as necessary
+:: - Enable the local Administrator account in MMC console "Users" (Computer > Manage)
+:: - Logout, login as Administrator
+:: - Save this script as WIN10AUTOSETUP.BAT (for example in C:\Users\Administrator\Desktop)
+:: - Save unattend.xml and setacl.exe to the same directory as the script
+::     unattend.xml will make the Administrator user profile the default template for new user accounts after sysprep
+::     Setacl.exe by Helge Klein, Freeware, http://helgeklein.com/setacl/, SHA256 427ff43693cb3ca2812c4754f607f107a6b2d3f5a8b313addee57d89982df419
+:: - Read the whole file, comment out unwanted changes
+:: - Start Menu > cmd.exe (make sure it is running as Administrator)
+:: - cd C:\Users\Administrator\Desktop\ && WIN7AUTOSETUP.BAT
+:: - Wait for the script to complete
+:: - Reboot
+:: - Login as Administrator again, install/change/include any other software, preferences, files...
+:: - Recheck that no more Windows updates are available
+:: - Delete the original (non-Admin) user account, remove the corresponding user profile
+:: - Run C:\Windows\System32\sysprep\sysprep.exe /generalize /oobe /shutdown /unattend:C:\Users\Administrator\Desktopunattend.xml
+::     This will prepare your system for cloning/deployment on any other computer, and shutdown.
+:: - Clone the resulting disk image to the target machine's disk using dd/clonezilla/VM cloning tool
+:: - Boot your machine, activate Windows.
 
 :: PREP :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+prompt $
 
 REM Kill helppane.exe if it's running (Usually on Win10+ in safe mode)
 taskkill /f /im HelpPane.exe /t
@@ -54,19 +58,10 @@ net start MSIServer
 
 REM Misc services
 
-REM Disable Themes service
-net stop themes
-sc config themes start= disabled
-
 REM Disable windows defender (performance)
 :: TODO must be done in safe mode
 :: net stop WinDefend
 :: sc config WinDefend start= disabled
-
-REM Disable file indexing (performance
-:: File searches will be slower
-net stop WSearch
-sc config WSearch start= disabled
 
 REM Disable windows error reporting service
 net stop WerSvc
@@ -126,6 +121,15 @@ REM Disable print spooler (disabled)
 :: Printer service must ben enable manually
 :: net stop Spooler
 :: sc config Spooler start= disabled
+
+REM Disable file indexing (performance)
+:: File searches will be slower
+net stop WSearch
+sc config WSearch start= disabled
+
+:: REM Disable Themes service (performance, old style rendering, disabled)
+:: net stop themes
+:: sc config themes start= disabled
 
 :: NETWORKING SERVICES :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -703,7 +707,6 @@ choco install blender --yes
 choco install obs --yes
 choco install gimp --yes
 choco install dia --yes
-choco install duplicatefilefinder --yes
 choco install nirlauncher --yes
 choco install sysinternals --yes
 choco install openhardwaremonitor --yes
