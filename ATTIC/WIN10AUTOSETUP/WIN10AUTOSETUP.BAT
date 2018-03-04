@@ -194,14 +194,13 @@ sc config Browser start= disabled
 
 :: DEFAULT APPS/DEBLOAT :::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-REM Remove ALL default Metro apps (Windows 8 and up)
+REM Remove default Metro apps bloat (Windows 8 and up)
 :: This command will re-install ALL default Windows 10 apps:
 :: Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
 :: Make sure the required service is started
 net start AppXSVC
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "Get-AppxPackage -AllUsers | Remove-AppxPackage -erroraction silentlycontinue"
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "Get-AppxPackage -AllUsers | Remove-AppxPackage -erroraction silentlycontinue"
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "Get-AppXProvisionedPackage -Online | Remove-AppxProvisionedPackage -online -erroraction silentlycontinue"
+
+"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -File ".\stage_2_de-bloat\metro\metro_Microsoft_modern_apps_to_target_by_name.ps1"
 
 REM Remove forced OneDrive integration
 :: Make sure the presence of desktop.ini doesn't incorrectly trip the 'onedrive is in use' check
@@ -234,7 +233,7 @@ reg add "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization" /T
 REM Disabling auto update and download of Windows Store Apps...
 reg add "HKCU\SOFTWARE\Policies\Microsoft\WindowsStore" /T REG_DWORD /V "AutoDownload" /D 2 /F
 
-REM Disabling Suggested Apps, Feedback, Lockscreen Spotlight, File Explorer ads (WTF??? seriously M$!!!), and unwanted app installs for this user...
+REM Disabling Suggested Apps, Feedback, Lockscreen Spotlight, and unwanted app installs for this user...
 reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\" /T REG_DWORD /V "SystemPaneSuggestionsEnabled" /D 0 /F
 reg add "HKCU\Software\Microsoft\CurrentVersion\ContentDeliveryManager\" /T REG_DWORD /V "SoftLandingEnabled" /D 0 /F
 reg add "HKCU\Software\Microsoft\CurrentVersion\ContentDeliveryManager\" /T REG_DWORD /V "RotatingLockScreenEnable" /D 0 /F
@@ -269,7 +268,7 @@ REM Disable SMBv1, SMBv2, SMBv3
 :: Disables file sharing
 :: https://support.microsoft.com/fr-fr/help/2696547/how-to-enable-and-disable-smbv1-smbv2-and-smbv3-in-windows-and-windows-server
 "%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "Disable-WindowsOptionalFeature -NoRestart -Online -FeatureName SMB1Protocol"
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "powershell Set-SmbServerConfiguration -EnableSMB2Protocol $false"
+"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "Set-SmbServerConfiguration -EnableSMB2Protocol $false"
 :: TODO requires confirmation
 
 REM Disable windows features (mediaplayer/xpsviewer)
@@ -277,8 +276,8 @@ Dism /online /NoRestart /Disable-Feature /FeatureName:WindowsMediaPlayer
 Dism /online /NoRestart /Disable-Feature /FeatureName:Xps-Foundation-Xps-Viewer
 :: TODO remove more useless features
 
-REM: Hide search in taskbar
-reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" /v "SearchboxTaskbarMode" /t REG_DWORD /d "0" /f
+:: REM Hide search in taskbar (disabled)
+::reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Search" /v "SearchboxTaskbarMode" /t REG_DWORD /d "0" /f
 
 REM Always show all icons and notifications on the taskbar
 reg add "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer" /v "EnableAutoTray" /t REG_DWORD /d "2" /f
@@ -421,10 +420,6 @@ schtasks /delete /f /tn "\Microsoft\Windows\media center\updaterecordpath"
 :: Diagnostic Tracking
 net stop Diagtrack
 sc config Diagtrack start= disabled
-
-:: Remote Registry (disable only)
-sc config remoteregistry start= disabled
-net stop remoteregistry
 
 :: Retail Demo
 net stop RetailDemo
