@@ -200,7 +200,7 @@ REM Remove default Metro apps bloat (Windows 8 and up)
 :: Make sure the required service is started
 net start AppXSVC
 
-"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -File ".\stage_2_de-bloat\metro\metro_Microsoft_modern_apps_to_target_by_name.ps1"
+"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -File ".\metro_Microsoft_modern_apps_to_target_by_name.ps1"
 
 REM Remove forced OneDrive integration
 :: Make sure the presence of desktop.ini doesn't incorrectly trip the 'onedrive is in use' check
